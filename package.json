@@ -8,6 +8,10 @@
     "url": "https://github.com/uncinq/component-tokens.git"
   },
   "homepage": "https://github.com/uncinq/component-tokens#readme",
+  "author": {
+    "name": "Un Cinq",
+    "url": "https://uncinq.dev/"
+  },
   "keywords": [
     "design-tokens",
     "component-tokens",
