@@ -1,6 +1,6 @@
 {
   "name": "@uncinq/component-tokens",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Framework-agnostic CSS design tokens — component layers.",
   "license": "MIT",
   "repository": {
