@@ -1,10 +1,16 @@
 /* tokens/component/surtitle.css */
 @layer config {
   :root {
+    --surtitle-border-radius:  0;
+    --surtitle-border-width:   0;
     --surtitle-color:          var(--color-text-muted);
+    --surtitle-color-bg:       transparent;
+    --surtitle-color-border:   transparent;
     --surtitle-font-size:      var(--font-size-xs);
     --surtitle-font-weight:    var(--font-weight-bold);
     --surtitle-letter-spacing: var(--letter-spacing-large);
+    --surtitle-line-height:    var(--line-height-normal);
+    --surtitle-padding:        0;
     --surtitle-text-transform: uppercase;
   }
 }
