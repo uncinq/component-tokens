@@ -2,6 +2,8 @@
 
 > Component-scoped CSS design tokens for Un Cinq projects — layer 3 of the design token architecture.
 
+<img width="1280" height="640" alt="share-component-tokens" src="https://github.com/user-attachments/assets/ef2387ee-2c45-4706-9e28-0f0341a100ed" />
+
 ## What are component tokens?
 
 Component tokens are CSS custom properties scoped to a specific UI component. They sit at the top of the [DTCG](https://tr.designtokens.org/format/) three-layer model:
