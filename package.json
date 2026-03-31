@@ -1,0 +1,30 @@
+{
+  "name": "@uncinq/component-tokens",
+  "version": "0.0.0",
+  "description": "Framework-agnostic CSS design tokens — component layers.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uncinq/component-tokens.git"
+  },
+  "homepage": "https://github.com/uncinq/component-tokens#readme",
+  "keywords": [
+    "design-tokens",
+    "component-tokens",
+    "css",
+    "custom-properties",
+    "design-system"
+  ],
+  "files": [
+    "tokens/"
+  ],
+  "exports": {
+    ".": "./tokens/index.css",
+    "./tokens/index.css": "./tokens/index.css",
+    "./tokens/component/*": "./tokens/component/*"
+  },
+  "style": "./tokens/index.css",
+  "peerDependencies": {
+    "@uncinq/design-tokens": "*"
+  }
+}
