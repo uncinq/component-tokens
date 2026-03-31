@@ -30,5 +30,8 @@
   "style": "./tokens/index.css",
   "peerDependencies": {
     "@uncinq/design-tokens": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
