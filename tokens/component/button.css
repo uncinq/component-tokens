@@ -8,11 +8,12 @@
     --btn-border-width: var(--border-width-normal);
 
     /* Color */
-    --btn-color-bg:         var(--color-brand);
-    --btn-color-bg-hover:   var(--color-brand-hover);
-    --btn-color-border:     var(--color-brand);
-    --btn-color-text:       var(--color-text-on-brand);
-    --btn-color-text-hover: var(--color-text-on-brand);
+    --btn-color-bg:           var(--color-brand);
+    --btn-color-bg-hover:     var(--color-brand-hover);
+    --btn-color-border:       var(--color-brand);
+    --btn-color-border-hover: var(--color-brand);
+    --btn-color-text:         var(--color-text-on-brand);
+    --btn-color-text-hover:   var(--color-text-on-brand);
 
     /* Typography */
     --btn-font-size: var(--font-size-sm);
