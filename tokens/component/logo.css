@@ -7,7 +7,7 @@
 
     /* Text fallback (when no image) */
     --logo-color:          var(--color-text);
-    --logo-font-family:    var(--font-heading);
+    --logo-font-family:    var(--font-family-heading);
     --logo-font-size:      var(--font-size-md);
     --logo-font-weight:    var(--font-weight-heading);
     --logo-letter-spacing: var(--letter-spacing-normal);

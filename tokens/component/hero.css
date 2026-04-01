@@ -8,16 +8,13 @@
     --hero-color-link:    var(--color-text);
 
     /* Layout */
-    --hero-min-height:         400px;
-    --hero-min-height-tablet:  600px;
-    --hero-min-height-desktop: 800px;
+    --hero-min-height:         25rem;
+    --hero-min-height-tablet:  37.5rem;
+    --hero-min-height-desktop: 50rem;
 
     /* Spacing */
-    --hero-gap:               var(--spacing-sm);
-    --hero-padding:           var(--spacing-md) 0;
-
-    /* Content column width (no media) */
-    --hero-content-max-width: 60ch;
+    --hero-gap:           var(--spacing-sm);
+    --hero-padding:       var(--spacing-md) 0;
 
     /* Cover darken */
     --hero-cover-brightness: 0.3;
