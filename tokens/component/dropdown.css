@@ -25,6 +25,10 @@
     --dropdown-item-font-size:        var(--font-size-xs);
     --dropdown-item-padding:          var(--spacing-2xs);
 
+    /* Icon */
+    --dropdown-icon:                  var(--icon-chevron);
+    --dropdown-icon-size:             var(--size-16);
+
     /* Transition — read by JS via getComputedStyle */
     --dropdown-transition-duration:   var(--duration-fast);
     --dropdown-transition-easing:     var(--easing-out);
