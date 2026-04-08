@@ -2,12 +2,13 @@
 @layer config {
   :root {
     /* Colors */
-    --offcanvas-color-bg:       var(--color-bg);
-    --offcanvas-color-text:     var(--color-text);
+    --offcanvas-color-bg:       var(--color-bg-surface);
+    --offcanvas-color-text:     var(--color-text-on-surface);
     --offcanvas-color-border:   var(--color-border);
 
     /* Backdrop */
-    --offcanvas-backdrop-color: rgb(0 0 0 / 0.5);
+    --offcanvas-backdrop-blur:  var(--blur-backdrop);
+    --offcanvas-backdrop-color: var(--color-backdrop);
 
     /* Position */
     --offcanvas-bottom: 0;
@@ -20,8 +21,8 @@
     --offcanvas-width:    320px;
     --offcanvas-height:   50vh;
     --offcanvas-padding:  var(--spacing-surface);
-    --offcanvas-shadow:   var(--shadow-sm);
-    --offcanvas-z-index:  200;
+    --offcanvas-shadow:   var(--shadow-surface);
+    --offcanvas-z-index:  var(--z-index-offcanvas);
 
     /* Transition — read by JS via getComputedStyle */
     --offcanvas-transition-duration: var(--duration-slow);

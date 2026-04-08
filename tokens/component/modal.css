@@ -1,0 +1,25 @@
+/* tokens/component/modal.css */
+@layer config {
+  :root {
+    /* Colors */
+    --modal-color-bg:     var(--color-bg-surface);
+    --modal-color-text:   var(--color-text-on-surface);
+    --modal-color-border: var(--color-border);
+
+    /* Backdrop */
+    --modal-backdrop-blur:  var(--blur-backdrop);
+    --modal-backdrop-color: var(--color-backdrop);
+
+    /* Layout */
+    --modal-max-height: none;
+    --modal-max-width: 30rem;
+    --modal-padding:   var(--spacing-surface);
+    --modal-shadow:    var(--shadow-surface);
+    --modal-radius:    var(--radius-surface);
+    --modal-z-index:   var(--z-index-modal);
+
+    /* Transition */
+    --modal-transition-duration: var(--duration-slow);
+    --modal-transition-easing:   var(--easing-out-expo);
+  }
+}

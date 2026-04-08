@@ -3,8 +3,8 @@
   :root {
 
     /* Colors — panel */
-    --dropdown-color-bg:              var(--color-bg);
-    --dropdown-color-text:            var(--color-text);
+    --dropdown-color-bg:              var(--color-bg-surface);
+    --dropdown-color-text:            var(--color-text-on-surface);
     --dropdown-color-border:          var(--color-border);
 
     /* Layout */
