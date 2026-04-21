@@ -152,6 +152,7 @@ tokens/
     card.css              ← card (alias → item tokens)
     container.css         ← layout container + grid columns
     details.css           ← <details> / accordion
+    drawer.css            ← off-canvas panel / drawer
     dropdown.css          ← dropdown menu
     embed.css             ← video / iframe embed wrapper
     figure.css            ← <figure> + <figcaption>
@@ -165,7 +166,6 @@ tokens/
     map.css               ← embedded map
     media.css             ← media object (image + text)
     nav.css               ← navigation bar
-    offcanvas.css         ← off-canvas panel / drawer
     pagination.css        ← pagination control
     surtitle.css          ← small label above a heading
     table.css             ← data table

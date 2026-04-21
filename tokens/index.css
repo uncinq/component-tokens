@@ -6,6 +6,7 @@
 @import 'component/card.css';
 @import 'component/container.css';
 @import 'component/details.css';
+@import 'component/drawer.css';
 @import 'component/dropdown.css';
 @import 'component/embed.css';
 @import 'component/figure.css';
@@ -20,7 +21,6 @@
 @import 'component/media.css';
 @import 'component/modal.css';
 @import 'component/nav.css';
-@import 'component/offcanvas.css';
 @import 'component/pagination.css';
 @import 'component/surtitle.css';
 @import 'component/table.css';

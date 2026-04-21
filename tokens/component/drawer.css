@@ -1,0 +1,31 @@
+/* tokens/component/drawer.css */
+@layer config {
+  :root {
+    /* Colors */
+    --drawer-color-bg:       var(--color-bg-surface);
+    --drawer-color-text:     var(--color-text-on-surface);
+    --drawer-color-border:   var(--color-border);
+
+    /* Backdrop */
+    --drawer-backdrop-blur:  var(--blur-backdrop);
+    --drawer-backdrop-color: var(--color-backdrop);
+
+    /* Position */
+    --drawer-bottom: 0;
+    --drawer-end: 0;
+    --drawer-start: auto;
+    --drawer-top: 0;
+    --drawer-translate: translateX(100%);
+
+    /* Layout */
+    --drawer-width:    320px;
+    --drawer-height:   50vh;
+    --drawer-padding:  var(--spacing-surface);
+    --drawer-shadow:   var(--shadow-surface);
+    --drawer-z-index:  var(--z-index-drawer);
+
+    /* Transition — read by JS via getComputedStyle */
+    --drawer-transition-duration: var(--duration-slow);
+    --drawer-transition-easing:   var(--easing-out-expo);
+  }
+}
