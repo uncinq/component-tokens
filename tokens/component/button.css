@@ -20,8 +20,9 @@
     --btn-font-weight: var(--font-weight-control);
     
     /* Spacing */
-    --btn-gap: var(--spacing-sm);
-    --btn-padding: var(--spacing-control);
+    --btn-gap:       var(--spacing-sm);
+    --btn-padding-x: var(--spacing-control);
+    --btn-padding-y: var(--spacing-control);
 
     /* Text decoration */
     --btn-color-text-decoration: transparent;

@@ -57,8 +57,9 @@ All component tokens follow the pattern: `--{component}-{category?}-{property}`
 --btn-color-text: var(--color-text-on-brand);
 
 /* Spacing */
---btn-gap:     var(--spacing-sm);
---btn-padding: var(--spacing-control);
+--btn-gap:       var(--spacing-sm);
+--btn-padding-x: var(--spacing-control);
+--btn-padding-y: var(--spacing-control);
 ```
 
 ### Examples
@@ -67,7 +68,8 @@ All component tokens follow the pattern: `--{component}-{category?}-{property}`
 --btn-color-bg:      var(--color-brand);
 --btn-color-text:    var(--color-text-on-brand);
 --btn-border-radius: var(--radius-control);
---btn-padding:       var(--spacing-control);
+--btn-padding-x:     var(--spacing-control);
+--btn-padding-y:     var(--spacing-control);
 
 --badge-border-radius: var(--radius-sm);
 --badge-color-bg:    var(--color-bg-muted);

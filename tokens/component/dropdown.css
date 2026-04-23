@@ -27,7 +27,7 @@
 
     /* Icon */
     --dropdown-icon:                  var(--icon-chevron);
-    --dropdown-icon-size:             var(--size-16);
+    --dropdown-icon-size:             var(--icon-size);
 
     /* Transition — read by JS via getComputedStyle */
     --dropdown-transition-duration:   var(--duration-fast);
