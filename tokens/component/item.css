@@ -29,7 +29,17 @@
 
     /* Spacing */
     --item-gap:               var(--spacing-sm);
-    --item-padding:           var(--spacing-surface);
+    --item-padding-x:         var(--spacing-surface);
+    --item-padding-y:         var(--spacing-surface);
+
+    /* Footer */
+    --item-footer-color-bg:     var(--item-color-bg);
+    --item-footer-border-style: var(--border-style-solid);
+    --item-footer-border-width: var(--border-width-normal);
+    --item-footer-color-border: var(--color-border);
+    --item-footer-font-size:    var(--font-size-xs);
+    --item-footer-padding-x:    var(--spacing-surface);
+    --item-footer-padding-y:    calc(var(--spacing-surface) / 2);
 
     /* Media */
     --item-media-color-bg:    var(--media-color-bg);

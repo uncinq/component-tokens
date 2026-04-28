@@ -2,7 +2,7 @@
 @layer config {
   :root {
     /* Layout */
-    --pagination-gap:             var(--spacing-3xs);
+    --pagination-gap:                var(--spacing-2xs);
 
     /* Item (page number) */
     --pagination-item-size:          2.25rem;
@@ -20,5 +20,12 @@
 
     /* Disabled (nav controls) */
     --pagination-disabled-opacity: var(--opacity-disabled);
+
+    /* Icons */
+    --pagination-icon-size: var(--icon-size);
+    --pagination-icon-first: var(--icon-arrow-skip);
+    --pagination-icon-last: var(--icon-arrow-skip);
+    --pagination-icon-next: var(--icon-arrow);
+    --pagination-icon-previous: var(--icon-arrow);
   }
 }

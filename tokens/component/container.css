@@ -12,7 +12,7 @@
     /* Grid */
     --columns:                         12;
     --gap:                             var(--spacing-sm);
-    --gutter:                          var(--spacing-md);
+    --gutter:                          var(--spacing-fluid-md);
     --grid-column:                     var(--grid-column-mobile);
 
     /* Grid spans */

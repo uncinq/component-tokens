@@ -2,7 +2,7 @@
 @layer config {
   :root {
     --alert-border-radius: var(--radius-none);
-    --alert-font-size: var(--font-size-text);
+    --alert-font-size: var(--font-size-small);
     --alert-gap: var(--spacing-sm);
     --alert-margin: 0;
     --alert-padding: var(--spacing-sm);
