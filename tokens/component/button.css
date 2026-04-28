@@ -28,6 +28,7 @@
     --btn-color-text-decoration: transparent;
     --btn-color-text-decoration-hover: transparent;
     --btn-text-decoration-line: underline;
+    --btn-text-transform: none;
 
     /* Transitions */
     --btn-transition: var(--transition-normal);

@@ -8,10 +8,12 @@
     --details-color-bg:            var(--color-bg);
     --details-color-border:        var(--color-border);
     --details-color-border-open:   var(--color-active);
+    --details-color-text:          var(--color-text);
     --details-icon:                var(--icon-chevron);
     --details-icon-size:           var(--icon-size);
     --details-margin:              var(--spacing-sm);
     --details-padding:             var(--spacing-sm);
+    --details-summary-font-family: var(--font-family-heading);
     --details-summary-font-size:   var(--font-size-md);
     --details-summary-font-weight: var(--font-weight-heading);
   }

@@ -4,9 +4,9 @@
 
     /* Container */
     --container-max-width-mobile:      100%;
-    --container-max-width-tablet:      var(--size-tablet);
-    --container-max-width-tablet-wide: var(--size-tablet-wide);
-    --container-max-width-laptop:      var(--size-laptop);
+    --container-max-width-tablet:      100%;
+    --container-max-width-tablet-wide: 100%;
+    --container-max-width-laptop:      100%;
     --container-max-width-desktop:     var(--size-desktop);
     
     /* Grid */
