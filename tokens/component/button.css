@@ -15,9 +15,9 @@
     --btn-color-text:         var(--color-text-on-brand);
     --btn-color-text-hover:   var(--color-text-on-brand);
 
-    /* Typography */
-    --btn-font-size: var(--font-size-sm);
-    --btn-font-weight: var(--font-weight-control);
+    /* Shadow */
+    --btn-shadow: var(--shadow-control);
+    --btn-shadow-hover: var(--shadow-control-hover);
     
     /* Spacing */
     --btn-gap:       var(--spacing-sm);
@@ -32,5 +32,9 @@
 
     /* Transitions */
     --btn-transition: var(--transition-normal);
+
+    /* Typography */
+    --btn-font-size: var(--font-size-sm);
+    --btn-font-weight: var(--font-weight-control);
   }
 }
