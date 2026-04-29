@@ -38,3 +38,17 @@
     --btn-font-weight: var(--font-weight-control);
   }
 }
+
+/* Control buttons — icon-only UI controls: btn-menu, btn-close, btn-search.
+ * Transparent by default. Use --btn-menu-*, --btn-close-*, --btn-search-*
+ * at project level to customise per-button. */
+@layer config {
+  :root {
+    --btn-control-color-bg:           var(--color-bg-muted);
+    --btn-control-color-bg-hover:     var(--color-bg-muted-hover);
+    --btn-control-color-border:       transparent;
+    --btn-control-color-border-hover: transparent;
+    --btn-control-color-text:         var(--color-text);
+    --btn-control-color-text-hover:   var(--color-text);
+  }
+}
