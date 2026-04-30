@@ -10,6 +10,7 @@
     --surtitle-font-weight:    var(--font-weight-bold);
     --surtitle-letter-spacing: var(--letter-spacing-large);
     --surtitle-line-height:    var(--line-height-normal);
+    --surtitle-margin-block:   0 var(--spacing-2xs);
     --surtitle-padding:        0;
     --surtitle-text-transform: uppercase;
   }
