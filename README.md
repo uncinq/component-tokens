@@ -57,7 +57,7 @@ All component tokens follow the pattern: `--{component}-{category?}-{property}`
 --btn-color-text: var(--color-text-on-brand);
 
 /* Spacing */
---btn-gap:       var(--spacing-sm);
+--btn-gap:       var(--spacing-xs);
 --btn-padding-x: var(--spacing-control);
 --btn-padding-y: var(--spacing-control);
 ```

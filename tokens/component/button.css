@@ -3,7 +3,6 @@
   :root {
     
     /* Border */
-    --btn-border: var(--btn-border-width) var(--btn-border-style) var(--btn-color-border);
     --btn-border-radius: var(--radius-control);
     --btn-border-style: var(--border-style-solid);
     --btn-border-width: var(--border-width-normal);
@@ -21,7 +20,7 @@
     --btn-shadow-hover: var(--shadow-control-hover);
     
     /* Spacing */
-    --btn-gap:       var(--spacing-sm);
+    --btn-gap:       var(--spacing-xs);
     --btn-padding-x: var(--spacing-control);
     --btn-padding-y: var(--spacing-control);
 
