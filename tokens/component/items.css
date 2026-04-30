@@ -1,8 +1,8 @@
 /* tokens/component/items.css */
 @layer config {
   :root {
-    --items-cols:       1;
-    --items-gap:        var(--gap);
-    --items-margin-nav: var(--spacing-fluid-md);
+    --items-cols: auto-fit; 
+    --items-gap: var(--gap);
+    --items-min-width: 30ch;
   }
 }

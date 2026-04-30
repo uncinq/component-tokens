@@ -23,7 +23,8 @@
     --dropdown-item-color-bg-hover:   var(--color-bg-muted);
     --dropdown-item-border-radius:    var(--radius-xs);
     --dropdown-item-font-size:        var(--font-size-xs);
-    --dropdown-item-padding:          var(--spacing-2xs);
+    --dropdown-item-padding-x:        var(--spacing-2xs);
+    --dropdown-item-padding-y:        var(--spacing-2xs);
 
     /* Icon */
     --dropdown-icon:                  var(--icon-chevron);
