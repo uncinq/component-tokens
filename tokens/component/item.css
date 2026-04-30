@@ -29,13 +29,13 @@
 
     /* Content */
     --item-gap:               var(--spacing-sm);
-    --item-order:             1;
+    --item-order:             none;
     --item-padding-x:         var(--spacing-card);
     --item-padding-y:         var(--spacing-card);
 
     /* Media */
     --item-media-color-bg:    var(--media-color-bg);
-    --item-media-order:       -1;
+    --item-media-order:       -2;
     --item-media-ratio:       var(--media-ratio);
 
     /* Metas */
@@ -44,7 +44,7 @@
     --item-metas-border-end:   0;
     --item-metas-border-start: 0;
     --item-metas-font-size:    var(--font-size-2xs);
-    --item-metas-order:        0;
+    --item-metas-order:        -1;
     --item-metas-padding-x:    var(--spacing-card);
     --item-metas-padding-y:    var(--spacing-card) 0;
 

@@ -1,8 +1,9 @@
 /* tokens/component/items.css */
 @layer config {
   :root {
-    --items-cols: auto-fit; 
+    --items-cols: auto-fill; 
     --items-gap: var(--gap);
+    --items-max-width: 100%;
     --items-min-width: 30ch;
   }
 }

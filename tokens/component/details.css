@@ -4,10 +4,10 @@
     --details-border:              var(--border-width-normal) var(--border-style-solid) var(--details-color-border);
     --details-border-radius:       var(--radius-surface);
     --details-box-shadow:          var(--shadow-sm);
-    --details-box-shadow-hover:    var(--shadow-center-md);
+    --details-box-shadow-hover:    var(--shadow-md);
     --details-color-bg:            var(--color-bg);
     --details-color-border:        var(--color-border);
-    --details-color-border-open:   var(--color-active);
+    --details-color-border-open:   var(--color-border-hover);
     --details-color-text:          var(--color-text);
     --details-icon:                var(--icon-chevron);
     --details-icon-size:           var(--icon-size);
