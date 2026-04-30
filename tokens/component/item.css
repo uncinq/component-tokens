@@ -43,12 +43,10 @@
     --item-metas-border:       var(--border-width-normal) var(--border-style-solid) var(--color-border);
     --item-metas-border-end:   0;
     --item-metas-border-start: 0;
-    --item-metas-font-size:    var(--font-size-xs);
-    --item-metas-gap:          var(--spacing-2xs);
+    --item-metas-font-size:    var(--font-size-2xs);
     --item-metas-order:        0;
     --item-metas-padding-x:    var(--spacing-card);
     --item-metas-padding-y:    var(--spacing-card) 0;
-    --item-metas-separator:    "—";
 
     /* Shadow */
     --item-shadow:            var(--shadow-sm);

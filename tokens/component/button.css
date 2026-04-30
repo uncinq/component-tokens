@@ -31,7 +31,7 @@
     --btn-text-transform: none;
 
     /* Transitions */
-    --btn-transition: var(--transition-normal);
+    --btn-transition: var(--transition-color);
 
     /* Typography */
     --btn-font-size: var(--font-size-sm);

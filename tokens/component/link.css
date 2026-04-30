@@ -4,5 +4,6 @@
     --link-color-text-decoration: initial;
     --link-color-text-decoration-hover: transparent;
     --link-text-decoration-line: underline;
+    --link-transition: var( --transition-color) ;
   }
 }
