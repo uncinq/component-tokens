@@ -3,6 +3,7 @@
   :root {
     
     /* Border */
+    --btn-border: var(--btn-border-width) var(--btn-border-style) var(--btn-color-border);
     --btn-border-radius: var(--radius-control);
     --btn-border-style: var(--border-style-solid);
     --btn-border-width: var(--border-width-normal);

@@ -1,14 +1,23 @@
 /* tokens/component/breadcrumb.css */
 @layer config {
   :root {
-    --breadcrumb-color-border: var(--color-border);
+    /* Border */
+    --breadcrumb-border: var(--breadcrumb-border-width) var(--breadcrumb-border-style) var(--breadcrumb-color-border);
+    --breadcrumb-border-style: var(--border-style-solid);
     --breadcrumb-border-width: var(--border-width-normal);
+    --breadcrumb-color-border: var(--color-border);
+
+    /* Text */
     --breadcrumb-color-text: var(--color-text-muted);
     --breadcrumb-color-text-active: var(--color-text);
     --breadcrumb-color-separator: var(--color-text-muted);
     --breadcrumb-font-size: var(--font-size-xs);
+
+    /* Spacing */
     --breadcrumb-gap: var(--spacing-xs);
-    --breadcrumb-separator: "/";
     --breadcrumb-padding: var(--spacing-xs);
+
+    /* Visual */
+    --breadcrumb-separator: "/";
   }
 }

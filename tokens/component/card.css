@@ -4,6 +4,7 @@
   :root {
 
     /* Border */
+    --card-border:            var(--card-border-width) var(--card-border-style) var(--card-color-border);
     --card-border-radius:     var(--item-border-radius);
     --card-border-style:      var(--item-border-style);
     --card-border-width:      var(--item-border-width);

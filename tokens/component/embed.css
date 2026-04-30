@@ -1,12 +1,20 @@
 /* tokens/component/embed.css */
 @layer config {
   :root {
-    --embed-ratio:         var(--ratio-16-9);
-    --embed-color-border:  var(--color-border);
-    --embed-border-radius: var(--radius-none);
+    /* Border */
+    --embed-border:        var(--embed-border-width) var(--embed-border-style) var(--embed-color-border);
+    --embed-border-width:  var(--border-width-normal);
     --embed-border-style:  var(--border-style-solid);
-    --embed-border-width:  0;
+    --embed-color-border:  var(--color-border);
+
+    /* Ratio */
+    --embed-ratio:         var(--ratio-16-9);
+
+    /* Visual */
+    --embed-border-radius: var(--radius-none);
     --embed-box-shadow:    none;
+
+    /* Layout */
     --embed-max-width:     100%;
   }
 }
