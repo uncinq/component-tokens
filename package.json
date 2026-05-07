@@ -13,21 +13,27 @@
     "url": "https://uncinq.dev/"
   },
   "keywords": [
-    "design-tokens",
-    "component-tokens",
     "css",
+    "component-tokens",
     "custom-properties",
-    "design-system"
+    "design-system",
+    "design-tokens",
+    "dtcg",
+    "tokens"
   ],
   "files": [
+    "dist/css/",
     "tokens/"
   ],
   "exports": {
-    ".": "./tokens/index.css",
-    "./tokens/index.css": "./tokens/index.css",
-    "./tokens/component/*": "./tokens/component/*"
+    ".": "./dist/css/index.css",
+    "./css/index.css": "./dist/css/index.css",
+    "./css/component/*": "./dist/css/component/*",
+    "./tokens/*": "./tokens/*"
   },
-  "style": "./tokens/index.css",
+  "style": "./dist/css/index.css",
+
+
   "peerDependencies": {
     "@uncinq/design-tokens": "*"
   },

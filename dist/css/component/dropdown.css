@@ -1,0 +1,39 @@
+/* tokens/component/dropdown.css */
+@layer config {
+  :root {
+    /* Border */
+    --dropdown-border-radius:            var(--radius-surface);
+    --dropdown-border-style:             var(--border-style-normal);
+    --dropdown-border-width:             var(--border-width-normal);
+
+    /* Color */
+    --dropdown-color-background:         var(--color-background-surface);
+    --dropdown-color-border:             var(--color-border);
+    --dropdown-color-text:               var(--color-text-on-surface);
+
+    /* Icon */
+    --dropdown-icon:                     var(--icon-chevron);
+    --dropdown-icon-size:                var(--icon-size);
+
+    /* Item */
+    --dropdown-item-border-radius:          var(--radius-xs);
+    --dropdown-item-color-background:       var(--color-background);
+    --dropdown-item-color-background-hover: var(--color-background-muted);
+    --dropdown-item-font-size:              var(--font-size-xs);
+    --dropdown-item-padding-x:              var(--spacing-2xs);
+    --dropdown-item-padding-y:              var(--spacing-2xs);
+
+    /* Layout */
+    --dropdown-min-width:                12rem;
+    --dropdown-padding:                  var(--size-4);
+    --dropdown-z-index:                  var(--z-index-dropdown);
+
+    /* Shadow */
+    --dropdown-shadow:                   var(--shadow-sm);
+
+    /* Transition */
+    --dropdown-transition-duration:      var(--duration-fast);
+    --dropdown-transition-easing:        var(--easing-out);
+    --dropdown-translate-y:              -4px;
+  }
+}

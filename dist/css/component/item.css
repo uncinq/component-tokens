@@ -4,19 +4,19 @@
     
     /* Border */
     --item-border-radius:     var(--radius-surface);
-    --item-border-style:      var(--border-style-solid);
+    --item-border-style:      var(--border-style-normal);
     --item-border-width:      var(--border-width-normal);
 
     /* Button */
-    --item-btn-color-bg:      transparent;
     --item-btn-border-width:  0;
+    --item-btn-color-background:      transparent;
     --item-btn-color-text:    var(--color-brand);
     --item-btn-padding:       0;
-    --item-btn-text-decoration: var(--text-decoration-none);
-    --item-btn-text-decoration-hover: var(--text-decoration-underline);
+    --item-btn-text-decoration: none;
+    --item-btn-text-decoration-hover: underline;
     
     /* Color */
-    --item-color-bg:          var(--color-bg);
+    --item-color-background:          var(--color-background);
     --item-color-border:      var(--color-border);
     --item-color-text:        var(--color-text);
     --item-color-text-muted:  var(--color-text-muted);
@@ -34,15 +34,15 @@
     --item-padding-y:         var(--spacing-card);
 
     /* Media */
-    --item-media-color-bg:    var(--media-color-bg);
+    --item-media-color-background:    var(--media-color-background);
     --item-media-order:       -2;
     --item-media-ratio:       var(--media-ratio);
 
     /* Metas */
-    --item-metas-color-bg:     var(--item-color-bg);
-    --item-metas-border:       var(--border-width-normal) var(--border-style-solid) var(--color-border);
+    --item-metas-border:       var(--border-width-normal) var(--border-style-normal) var(--color-border);
     --item-metas-border-end:   0;
     --item-metas-border-start: 0;
+    --item-metas-color-background:     var(--item-color-background);
     --item-metas-font-size:    var(--font-size-2xs);
     --item-metas-order:        -1;
     --item-metas-padding-x:    var(--spacing-card);

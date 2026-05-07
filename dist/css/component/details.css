@@ -1,18 +1,29 @@
 /* tokens/component/details.css */
 @layer config {
   :root {
-    --details-border:              var(--border-width-normal) var(--border-style-solid) var(--details-color-border);
+    /* Border */
+    --details-border:              var(--border-width-normal) var(--border-style-normal) var(--details-color-border);
     --details-border-radius:       var(--radius-surface);
-    --details-box-shadow:          var(--shadow-sm);
-    --details-box-shadow-hover:    var(--shadow-md);
-    --details-color-bg:            var(--color-bg);
+
+    /* Color */
+    --details-color-background:    var(--color-background);
     --details-color-border:        var(--color-border);
     --details-color-border-open:   var(--color-border-hover);
     --details-color-text:          var(--color-text);
+
+    /* Icon */
     --details-icon:                var(--icon-chevron);
     --details-icon-size:           var(--icon-size);
+
+    /* Shadow */
+    --details-box-shadow:          var(--shadow-sm);
+    --details-box-shadow-hover:    var(--shadow-md);
+
+    /* Spacing */
     --details-margin:              var(--spacing-sm);
     --details-padding:             var(--spacing-sm);
+
+    /* Typography */
     --details-summary-font-family: var(--font-family-heading);
     --details-summary-font-size:   var(--font-size-md);
     --details-summary-font-weight: var(--font-weight-heading);

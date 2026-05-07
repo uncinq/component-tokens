@@ -20,7 +20,7 @@ Where primitive and semantic tokens are provided by [@uncinq/design-tokens](http
 --color-brand: var(--color-indigo-600);
 
 /* component token from @uncinq/component-tokens */
---btn-color-bg: var(--color-brand);
+--btn-background-color: var(--color-brand);
 ```
 
 A component token answers: **"which semantic value does this part of this component use?"**
@@ -29,23 +29,34 @@ A component token answers: **"which semantic value does this part of this compon
 
 ## Naming convention
 
-All component tokens follow the pattern: `--{component}-{category?}-{property}`
+All component tokens follow the pattern: `--{component}-{property}-{sub-property?}-{state?}`
+
+The property mirrors the CSS property name, so the token reads the same way as the CSS declaration it controls.
 
 ```text
---{component}               --btn
-  -{category}               --btn-color
-    -{property}             --btn-color-bg
-      -{state}              --btn-color-bg-hover
+--{component}                    --btn
+  -{property}                    --btn-background-color
+    -{sub-property}              --btn-text-decoration-color
+      -{state}                   --btn-background-color-hover
 ```
 
 ### Rules
 
 - **Lowercase kebab-case** — always
 - **Component name first** — `--btn-*`, `--badge-*`, `--hero-*`
-- **`color-*` for all color values** — background, border, text all use `color-` prefix
+- **`color-[role]` pour tous les tokens couleur** — `color` est le préfixe catégorie, le rôle UI suit : `color-background`, `color-border`, `color-text`, `color-accent`, `color-placeholder`. Cela groupe tous les tokens couleur alphabétiquement sous `color-*`. `background` n'est jamais abrégé : `color-background` pas `color-bg`.
 - **States at the end** — `-hover`, `-focus`, `-active`, `-disabled`
 - **Reference semantic tokens** — never raw values; always `var(--semantic-token)`
-- **Alphabetical order** — tokens within a file are sorted alphabetically; group related tokens with a comment when the component has many properties:
+- **Alphabetical order** — tokens within a file are sorted alphabetically within each group; group related tokens with a comment when the component has many properties:
+
+| Token | Rôle | CSS property appliquée |
+| --- | --- | --- |
+| `--btn-color-background` | background | `background-color` |
+| `--btn-color-border` | border | `border-color` |
+| `--btn-color-text` | text | `color` |
+| `--btn-color-text-decoration` | text-decoration | `text-decoration-color` |
+| `--form-color-accent` | accent | `color` |
+| `--input-color-placeholder` | placeholder | `color` |
 
 ```css
 /* Border */
@@ -53,8 +64,10 @@ All component tokens follow the pattern: `--{component}-{category?}-{property}`
 --btn-border-width:  var(--border-width-normal);
 
 /* Color */
---btn-color-bg:   var(--color-brand);
---btn-color-text: var(--color-text-on-brand);
+--btn-color-background:      var(--color-brand);
+--btn-color-border:          var(--color-brand);
+--btn-color-text:            var(--color-text-on-brand);
+--btn-color-text-decoration: transparent;
 
 /* Spacing */
 --btn-gap:       var(--spacing-xs);
@@ -65,17 +78,19 @@ All component tokens follow the pattern: `--{component}-{category?}-{property}`
 ### Examples
 
 ```css
---btn-color-bg:      var(--color-brand);
---btn-color-text:    var(--color-text-on-brand);
---btn-border-radius: var(--radius-control);
---btn-padding-x:     var(--spacing-control);
---btn-padding-y:     var(--spacing-control);
+--btn-color-background: var(--color-brand);
+--btn-color-border:     var(--color-brand);
+--btn-color-text:       var(--color-text-on-brand);
+--btn-border-radius:    var(--radius-control);
+--btn-padding-x:        var(--spacing-control);
+--btn-padding-y:        var(--spacing-control);
 
---badge-border-radius: var(--radius-sm);
---badge-color-bg:    var(--color-bg-muted);
+--badge-border-radius:   var(--radius-sm);
+--badge-color-background: var(--color-background-muted);
 
---hero-color-bg:     var(--color-bg);
---hero-min-height:   50svh;
+--hero-color-background: var(--color-background);
+--hero-color-text:       var(--color-text);
+--hero-min-height:       50svh;
 ```
 
 ---
@@ -90,7 +105,7 @@ All tokens are declared inside `@layer config`, the lowest-priority layer in the
 /* your project overrides — same layer, wins by source order */
 @layer config {
   :root {
-    --btn-color-bg: var(--color-secondary);
+    --btn-background-color: var(--color-secondary);
     --hero-min-height: 80svh;
   }
 }

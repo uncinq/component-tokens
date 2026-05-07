@@ -1,0 +1,52 @@
+/* tokens/component/button.css */
+@layer config {
+  :root {
+
+    /* Border */
+    --btn-border-radius: var(--radius-control);
+    --btn-border-style: var(--border-style-normal);
+    --btn-border-width: var(--border-width-normal);
+
+    /* Color */
+    --btn-color-background:            var(--color-brand);
+    --btn-color-background-hover:      var(--color-brand-hover);
+    --btn-color-border:                var(--color-brand);
+    --btn-color-border-hover:          var(--color-brand);
+    --btn-color-text:                  var(--color-text-on-brand);
+    --btn-color-text-decoration:       transparent;
+    --btn-color-text-decoration-hover: transparent;
+    --btn-color-text-hover:            var(--color-text-on-brand);
+
+    /* Shadow */
+    --btn-shadow:       var(--shadow-control);
+    --btn-shadow-hover: var(--shadow-control-hover);
+
+    /* Spacing */
+    --btn-gap:       var(--spacing-xs);
+    --btn-padding-x: var(--spacing-control);
+    --btn-padding-y: var(--spacing-control);
+
+    /* Transitions */
+    --btn-transition: var(--transition-color);
+
+    /* Typography */
+    --btn-font-size:            var(--font-size-sm);
+    --btn-font-weight:          var(--font-weight-control);
+    --btn-text-decoration-line: underline;
+    --btn-text-transform:       none;
+  }
+}
+
+/* Control buttons — icon-only UI controls: btn-menu, btn-close, btn-search.
+ * Transparent by default. Use --btn-menu-*, --btn-close-*, --btn-search-*
+ * at project level to customise per-button. */
+@layer config {
+  :root {
+    --btn-control-color-background:            var(--color-background-muted);
+    --btn-control-color-background-hover:      var(--color-background-muted-hover);
+    --btn-control-color-border:                transparent;
+    --btn-control-color-border-hover:          transparent;
+    --btn-control-color-text:                  var(--color-text);
+    --btn-control-color-text-hover:            var(--color-text);
+  }
+}

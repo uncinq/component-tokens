@@ -10,7 +10,7 @@
     --card-border-width:      var(--item-border-width);
 
     /* Color */
-    --card-color-bg:          var(--item-color-bg);
+    --card-color-background:          var(--item-color-background);
     --card-color-border:      var(--item-color-border);
     --card-color-text:        var(--item-color-text);
     --card-color-text-muted:  var(--item-color-text-muted);
@@ -28,7 +28,7 @@
     --card-padding-y:         var(--item-padding-y);
 
     /* Media */
-    --card-media-color-bg:    var(--item-media-color-bg);
+    --card-media-color-background:    var(--item-media-color-background);
     --card-media-order:       var(--item-media-order);
     --card-media-ratio:       var(--item-media-ratio);
 
