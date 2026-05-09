@@ -5,22 +5,22 @@
     /* Border */
     --item-border-radius:     var(--radius-surface);
     --item-border-style:      var(--border-style-normal);
-    --item-border-width:      var(--border-width-normal);
+    --item-border-width:      var(--border-width-sm);
 
     /* Button */
     --item-btn-border-width:  0;
     --item-btn-color-background:      transparent;
-    --item-btn-color-text:    var(--color-brand);
+    --item-btn-color-text:    var(--color-brand-default);
     --item-btn-padding:       0;
     --item-btn-text-decoration: none;
     --item-btn-text-decoration-hover: underline;
     
     /* Color */
-    --item-color-background:          var(--color-background);
-    --item-color-border:      var(--color-border);
-    --item-color-text:        var(--color-text);
+    --item-color-background:          var(--color-background-default);
+    --item-color-border:      var(--color-border-default);
+    --item-color-text:        var(--color-text-default);
     --item-color-text-muted:  var(--color-text-muted);
-    --item-color-title:       var(--color-text);
+    --item-color-title:       var(--color-text-default);
 
     /* Font */
     --item-font-size-title:   var(--font-size-md);
@@ -39,7 +39,7 @@
     --item-media-ratio:       var(--media-ratio);
 
     /* Metas */
-    --item-metas-border:       var(--border-width-normal) var(--border-style-normal) var(--color-border);
+    --item-metas-border:       var(--border-width-sm) var(--border-style-normal) var(--color-border-default);
     --item-metas-border-end:   0;
     --item-metas-border-start: 0;
     --item-metas-color-background:     var(--item-color-background);

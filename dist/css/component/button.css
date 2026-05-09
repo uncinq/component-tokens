@@ -5,13 +5,13 @@
     /* Border */
     --btn-border-radius: var(--radius-control);
     --btn-border-style: var(--border-style-normal);
-    --btn-border-width: var(--border-width-normal);
+    --btn-border-width: var(--border-width-sm);
 
     /* Color */
-    --btn-color-background:            var(--color-brand);
+    --btn-color-background:            var(--color-brand-default);
     --btn-color-background-hover:      var(--color-brand-hover);
-    --btn-color-border:                var(--color-brand);
-    --btn-color-border-hover:          var(--color-brand);
+    --btn-color-border:                var(--color-brand-default);
+    --btn-color-border-hover:          var(--color-brand-default);
     --btn-color-text:                  var(--color-text-on-brand);
     --btn-color-text-decoration:       transparent;
     --btn-color-text-decoration-hover: transparent;
@@ -46,7 +46,7 @@
     --btn-control-color-background-hover:      var(--color-background-muted-hover);
     --btn-control-color-border:                transparent;
     --btn-control-color-border-hover:          transparent;
-    --btn-control-color-text:                  var(--color-text);
-    --btn-control-color-text-hover:            var(--color-text);
+    --btn-control-color-text:                  var(--color-text-default);
+    --btn-control-color-text-hover:            var(--color-text-default);
   }
 }

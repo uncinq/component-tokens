@@ -7,7 +7,7 @@
 
     /* Color */
     --drawer-color-background:         var(--color-background-surface);
-    --drawer-color-border:             var(--color-border);
+    --drawer-color-border:             var(--color-border-default);
     --drawer-color-text:               var(--color-text-on-surface);
 
     /* Layout */

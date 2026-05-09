@@ -2,10 +2,10 @@
 @layer config {
   :root {
     /* Color */
-    --hero-color-background:       var(--color-background);
-    --hero-color-link:             var(--color-text);
-    --hero-color-text:             var(--color-text);
-    --hero-color-title:            var(--color-text);
+    --hero-color-background:       var(--color-background-default);
+    --hero-color-link:             var(--color-text-default);
+    --hero-color-text:             var(--color-text-default);
+    --hero-color-title:            var(--color-text-default);
 
     /* Layout */
     --hero-min-height:             25rem;

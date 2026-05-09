@@ -2,7 +2,7 @@
 @layer config {
   :root {
     /* Color */
-    --nav-color-text:        var(--color-link);
+    --nav-color-text:        var(--color-link-default);
     --nav-color-text-active: var(--color-link-active);
     --nav-color-text-hover:  var(--color-link-hover);
     --nav-color-text-muted:  var(--color-text-muted);

@@ -5,10 +5,10 @@
     --embed-border:        var(--embed-border-width) var(--embed-border-style) var(--embed-color-border);
     --embed-border-radius: var(--radius-none);
     --embed-border-style:  var(--border-style-normal);
-    --embed-border-width:  var(--border-width-normal);
+    --embed-border-width:  var(--border-width-sm);
 
     /* Color */
-    --embed-color-border:  var(--color-border);
+    --embed-color-border:  var(--color-border-default);
 
     /* Layout */
     --embed-max-width:     100%;

@@ -2,14 +2,14 @@
 @layer config {
   :root {
     /* Border */
-    --details-border:              var(--border-width-normal) var(--border-style-normal) var(--details-color-border);
+    --details-border:              var(--border-width-sm) var(--border-style-normal) var(--details-color-border);
     --details-border-radius:       var(--radius-surface);
 
     /* Color */
-    --details-color-background:    var(--color-background);
-    --details-color-border:        var(--color-border);
+    --details-color-background:    var(--color-background-default);
+    --details-color-border:        var(--color-border-default);
     --details-color-border-open:   var(--color-border-hover);
-    --details-color-text:          var(--color-text);
+    --details-color-text:          var(--color-text-default);
 
     /* Icon */
     --details-icon:                var(--icon-chevron);

@@ -10,12 +10,12 @@
 
     /* Item */
     --pagination-item-color-background:       transparent;
-    --pagination-item-color-background-active: var(--color-brand);
+    --pagination-item-color-background-active: var(--color-brand-default);
     --pagination-item-color-background-hover: var(--color-background-muted);
     --pagination-item-border-radius:          var(--radius-sm);
-    --pagination-item-color-text:             var(--color-text);
+    --pagination-item-color-text:             var(--color-text-default);
     --pagination-item-color-text-active:      var(--color-text-on-brand);
-    --pagination-item-color-text-hover:       var(--color-text);
+    --pagination-item-color-text-hover:       var(--color-text-default);
     --pagination-item-font-size:              var(--font-size-sm);
     --pagination-item-font-weight:            var(--font-weight-normal);
     --pagination-item-size:                   2.25rem;

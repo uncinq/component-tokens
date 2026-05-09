@@ -4,7 +4,7 @@
     /* Color */
     --table-color-background-header:   var(--color-background-muted);
     --table-color-background-striped:  var(--color-background-muted);
-    --table-color-border:              var(--color-border);
+    --table-color-border:              var(--color-border-default);
 
     /* Spacing */
     --table-cell-padding-x:            var(--spacing-sm);

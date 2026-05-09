@@ -7,7 +7,7 @@
 
     /* Color */
     --modal-color-background:    var(--color-background-surface);
-    --modal-color-border:        var(--color-border);
+    --modal-color-border:        var(--color-border-default);
     --modal-color-text:          var(--color-text-on-surface);
 
     /* Layout */

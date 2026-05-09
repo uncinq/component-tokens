@@ -17,7 +17,7 @@
     /* Typography */
     --surtitle-font-size:      var(--font-size-xs);
     --surtitle-font-weight:    var(--font-weight-bold);
-    --surtitle-letter-spacing: var(--letter-spacing-large);
+    --surtitle-letter-spacing: var(--letter-spacing-md);
     --surtitle-line-height:    var(--line-height-normal);
     --surtitle-text-transform: uppercase;
   }

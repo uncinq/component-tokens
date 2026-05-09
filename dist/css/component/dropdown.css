@@ -4,11 +4,11 @@
     /* Border */
     --dropdown-border-radius:            var(--radius-surface);
     --dropdown-border-style:             var(--border-style-normal);
-    --dropdown-border-width:             var(--border-width-normal);
+    --dropdown-border-width:             var(--border-width-sm);
 
     /* Color */
     --dropdown-color-background:         var(--color-background-surface);
-    --dropdown-color-border:             var(--color-border);
+    --dropdown-color-border:             var(--color-border-default);
     --dropdown-color-text:               var(--color-text-on-surface);
 
     /* Icon */
@@ -17,7 +17,7 @@
 
     /* Item */
     --dropdown-item-border-radius:          var(--radius-xs);
-    --dropdown-item-color-background:       var(--color-background);
+    --dropdown-item-color-background:       var(--color-background-default);
     --dropdown-item-color-background-hover: var(--color-background-muted);
     --dropdown-item-font-size:              var(--font-size-xs);
     --dropdown-item-padding-x:              var(--spacing-2xs);
