@@ -1,0 +1,62 @@
+{
+  "modal": {
+    "backdrop": {
+      "blur": {
+        "$value": "{blur.backdrop}",
+        "$type": "dimension"
+      },
+      "color": {
+        "$value": "{color.backdrop}",
+        "$type": "color"
+      }
+    },
+    "color": {
+      "background": {
+        "$value": "{color.background.surface}",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "{color.border.default}",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "{color.text.onSurface}",
+        "$type": "color"
+      }
+    },
+    "maxHeight": { 
+      "$value": "none", 
+      "$type": "string" 
+    },
+    "maxWidth": { 
+      "$value": "30rem", 
+      "$type": "dimension" 
+    },
+    "padding": { 
+      "$value": "{spacing.surface}", 
+      "$type": "dimension" 
+    },
+    "radius": { 
+      "$value": "{radius.surface}", 
+      "$type": "dimension" 
+    },
+    "shadow": { 
+      "$value": "{shadow.surface}", 
+      "$type": "shadow" 
+    },
+    "transition": {
+      "duration": { 
+        "$value": "{duration.slow}", 
+        "$type": "duration" 
+      },
+      "easing": {
+        "$value": "{easing.out-expo}", 
+        "$type": "string" 
+      }
+    },
+    "zIndex": {
+      "$value": "{zIndex.modal}", 
+      "$type": "number" 
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "breadcrumb": {
+    "border": {
+      "default": { 
+        "$value": "{breadcrumb.border.width} {breadcrumb.border.style} {breadcrumb.color.border}", 
+        "$type": "string" 
+      },
+      "style":   { 
+        "$value": "{border.style.normal}", 
+        "$type": "strokeStyle" 
+      },
+      "width":   { 
+        "$value": "{border.width.sm}", 
+        "$type": "dimension" 
+      }
+    },
+    "color": {
+      "border":    { 
+        "$value": "{color.border.default}", 
+        "$type": "color" 
+      },
+      "separator": { 
+        "$value": "{color.text.muted}", 
+        "$type": "color" 
+      },
+      "text": {
+        "default": { 
+          "$value": "{color.text.muted}", 
+          "$type": "color" 
+        },
+        "active":  { 
+          "$value": "{color.text.default}", 
+          "$type": "color" 
+        }
+      }
+    },
+    "font": {
+      "size": {
+        "$value": "{fontSize.xs}", 
+        "$type": "dimension" 
+      }
+    },
+    "gap": {
+      "$value": "{spacing.xs}", 
+      "$type": "dimension" 
+    },
+    "padding": {
+      "y": {
+        "$value": "{spacing.xs}",
+        "$type": "dimension"
+      }
+    },
+    "separator": {
+      "$value": "\"/\"", 
+      "$type": "string" 
+    }
+  }
+}

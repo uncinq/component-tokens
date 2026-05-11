@@ -1,0 +1,38 @@
+{
+  "logo": {
+    "color": {
+      "$value": "{color.text.default}",
+      "$type": "color"
+    },
+    "font": {
+      "family": {
+        "$value": "{fontFamily.heading}",
+        "$type": "fontFamily"
+      },
+      "size": {
+        "$value": "{fontSize.md}",
+        "$type": "dimension"
+      },
+      "weight": {
+        "$value": "{fontWeight.heading}",
+        "$type": "fontWeight"
+      }
+    },
+    "height": {
+      "default": {
+        "$value": "1.5rem",
+        "$type": "dimension"
+      },
+      "tablet": {
+        "$value": "2rem",
+        "$type": "dimension"
+      }
+    },
+    "letter": {
+      "spacing": {
+        "$value": "{letterSpacing.none}",
+        "$type": "dimension"
+      }
+    }
+  }
+}

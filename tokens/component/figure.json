@@ -1,0 +1,26 @@
+{
+  "figure": {
+    "figcaption": {
+      "font": {
+        "size": {
+          "$value": "{fontSize.sm}",
+          "$type": "dimension"
+        }
+      },
+      "gap": {
+        "$value": "{spacing.xs}",
+        "$type": "dimension"
+      }
+    },
+    "gap": {
+      "$value": "{spacing.xs}",
+      "$type": "dimension"
+    },
+    "margin": {
+      "y": {
+        "$value": "{spacing.md}",
+        "$type": "dimension"
+      }
+    }
+  }
+}

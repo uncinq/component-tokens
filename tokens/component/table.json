@@ -1,0 +1,38 @@
+{
+  "table": {
+    "cell": {
+      "padding": {
+        "x": {
+          "$value": "{spacing.sm}",
+          "$type": "dimension"
+        },
+        "y": {
+          "$value": "{spacing.xs}",
+          "$type": "dimension"
+        }
+      }
+    },
+    "color": {
+      "background": {
+        "header": {
+          "$value": "{color.background.muted}",
+          "$type": "color"
+        },
+        "striped": {
+          "$value": "{color.background.muted}",
+          "$type": "color"
+        }
+      },
+      "border": {
+        "$value": "{color.border.default}",
+        "$type": "color"
+      }
+    },
+    "font": {
+      "size": {
+        "$value": "{fontSize.sm}",
+        "$type": "dimension"
+      }
+    }
+  }
+}

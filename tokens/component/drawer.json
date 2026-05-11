@@ -1,0 +1,78 @@
+{
+  "drawer": {
+    "backdrop": {
+      "blur": {
+        "$value": "{blur.backdrop}",
+        "$type": "dimension"
+      },
+      "color": {
+        "$value": "{color.backdrop}",
+        "$type": "color"
+      }
+    },
+    "bottom": {
+      "$value": "0",
+      "$type": "dimension"
+    },
+    "color": {
+      "background": {
+        "$value": "{color.background.surface}",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "{color.border.default}",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "{color.text.onSurface}",
+        "$type": "color"
+      }
+    },
+    "end": {
+      "$value": "0",
+      "$type": "dimension"
+    },
+    "height": {
+      "$value": "50vh",
+      "$type": "dimension"
+    },
+    "padding": {
+      "$value": "{spacing.surface}", 
+      "$type": "dimension" 
+    },
+    "shadow": {
+      "$value": "{shadow.surface}",
+      "$type": "shadow"
+    },
+    "start": { 
+      "$value": "auto", 
+      "$type": "string" 
+    },
+    "top": { 
+      "$value": "0", 
+      "$type": "dimension" 
+    },
+    "transition": {
+      "duration": { 
+        "$value": "{duration.slow}", 
+        "$type": "duration" 
+      },
+      "easing":   { 
+        "$value": "{easing.out-expo}", 
+        "$type": "string" 
+      }
+    },
+    "translate": { 
+      "$value": "translateX(100%)", 
+      "$type": "string" 
+    },
+    "width": { 
+      "$value": "320px", 
+      "$type": "dimension" 
+    },
+    "zIndex": { 
+      "$value": "{zIndex.drawer}", 
+      "$type": "number" 
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "card": {
+    "border": {
+      "default": {
+        "$value": "{card.border.width} {card.border.style} {card.color.border}",
+        "$type": "string"
+      },
+      "radius": {
+        "$value": "{item.border.radius}",
+        "$type": "dimension"
+      },
+      "style": {
+        "$value": "{item.border.style}",
+        "$type": "strokeStyle"
+      },
+      "width": {
+        "$value": "{item.border.width}",
+        "$type": "dimension"
+      }
+    },
+    "color": {
+      "background": {
+        "$value": "{item.color.background}",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "{item.color.border}",
+        "$type": "color"
+      },
+      "text": {
+        "default": {
+          "$value": "{item.color.text.default}",
+          "$type": "color"
+        },
+        "muted": {
+          "$value": "{item.color.text.muted}",
+          "$type": "color"
+        }
+      }
+    },
+    "gap": {
+      "$value": "{item.gap}",
+      "$type": "dimension"
+    },
+    "media": {
+      "color": {
+        "background": {
+          "$value": "{item.media.color.background}",
+          "$type": "color"
+        }
+      },
+      "order": {
+        "$value": "{item.media.order}",
+        "$type": "number"
+      },
+      "ratio": {
+        "$value": "{item.media.ratio}",
+        "$type": "string"
+      }
+    },
+    "order": {
+      "$value": "{item.order}",
+      "$type": "string"
+    },
+    "padding": {
+      "x": {
+        "$value": "{item.padding.x}",
+        "$type": "dimension"
+      },
+      "y": {
+        "$value": "{item.padding.y}",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "default": {
+        "$value": "{item.shadow.default}",
+        "$type": "shadow"
+      },
+      "hover": {
+        "$value": "{item.shadow.hover}",
+        "$type": "string"
+      }
+    },
+    "title": {
+      "color": {
+        "$value": "{item.title.color}",
+        "$type": "color"
+      },
+      "font": {
+        "size": {
+          "$value": "{item.title.font.size}",
+          "$type": "dimension"
+        },
+        "weight": {
+          "$value": "{item.title.font.weight}",
+          "$type": "fontWeight"
+        }
+      },
+      "line": {
+        "height": {
+          "$value": "{item.title.line.height}",
+          "$type": "number"
+        }
+      }
+    },
+    "transition": {
+      "$value": "box-shadow var(--duration-normal) var(--easing-default)",
+      "$type": "string"
+    }
+  }
+}

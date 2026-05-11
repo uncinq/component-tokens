@@ -1,0 +1,66 @@
+{
+  "columns": { 
+    "$value": 12, 
+    "$type": "number" 
+  },
+  "container": {
+    "maxWidth": {
+      "mobile": { 
+        "$value": "100%", 
+        "$type": "dimension" 
+      },
+      "tablet": { 
+        "$value": "100%", 
+        "$type": "dimension" 
+      },
+      "tabletWide": { 
+        "$value": "100%", 
+        "$type": "dimension" 
+      },
+      "laptop": { 
+        "$value": "100%", 
+        "$type": "dimension" 
+      },
+      "desktop": { 
+        "$value": "{size.desktop}", 
+        "$type": "dimension" 
+      }
+    }
+  },
+  "gap":     { 
+    "$value": "{spacing.sm}", 
+    "$type": "dimension" 
+  },
+  "grid": {
+    "column": {
+      "default": {
+        "$value": "{grid.column.mobile}",
+        "$type": "string"
+      },
+      "desktop": {
+        "$value": "{span.quarter}",
+        "$type": "string" 
+      },
+      "laptop": {
+        "$value": "{span.quarter}",
+        "$type": "string" 
+      },
+      "mobile": {
+        "$value": "{span.full}",
+        "$type": "string" 
+      },
+      "tablet": {
+        "$value": "{span.half}",
+        "$type": "string" 
+      },
+      "tabletWide": {
+        "$value": "{span.third}",
+        "$type": "string" 
+      }
+    }
+  },
+  "gutter": { 
+    "$value": "{spacing.fluid.md}", 
+    "$type": "dimension" 
+  }
+}

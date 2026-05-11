@@ -44,12 +44,12 @@ The property mirrors the CSS property name, so the token reads the same way as t
 
 - **Lowercase kebab-case** — always
 - **Component name first** — `--btn-*`, `--badge-*`, `--hero-*`
-- **`color-[role]` pour tous les tokens couleur** — `color` est le préfixe catégorie, le rôle UI suit : `color-background`, `color-border`, `color-text`, `color-accent`, `color-placeholder`. Cela groupe tous les tokens couleur alphabétiquement sous `color-*`. `background` n'est jamais abrégé : `color-background` pas `color-bg`.
+- **`color-[role]` for all color tokens** — `color` is the category prefix, the UI role follows: `color-background`, `color-border`, `color-text`, `color-accent`, `color-placeholder`. This groups all color tokens alphabetically under `color-*`. `background` is never abbreviated: `color-background` not `color-bg`.
 - **States at the end** — `-hover`, `-focus`, `-active`, `-disabled`
 - **Reference semantic tokens** — never raw values; always `var(--semantic-token)`
 - **Alphabetical order** — tokens within a file are sorted alphabetically within each group; group related tokens with a comment when the component has many properties:
 
-| Token | Rôle | CSS property appliquée |
+| Token | Role | CSS property |
 | --- | --- | --- |
 | `--btn-color-background` | background | `background-color` |
 | `--btn-color-border` | border | `border-color` |
@@ -105,7 +105,7 @@ All tokens are declared inside `@layer config`, the lowest-priority layer in the
 /* your project overrides — same layer, wins by source order */
 @layer config {
   :root {
-    --btn-background-color: var(--color-secondary);
+    --btn-color-background: var(--color-secondary);
     --hero-min-height: 80svh;
   }
 }
@@ -143,49 +143,86 @@ yarn add @uncinq/component-tokens
 
 ```css
 @import '@uncinq/design-tokens';
-@import '@uncinq/component-tokens/tokens/component/button.css';
-@import '@uncinq/component-tokens/tokens/component/badge.css';
+@import '@uncinq/component-tokens/css/component/button.css';
+@import '@uncinq/component-tokens/css/component/badge.css';
 ```
 
 ### Usage — CDN (no build step)
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@uncinq/design-tokens/tokens/index.css">
-<link rel="stylesheet" href="https://unpkg.com/@uncinq/component-tokens/tokens/index.css">
+<link rel="stylesheet" href="https://unpkg.com/@uncinq/design-tokens">
+<link rel="stylesheet" href="https://unpkg.com/@uncinq/component-tokens">
 ```
+
+---
+
+## Customization
+
+### CSS override (recommended)
+
+Re-declare any token inside `@layer config` after the import. Same layer, later source order wins:
+
+```css
+@import '@uncinq/component-tokens';
+
+@layer config {
+  :root {
+    --btn-color-background: var(--color-secondary);
+    --btn-border-radius: 0;
+  }
+}
+```
+
+### JSON + rebuild
+
+For deeper changes (adding new tokens, renaming), fork the JSON source files and run the build pipeline locally:
+
+```bash
+npm install
+npm run build   # generates dist/css/component/*.css
+```
+
+See [docs/STYLE-DICTIONARY.md](docs/STYLE-DICTIONARY.md) for build pipeline details and token naming conventions.
 
 ---
 
 ## File structure
 
 ```text
-tokens/
-  index.css               ← imports all component token files
+tokens/                     ← DTCG JSON source files (edit these)
   component/
-    alert.css             ← alert / notification banner
-    badge.css             ← badge / pill / tag
-    breadcrumb.css        ← breadcrumb navigation
-    button.css            ← button (all variants)
-    card.css              ← card (alias → item tokens)
-    container.css         ← layout container + grid columns
-    details.css           ← <details> / accordion
-    drawer.css            ← off-canvas panel / drawer
-    dropdown.css          ← dropdown menu
-    embed.css             ← video / iframe embed wrapper
-    figure.css            ← <figure> + <figcaption>
-    heading.css           ← heading typography scale
-    hero.css              ← hero / banner section
-    item.css              ← item (canonical card-like unit)
-    items.css             ← items grid / list wrapper
-    link.css              ← inline link
-    list.css              ← styled list
-    logo.css              ← logotype
-    map.css               ← embedded map
-    media.css             ← media object (image + text)
-    nav.css               ← navigation bar
-    pagination.css        ← pagination control
-    surtitle.css          ← small label above a heading
-    table.css             ← data table
+    alert.json
+    badge.json
+    button.json
+    …
+
+dist/css/                   ← generated CSS (do not edit)
+  index.css                 ← imports all component token files
+  component/
+    alert.css               ← alert / notification banner
+    badge.css               ← badge / pill / tag
+    breadcrumb.css          ← breadcrumb navigation
+    button.css              ← button (all variants)
+    card.css                ← card (alias → item tokens)
+    container.css           ← layout container + grid columns
+    details.css             ← <details> / accordion
+    drawer.css              ← off-canvas panel / drawer
+    dropdown.css            ← dropdown menu
+    embed.css               ← video / iframe embed wrapper
+    figure.css              ← <figure> + <figcaption>
+    heading.css             ← heading typography scale
+    hero.css                ← hero / banner section
+    item.css                ← item (canonical card-like unit)
+    items.css               ← items grid / list wrapper
+    link.css                ← inline link
+    list.css                ← styled list
+    logo.css                ← logotype
+    map.css                 ← embedded map
+    media.css               ← media object (image + text)
+    nav.css                 ← navigation bar
+    pagination.css          ← pagination control
+    surtitle.css            ← small label above a heading
+    table.css               ← data table
 ```
 
 ---

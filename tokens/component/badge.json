@@ -1,0 +1,44 @@
+{
+  "badge": {
+    "border": {
+      "radius": { 
+        "$value": "{radius.pill}", 
+        "$type": "dimension" 
+      },
+      "style":  { 
+        "$value": "solid", 
+        "$type": "strokeStyle" 
+      },
+      "width":  { 
+        "$value": "0", 
+        "$type": "dimension" 
+      }
+    },
+    "color": {
+      "border": { 
+        "$value": "transparent", 
+        "$type": "color" 
+      }
+    },
+    "font": {
+      "size": {
+        "$value": "{fontSize.2xs}", 
+        "$type": "dimension" 
+      },
+      "weight": {
+        "$value": "{fontWeight.control}", 
+        "$type": "fontWeight" 
+      }
+    },
+    "padding": {
+      "x": {
+        "$value": "{spacing.xs}", 
+        "$type": "dimension" 
+      },
+      "y": {
+        "$value": "{spacing.2xs}", 
+        "$type": "dimension" 
+      }
+    }
+  }
+}

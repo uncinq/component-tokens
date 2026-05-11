@@ -1,0 +1,40 @@
+{
+  "embed": {
+    "border": {
+      "default": { 
+        "$value": "{embed.border.width} {embed.border.style} {embed.color.border}", 
+        "$type": "string" 
+      },
+      "radius":  { 
+        "$value": "{radius.none}", 
+        "$type": "dimension" 
+      },
+      "style":   { 
+        "$value": "{border.style.normal}", 
+        "$type": "strokeStyle" 
+      },
+      "width":   { 
+        "$value": "{border.width.sm}", 
+        "$type": "dimension" 
+      }
+    },
+    "boxShadow": { 
+      "$value": "none", 
+      "$type": "string" 
+    },
+    "color": {
+      "border": { 
+        "$value": "{color.border.default}", 
+        "$type": "color" 
+      }
+    },
+    "maxWidth": {
+       "$value": "100%", 
+       "$type": "dimension" 
+     },
+    "ratio":    { 
+      "$value": "{ratio.video}", 
+      "$type": "string" 
+    }
+  }
+}

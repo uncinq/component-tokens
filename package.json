@@ -32,10 +32,15 @@
     "./tokens/*": "./tokens/*"
   },
   "style": "./dist/css/index.css",
-
-
+  "type": "module",
+  "scripts": {
+    "build": "style-dictionary build --config style-dictionary.config.js"
+  },
   "peerDependencies": {
     "@uncinq/design-tokens": "*"
+  },
+  "devDependencies": {
+    "style-dictionary": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"

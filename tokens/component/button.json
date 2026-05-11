@@ -1,0 +1,142 @@
+{
+  "btn": {
+    "border": {
+      "radius": { 
+        "$value": "{radius.control}", 
+        "$type": "dimension" 
+      },
+      "style":  { 
+        "$value": "{border.style.normal}", 
+        "$type": "strokeStyle" 
+      },
+      "width":  { 
+        "$value": "{border.width.sm}", 
+        "$type": "dimension" 
+      }
+    },
+    "color": {
+      "background": {
+        "default": { 
+          "$value": "{color.brand.default}", 
+          "$type": "color" 
+        },
+        "hover":   { 
+          "$value": "{color.brand.hover}", 
+          "$type": "color" 
+        }
+      },
+      "border": {
+        "default": { 
+          "$value": "{color.brand.default}", 
+          "$type": "color" 
+        },
+        "hover":   { 
+          "$value": "{color.brand.default}", 
+          "$type": "color" 
+        }
+      },
+      "text": {
+        "default": { 
+          "$value": "{color.text.onBrand}", 
+          "$type": "color" 
+        },
+        "hover":   { 
+          "$value": "{color.text.onBrand}", 
+          "$type": "color" 
+        }
+      },
+      "textDecoration": {
+        "default": { 
+          "$value": "transparent", 
+          "$type": "color" 
+        },
+        "hover":   { 
+          "$value": "transparent", 
+          "$type": "color" 
+        }
+      }
+    },
+    "control": {
+      "color": {
+        "background": {
+          "default": { 
+            "$value": "{color.background.muted}", 
+            "$type": "color" 
+          },
+          "hover":   { 
+            "$value": "{color.background.mutedHover}", 
+            "$type": "color" 
+          }
+        },
+        "border": {
+          "default": { 
+            "$value": "transparent", 
+            "$type": "color" 
+          },
+          "hover":   { 
+            "$value": "transparent", 
+            "$type": "color" 
+          }
+        },
+        "text": {
+          "default": { 
+            "$value": "{color.text.default}", 
+            "$type": "color" 
+          },
+          "hover":   { 
+            "$value": "{color.text.default}", 
+            "$type": "color" 
+          }
+        }
+      }
+    },
+    "font": {
+      "size":   { 
+        "$value": "{fontSize.sm}", 
+        "$type": "dimension" 
+      },
+      "weight": { 
+        "$value": "{fontWeight.control}", 
+        "$type": "fontWeight" 
+      }
+    },
+    "gap":     { 
+      "$value": "{spacing.xs}", 
+      "$type": "dimension" 
+    },
+    "padding": {
+      "x": { 
+        "$value": "{spacing.control}", 
+        "$type": "dimension" 
+      },
+      "y": { 
+        "$value": "{spacing.control}", 
+        "$type": "dimension" 
+      }
+    },
+    "shadow": {
+      "default": { 
+        "$value": "{shadow.control}", 
+        "$type": "shadow"
+      },
+      "hover":   {
+        "$value": "{shadow.controlHover}",
+        "$type": "shadow"
+      }
+    },
+    "text": {
+      "decorationLine": { 
+        "$value": "underline", 
+        "$type": "string" 
+      },
+      "transform":      { 
+        "$value": "none", 
+        "$type": "string" 
+      }
+    },
+    "transition": { 
+      "$value": "{transition.color}", 
+      "$type": "string" 
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "details": {
+    "border": {
+      "radius":  {
+        "$value": "{radius.surface}", 
+        "$type": "dimension" 
+      }
+    },
+    "boxShadow": {
+      "default": { 
+        "$value": "{shadow.sm}", 
+        "$type": "shadow" 
+      },
+      "hover":   { 
+        "$value": "{shadow.md}", 
+        "$type": "shadow" 
+      }
+    },
+    "color": {
+      "background": { 
+        "$value": "{color.background.default}", 
+        "$type": "color" 
+      },
+      "border": {
+        "default": { 
+          "$value": "{color.border.default}", 
+          "$type": "color" 
+        },
+        "open":    { 
+          "$value": "{color.border.hover}", 
+          "$type": "color" 
+        }
+      },
+      "text": {
+        "$value": "{color.text.default}", 
+        "$type": "color" 
+      }
+    },
+    "icon": {
+      "default": { 
+        "$value": "{icon.chevron}", 
+        "$type": "string" 
+      },
+      "size":    { 
+        "$value": "{icon.size}", 
+        "$type": "dimension" 
+      }
+    },
+    "margin":  { 
+      "$value": "{spacing.sm}", 
+      "$type": "dimension" 
+    },
+    "padding": { 
+      "$value": "{spacing.sm}", 
+      "$type": "dimension" 
+    },
+    "summary": {
+      "font": {
+        "family": { 
+          "$value": "{fontFamily.heading}", 
+          "$type": "fontFamily" 
+        },
+        "size":   { 
+          "$value": "{fontSize.md}", 
+          "$type": "dimension" 
+        },
+        "weight": { 
+          "$value": "{fontWeight.heading}", 
+          "$type": "fontWeight" 
+        }
+      }
+    }
+  }
+}

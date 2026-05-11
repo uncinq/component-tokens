@@ -1,0 +1,14 @@
+{
+  "media": {
+    "color": {
+      "background": { 
+        "$value": "{color.background.media}", 
+        "$type": "color" 
+      }
+    },
+    "ratio": { 
+      "$value": "{ratio.video}", 
+      "$type": "string" 
+    }
+  }
+}

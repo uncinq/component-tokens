@@ -1,0 +1,14 @@
+{
+  "heading": {
+    "gap": {
+      "$value": "{spacing.xs}",
+      "$type": "dimension"
+    },
+    "margin": {
+      "bottom": {
+        "$value": "{spacing.fluid.md}",
+        "$type": "dimension"
+      }
+    }
+  }
+}

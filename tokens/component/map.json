@@ -1,0 +1,26 @@
+{
+  "map": {
+    "color": {
+      "background": {
+        "$value": "{color.background.muted}",
+        "$type": "color"
+      }
+    },
+    "margin": {
+      "y": {
+        "$value": "{spacing.md}",
+        "$type": "dimension"
+      }
+    },
+    "ratio": {
+      "default": {
+        "$value": "{ratio.cinema}",
+        "$type": "string"
+      },
+      "mobile": {
+        "$value": "{ratio.landscape}",
+        "$type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "link": {
+    "color": {
+      "text-decoration": {
+        "default": {
+          "$value": "initial",
+          "$type": "color"
+        },
+        "hover": {
+          "$value": "transparent",
+          "$type": "color"
+        }
+      }
+    },
+    "text": {
+      "decorationLine": {
+        "$value": "underline",
+        "$type": "string"
+      }
+    },
+    "transition": {
+      "$value": "{transition.color}",
+      "$type": "string"
+    }
+  }
+}

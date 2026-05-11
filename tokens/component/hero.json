@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "color": {
+      "background": {
+        "$value": "{color.background.default}",
+        "$type": "color"
+      },
+      "link": {
+        "$value": "{color.text.default}",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "{color.text.default}",
+        "$type": "color"
+      }
+    },
+    "cover": {
+      "brightness": {
+        "$value": 0.3,
+        "$type": "number"
+      }
+    },
+    "gap": {
+      "$value": "{spacing.sm}",
+      "$type": "dimension"
+    },
+    "minHeight": {
+      "default": {
+        "$value": "25rem",
+        "$type": "dimension"
+      },
+      "tablet": {
+        "$value": "37.5rem",
+        "$type": "dimension"
+      },
+      "desktop": {
+        "$value": "50rem",
+        "$type": "dimension"
+      }
+    },
+    "padding": {
+      "$value": "{spacing.md} 0",
+      "$type": "string"
+    },
+    "title": {
+      "color": {
+        "$value": "{color.text.default}",
+        "$type": "color"
+      },
+      "font": {
+        "size": {
+          "$value": "{fontSize.heading.01}",
+          "$type": "dimension"
+        }
+      }
+    }
+  }
+}

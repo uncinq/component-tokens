@@ -1,0 +1,28 @@
+{
+  "alert": {
+    "border": {
+      "radius": {
+        "$value": "{radius.none}", 
+        "$type": "dimension" 
+      }
+    },
+    "font": {
+      "size": {
+        "$value": "{fontSize.small}", 
+        "$type": "dimension" 
+      }
+    },
+    "gap":     {
+      "$value": "{spacing.sm}", 
+      "$type": "dimension" 
+    },
+    "margin":  {
+      "$value": "0", 
+      "$type": "dimension" 
+    },
+    "padding": {
+      "$value": "{spacing.sm}", 
+      "$type": "dimension" 
+    }
+  }
+}

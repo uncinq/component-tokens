@@ -1,0 +1,107 @@
+{
+  "dropdown": {
+    "border": {
+      "radius": {
+        "$value": "{radius.surface}",
+        "$type": "dimension"
+      },
+      "style": {
+        "$value": "{border.style.normal}",
+        "$type": "strokeStyle"
+      },
+      "width": {
+        "$value": "{border.width.sm}",
+        "$type": "dimension"
+      }
+    },
+    "color": {
+      "background": {
+        "$value": "{color.background.surface}",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "{color.border.default}",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "{color.text.onSurface}",
+        "$type": "color"
+      }
+    },
+    "icon": {
+      "default": {
+        "$value": "{icon.chevron}",
+        "$type": "string"
+      },
+      "size": {
+        "$value": "{icon.size}",
+        "$type": "dimension"
+      }
+    },
+    "item": {
+      "border": {
+        "radius": {
+          "$value": "{radius.xs}",
+          "$type": "dimension"
+        }
+      },
+      "color": {
+        "background": {
+          "default": {
+            "$value": "{color.background.default}",
+            "$type": "color"
+          },
+          "hover": {
+            "$value": "{color.background.muted}",
+            "$type": "color"
+          }
+        }
+      },
+      "font": {
+        "size": {
+          "$value": "{fontSize.xs}",
+          "$type": "dimension"
+        }
+      },
+      "padding": {
+        "x": {
+          "$value": "{spacing.2xs}",
+          "$type": "dimension"
+        },
+        "y": {
+          "$value": "{spacing.2xs}",
+          "$type": "dimension"
+        }
+      }
+    },
+    "minWidth": {
+      "$value": "12rem",
+      "$type": "dimension"
+    },
+    "padding": {
+      "$value": "{size.4}",
+      "$type": "dimension"
+    },
+    "shadow": {
+      "$value": "{shadow.sm}",
+      "$type": "shadow"
+    },
+    "transition": {
+      "duration": {
+        "$value": "{duration.fast}",
+        "$type": "duration"
+      },
+      "easing": {
+        "$value": "{easing.out}",
+        "$type": "string"
+      }
+    },
+    "translate": {
+      "y": { "$value": "-4px", "$type": "dimension" }
+    },
+    "zIndex": {
+      "$value": "{zIndex.dropdown}",
+      "$type": "number"
+    }
+  }
+}
