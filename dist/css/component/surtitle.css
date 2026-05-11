@@ -1,24 +1,21 @@
-/* tokens/component/surtitle.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/surtitle.css */
 @layer config {
   :root {
-    /* Border */
-    --surtitle-border-radius:    0;
-    --surtitle-border-width:     0;
-
-    /* Color */
-    --surtitle-color:            var(--color-text-muted);
+    --surtitle-border-radius: 0;
+    --surtitle-border-width: 0;
+    --surtitle-color: var(--color-text-muted);
     --surtitle-color-background: transparent;
-    --surtitle-color-border:     transparent;
-
-    /* Spacing */
-    --surtitle-margin-block:   0 var(--spacing-2xs);
-    --surtitle-padding:        0;
-
-    /* Typography */
-    --surtitle-font-size:      var(--font-size-xs);
-    --surtitle-font-weight:    var(--font-weight-bold);
+    --surtitle-color-border: transparent;
+    --surtitle-font-size: var(--font-size-xs);
+    --surtitle-font-weight: var(--font-weight-bold);
     --surtitle-letter-spacing: var(--letter-spacing-md);
-    --surtitle-line-height:    var(--line-height-normal);
+    --surtitle-line-height: var(--line-height-normal);
+    --surtitle-margin-y: 0 var(--spacing-2xs);
+    --surtitle-padding: 0;
     --surtitle-text-transform: uppercase;
   }
 }

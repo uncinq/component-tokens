@@ -1,42 +1,31 @@
-/* tokens/component/card.css */
-/* Aliases for backwards compatibility — canonical tokens are --item-* */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/card.css */
 @layer config {
   :root {
-
-    /* Border */
-    --card-border:            var(--card-border-width) var(--card-border-style) var(--card-color-border);
-    --card-border-radius:     var(--item-border-radius);
-    --card-border-style:      var(--item-border-style);
-    --card-border-width:      var(--item-border-width);
-
-    /* Color */
-    --card-color-background:          var(--item-color-background);
-    --card-color-border:      var(--item-color-border);
-    --card-color-text:        var(--item-color-text);
-    --card-color-text-muted:  var(--item-color-text-muted);
-    --card-color-title:       var(--item-color-title);
-
-    /* Font */
-    --card-font-size-title:   var(--item-font-size-title);
-    --card-font-weight-title: var(--item-font-weight-title);
-    --card-line-height-title: var(--item-line-height-title);
-
-    /* Content */
-    --card-gap:               var(--item-gap);
-    --card-order:             var(--item-order);
-    --card-padding-x:         var(--item-padding-x);
-    --card-padding-y:         var(--item-padding-y);
-
-    /* Media */
-    --card-media-color-background:    var(--item-media-color-background);
-    --card-media-order:       var(--item-media-order);
-    --card-media-ratio:       var(--item-media-ratio);
-
-    /* Shadow */
-    --card-shadow:            var(--item-shadow);
-    --card-shadow-hover:      var(--item-shadow-hover);
-
-    /* Transition */
-    --item-transition: box-shadow var(--duration-normal) var(--easing-default);
+    --card-border: var(--card-border-width) var(--card-border-style) var(--card-color-border);
+    --card-border-radius: var(--item-border-radius);
+    --card-border-style: var(--item-border-style);
+    --card-border-width: var(--item-border-width);
+    --card-color-background: var(--item-color-background);
+    --card-color-border: var(--item-color-border);
+    --card-color-text: var(--item-color-text);
+    --card-color-text-muted: var(--item-color-text-muted);
+    --card-gap: var(--item-gap);
+    --card-media-color-background: var(--item-media-color-background);
+    --card-media-order: var(--item-media-order);
+    --card-media-ratio: var(--item-media-ratio);
+    --card-order: var(--item-order);
+    --card-padding-x: var(--item-padding-x);
+    --card-padding-y: var(--item-padding-y);
+    --card-shadow: var(--item-shadow);
+    --card-shadow-hover: var(--item-shadow-hover);
+    --card-title-color: var(--item-title-color);
+    --card-title-font-size: var(--item-title-font-size);
+    --card-title-font-weight: var(--item-title-font-weight);
+    --card-title-line-height: var(--item-title-line-height);
+    --card-transition: box-shadow var(--duration-normal) var(--easing-default);
   }
 }

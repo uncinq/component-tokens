@@ -1,9 +1,13 @@
-/* tokens/component/figure.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/figure.css */
 @layer config {
   :root {
-    --figure-gap:                  var(--spacing-xs);
-    --figure-figcaption-gap:       var(--spacing-xs);
-    --figure-figcaption-font-size: var(--font-size-small);
-    --figure-margin-block:         var(--spacing-md);
+    --figure-figcaption-font-size: var(--font-size-sm);
+    --figure-figcaption-gap: var(--spacing-xs);
+    --figure-gap: var(--spacing-xs);
+    --figure-margin-y: var(--spacing-md);
   }
 }

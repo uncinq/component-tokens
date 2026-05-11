@@ -1,7 +1,11 @@
-/* tokens/component/media.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/media.css */
 @layer config {
   :root {
-    --media-color-background:    var(--color-background-media);
-    --media-ratio:       var(--ratio-16-9);
+    --media-color-background: var(--color-background-media);
+    --media-ratio: var(--ratio-video);
   }
 }

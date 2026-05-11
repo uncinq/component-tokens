@@ -1,20 +1,17 @@
-/* tokens/component/badge.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/badge.css */
 @layer config {
   :root {
-    /* Border */
     --badge-border-radius: var(--radius-pill);
     --badge-border-style: solid;
     --badge-border-width: 0;
-
-    /* Color */
     --badge-color-border: transparent;
-
-    /* Spacing */
-    --badge-padding-x: var(--spacing-xs);
-    --badge-padding-y: var(--spacing-2xs);
-
-    /* Typography */
     --badge-font-size: var(--font-size-2xs);
     --badge-font-weight: var(--font-weight-control);
+    --badge-padding-x: var(--spacing-xs);
+    --badge-padding-y: var(--spacing-2xs);
   }
 }

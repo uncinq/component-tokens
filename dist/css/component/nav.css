@@ -1,22 +1,21 @@
-/* tokens/component/nav.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/nav.css */
 @layer config {
   :root {
-    /* Color */
-    --nav-color-text:        var(--color-link-default);
+    --nav-color-text: var(--color-link);
     --nav-color-text-active: var(--color-link-active);
-    --nav-color-text-hover:  var(--color-link-hover);
-    --nav-color-text-muted:  var(--color-text-muted);
-
-    /* Layout */
-    --nav-gap:               0;
-    --nav-margin-x:          0;
-    --nav-margin-y:          0;
-    --nav-padding-x:         var(--spacing-xs);
-    --nav-padding-y:         var(--spacing-xs);
-
-    /* Typography */
-    --nav-font-size:         var(--font-size-text);
-    --nav-font-size-title:   var(--font-size-md);
+    --nav-color-text-hover: var(--color-link-hover);
+    --nav-color-text-muted: var(--color-text-muted);
+    --nav-font-size: var(--font-size-text);
+    --nav-font-size-title: var(--font-size-md);
     --nav-font-weight-title: var(--font-weight-heading);
+    --nav-gap: 0;
+    --nav-margin-x: 0;
+    --nav-margin-y: 0;
+    --nav-padding-x: var(--spacing-xs);
+    --nav-padding-y: var(--spacing-xs);
   }
 }

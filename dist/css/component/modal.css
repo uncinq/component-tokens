@@ -1,25 +1,22 @@
-/* tokens/component/modal.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/modal.css */
 @layer config {
   :root {
-    /* Backdrop */
-    --modal-backdrop-blur:       var(--blur-backdrop);
-    --modal-backdrop-color:      var(--color-backdrop);
-
-    /* Color */
-    --modal-color-background:    var(--color-background-surface);
-    --modal-color-border:        var(--color-border-default);
-    --modal-color-text:          var(--color-text-on-surface);
-
-    /* Layout */
-    --modal-max-height:          none;
-    --modal-max-width:           30rem;
-    --modal-padding:             var(--spacing-surface);
-    --modal-radius:              var(--radius-surface);
-    --modal-shadow:              var(--shadow-surface);
-    --modal-z-index:             var(--z-index-modal);
-
-    /* Transition */
+    --modal-backdrop-blur: var(--blur-backdrop);
+    --modal-backdrop-color: var(--color-backdrop);
+    --modal-color-background: var(--color-background-surface);
+    --modal-color-border: var(--color-border);
+    --modal-color-text: var(--color-text-on-surface);
+    --modal-max-height: none;
+    --modal-max-width: 30rem;
+    --modal-padding: var(--spacing-surface);
+    --modal-radius: var(--radius-surface);
+    --modal-shadow: var(--shadow-surface);
     --modal-transition-duration: var(--duration-slow);
-    --modal-transition-easing:   var(--easing-out-expo);
+    --modal-transition-easing: var(--easing-out-expo);
+    --modal-z-index: var(--z-index-modal);
   }
 }

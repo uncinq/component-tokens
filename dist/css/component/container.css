@@ -1,26 +1,23 @@
-/* tokens/component/container.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/container.css */
 @layer config {
   :root {
-
-    /* Container */
-    --container-max-width-mobile:      100%;
-    --container-max-width-tablet:      100%;
+    --columns: 12;
+    --gap: var(--spacing-sm);
+    --container-max-width-mobile: 100%;
+    --container-max-width-tablet: 100%;
     --container-max-width-tablet-wide: 100%;
-    --container-max-width-laptop:      100%;
-    --container-max-width-desktop:     var(--size-desktop);
-    
-    /* Grid */
-    --columns:                         12;
-    --gap:                             var(--spacing-sm);
-    --gutter:                          var(--spacing-fluid-md);
-    --grid-column:                     var(--grid-column-mobile);
-
-    /* Grid spans */
-    --grid-column-mobile:              var(--span-full);
-    --grid-column-tablet:              var(--span-half);
-    --grid-column-tablet-wide:         var(--span-third);
-    --grid-column-laptop:              var(--span-quarter);
-    --grid-column-desktop:             var(--span-quarter);
-
+    --container-max-width-laptop: 100%;
+    --container-max-width-desktop: var(--size-desktop);
+    --grid-column: var(--grid-column-mobile);
+    --grid-column-desktop: var(--span-quarter);
+    --grid-column-laptop: var(--span-quarter);
+    --grid-column-mobile: var(--span-full);
+    --grid-column-tablet: var(--span-half);
+    --grid-column-tablet-wide: var(--span-third);
+    --gutter: var(--spacing-fluid-md);
   }
 }

@@ -1,31 +1,26 @@
-/* tokens/component/drawer.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/drawer.css */
 @layer config {
   :root {
-    /* Backdrop */
-    --drawer-backdrop-blur:            var(--blur-backdrop);
-    --drawer-backdrop-color:           var(--color-backdrop);
-
-    /* Color */
-    --drawer-color-background:         var(--color-background-surface);
-    --drawer-color-border:             var(--color-border-default);
-    --drawer-color-text:               var(--color-text-on-surface);
-
-    /* Layout */
-    --drawer-height:                   50vh;
-    --drawer-padding:                  var(--spacing-surface);
-    --drawer-shadow:                   var(--shadow-surface);
-    --drawer-width:                    320px;
-    --drawer-z-index:                  var(--z-index-drawer);
-
-    /* Position */
-    --drawer-bottom:                   0;
-    --drawer-end:                      0;
-    --drawer-start:                    auto;
-    --drawer-top:                      0;
-    --drawer-translate:                translateX(100%);
-
-    /* Transition */
-    --drawer-transition-duration:      var(--duration-slow);
-    --drawer-transition-easing:        var(--easing-out-expo);
+    --drawer-backdrop-blur: var(--blur-backdrop);
+    --drawer-backdrop-color: var(--color-backdrop);
+    --drawer-bottom: 0;
+    --drawer-color-background: var(--color-background-surface);
+    --drawer-color-border: var(--color-border);
+    --drawer-color-text: var(--color-text-on-surface);
+    --drawer-end: 0;
+    --drawer-height: 50vh;
+    --drawer-padding: var(--spacing-surface);
+    --drawer-shadow: var(--shadow-surface);
+    --drawer-start: auto;
+    --drawer-top: 0;
+    --drawer-transition-duration: var(--duration-slow);
+    --drawer-transition-easing: var(--easing-out-expo);
+    --drawer-translate: translateX(100%);
+    --drawer-width: 320px;
+    --drawer-z-index: var(--z-index-drawer);
   }
 }

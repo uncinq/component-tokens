@@ -1,4 +1,8 @@
-/* tokens/component/alert.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/alert.css */
 @layer config {
   :root {
     --alert-border-radius: var(--radius-none);

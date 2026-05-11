@@ -1,22 +1,17 @@
-/* tokens/component/embed.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/embed.css */
 @layer config {
   :root {
-    /* Border */
-    --embed-border:        var(--embed-border-width) var(--embed-border-style) var(--embed-color-border);
+    --embed-border: var(--embed-border-width) var(--embed-border-style) var(--embed-color-border);
     --embed-border-radius: var(--radius-none);
-    --embed-border-style:  var(--border-style-normal);
-    --embed-border-width:  var(--border-width-sm);
-
-    /* Color */
-    --embed-color-border:  var(--color-border-default);
-
-    /* Layout */
-    --embed-max-width:     100%;
-
-    /* Shadow */
-    --embed-box-shadow:    none;
-
-    /* Ratio */
-    --embed-ratio:         var(--ratio-16-9);
+    --embed-border-style: var(--border-style-normal);
+    --embed-border-width: var(--border-width-sm);
+    --embed-box-shadow: none;
+    --embed-color-border: var(--color-border);
+    --embed-max-width: 100%;
+    --embed-ratio: var(--ratio-video);
   }
 }

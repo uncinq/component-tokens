@@ -1,25 +1,20 @@
-/* tokens/component/breadcrumb.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/breadcrumb.css */
 @layer config {
   :root {
-    /* Border */
     --breadcrumb-border: var(--breadcrumb-border-width) var(--breadcrumb-border-style) var(--breadcrumb-color-border);
     --breadcrumb-border-style: var(--border-style-normal);
     --breadcrumb-border-width: var(--border-width-sm);
-
-    /* Color */
-    --breadcrumb-color-border: var(--color-border-default);
+    --breadcrumb-color-border: var(--color-border);
     --breadcrumb-color-separator: var(--color-text-muted);
     --breadcrumb-color-text: var(--color-text-muted);
-    --breadcrumb-color-text-active: var(--color-text-default);
-
-    /* Spacing */
-    --breadcrumb-gap: var(--spacing-xs);
-    --breadcrumb-padding: var(--spacing-xs);
-
-    /* Typography */
+    --breadcrumb-color-text-active: var(--color-text);
     --breadcrumb-font-size: var(--font-size-xs);
-
-    /* Visual */
+    --breadcrumb-gap: var(--spacing-xs);
+    --breadcrumb-padding-y: var(--spacing-xs);
     --breadcrumb-separator: "/";
   }
 }

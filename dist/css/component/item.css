@@ -1,58 +1,44 @@
-/* tokens/component/item.css */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* component/item.css */
 @layer config {
   :root {
-    
-    /* Border */
-    --item-border-radius:     var(--radius-surface);
-    --item-border-style:      var(--border-style-normal);
-    --item-border-width:      var(--border-width-sm);
-
-    /* Button */
-    --item-btn-border-width:  0;
-    --item-btn-color-background:      transparent;
-    --item-btn-color-text:    var(--color-brand-default);
-    --item-btn-padding:       0;
+    --item-border-radius: var(--radius-surface);
+    --item-border-style: var(--border-style-normal);
+    --item-border-width: var(--border-width-sm);
+    --item-btn-border-width: 0;
+    --item-btn-color-background: transparent;
+    --item-btn-color-text: var(--color-brand);
+    --item-btn-padding: 0;
     --item-btn-text-decoration: none;
     --item-btn-text-decoration-hover: underline;
-    
-    /* Color */
-    --item-color-background:          var(--color-background-default);
-    --item-color-border:      var(--color-border-default);
-    --item-color-text:        var(--color-text-default);
-    --item-color-text-muted:  var(--color-text-muted);
-    --item-color-title:       var(--color-text-default);
-
-    /* Font */
-    --item-font-size-title:   var(--font-size-md);
-    --item-font-weight-title: var(--font-weight-heading);
-    --item-line-height-title: var(--line-height-heading);
-
-    /* Content */
-    --item-gap:               var(--spacing-sm);
-    --item-order:             none;
-    --item-padding-x:         var(--spacing-card);
-    --item-padding-y:         var(--spacing-card);
-
-    /* Media */
-    --item-media-color-background:    var(--media-color-background);
-    --item-media-order:       -2;
-    --item-media-ratio:       var(--media-ratio);
-
-    /* Metas */
-    --item-metas-border:       var(--border-width-sm) var(--border-style-normal) var(--color-border-default);
-    --item-metas-border-end:   0;
+    --item-color-background: var(--color-background);
+    --item-color-border: var(--color-border);
+    --item-color-text: var(--color-text);
+    --item-color-text-muted: var(--color-text-muted);
+    --item-gap: var(--spacing-sm);
+    --item-media-color-background: var(--media-color-background);
+    --item-media-order: -2;
+    --item-media-ratio: var(--media-ratio);
+    --item-metas-border: var(--border-width-sm) var(--border-style-normal) var(--color-border);
+    --item-metas-border-end: 0;
     --item-metas-border-start: 0;
-    --item-metas-color-background:     var(--item-color-background);
-    --item-metas-font-size:    var(--font-size-2xs);
-    --item-metas-order:        -1;
-    --item-metas-padding-x:    var(--spacing-card);
-    --item-metas-padding-y:    var(--spacing-card) 0;
-
-    /* Shadow */
-    --item-shadow:            var(--shadow-sm);
-    --item-shadow-hover:      var(--shadow-md);
-
-    /* Transition */
+    --item-metas-color-background: var(--item-color-background);
+    --item-metas-font-size: var(--font-size-2xs);
+    --item-metas-order: -1;
+    --item-metas-padding-x: var(--spacing-card);
+    --item-metas-padding-y: var(--spacing-card) 0;
+    --item-order: none;
+    --item-padding-x: var(--spacing-card);
+    --item-padding-y: var(--spacing-card);
+    --item-shadow: var(--shadow-sm);
+    --item-shadow-hover: var(--shadow-md);
+    --item-title-color: var(--color-text);
+    --item-title-font-size: var(--font-size-md);
+    --item-title-font-weight: var(--font-weight-heading);
+    --item-title-line-height: var(--line-height-heading);
     --item-transition: box-shadow var(--duration-normal) var(--easing-default);
   }
 }
