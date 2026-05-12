@@ -10,6 +10,6 @@
     --list-item-marker: '-';
     --list-item-marker-gap: var(--spacing-2xs);
     --list-label-font-weight: var(--font-weight-bold);
-    --list-label-margin-y: var(--spacing-2xs);
+    --list-label-margin-block: var(--spacing-2xs);
   }
 }

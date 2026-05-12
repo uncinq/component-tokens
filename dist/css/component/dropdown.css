@@ -17,8 +17,8 @@
     --dropdown-item-color-background: var(--color-background);
     --dropdown-item-color-background-hover: var(--color-background-muted);
     --dropdown-item-font-size: var(--font-size-xs);
-    --dropdown-item-padding-x: var(--spacing-2xs);
-    --dropdown-item-padding-y: var(--spacing-2xs);
+    --dropdown-item-padding-inline: var(--spacing-2xs);
+    --dropdown-item-padding-block: var(--spacing-2xs);
     --dropdown-min-width: 12rem;
     --dropdown-padding: var(--size-4);
     --dropdown-shadow: var(--shadow-sm);

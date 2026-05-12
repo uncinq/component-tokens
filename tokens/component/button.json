@@ -103,13 +103,13 @@
       "$type": "dimension" 
     },
     "padding": {
-      "x": { 
-        "$value": "{spacing.control}", 
-        "$type": "dimension" 
+      "inline": {
+        "$value": "{spacing.control}",
+        "$type": "dimension"
       },
-      "y": { 
-        "$value": "{spacing.control}", 
-        "$type": "dimension" 
+      "block": {
+        "$value": "{spacing.control}",
+        "$type": "dimension"
       }
     },
     "shadow": {

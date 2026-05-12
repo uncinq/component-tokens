@@ -29,13 +29,13 @@
       "$type": "fontWeight"
     },
     "padding": {
-      "x": {
-        "$value": "{spacing.xs}", 
-        "$type": "dimension" 
+      "inline": {
+        "$value": "{spacing.xs}",
+        "$type": "dimension"
       },
-      "y": {
-        "$value": "{spacing.2xs}", 
-        "$type": "dimension" 
+      "block": {
+        "$value": "{spacing.2xs}",
+        "$type": "dimension"
       }
     }
   }

@@ -5,7 +5,7 @@
       "$type": "dimension"
     },
     "margin": {
-      "bottom": {
+      "blockEnd": {
         "$value": "{spacing.fluid.md}",
         "$type": "dimension"
       }

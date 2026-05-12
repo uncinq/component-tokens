@@ -11,7 +11,7 @@
     --badge-color-border: transparent;
     --badge-font-size: var(--font-size-2xs);
     --badge-font-weight: var(--font-weight-control);
-    --badge-padding-x: var(--spacing-xs);
-    --badge-padding-y: var(--spacing-2xs);
+    --badge-padding-inline: var(--spacing-xs);
+    --badge-padding-block: var(--spacing-2xs);
   }
 }

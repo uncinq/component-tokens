@@ -7,7 +7,7 @@
       }
     },
     "margin": {
-      "y": {
+      "block": {
         "$value": "{spacing.md}",
         "$type": "dimension"
       }

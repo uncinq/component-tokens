@@ -116,26 +116,26 @@
         "$type": "number"
       },
       "padding": {
-        "x": {
+        "inline": {
           "$value": "{spacing.card}",
           "$type": "dimension"
         },
-        "y": {
+        "block": {
           "$value": "{spacing.card} 0",
           "$type": "string"
         }
       }
     },
-    "order":   { 
+    "order":   {
       "$value": "none",
-      "$type": "string" 
+      "$type": "string"
     },
     "padding": {
-      "x": {
+      "inline": {
         "$value": "{spacing.card}",
         "$type": "dimension"
       },
-      "y": {
+      "block": {
         "$value": "{spacing.card}",
         "$type": "dimension"
       }

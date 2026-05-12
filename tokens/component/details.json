@@ -52,13 +52,13 @@
     },
     "content": {
       "padding": {
-        "x": {
-          "$value": "{spacing.sm}", 
-          "$type": "dimension" 
+        "inline": {
+          "$value": "{spacing.sm}",
+          "$type": "dimension"
         },
-        "y": {
-          "$value": "{spacing.sm}", 
-          "$type": "dimension" 
+        "block": {
+          "$value": "{spacing.sm}",
+          "$type": "dimension"
         }
       }
     },
@@ -76,13 +76,13 @@
         "$type": "fontWeight"
       },
       "padding": {
-        "x": {
-          "$value": "{spacing.sm}", 
-          "$type": "dimension" 
+        "inline": {
+          "$value": "{spacing.sm}",
+          "$type": "dimension"
         },
-        "y": {
-          "$value": "{spacing.sm}", 
-          "$type": "dimension" 
+        "block": {
+          "$value": "{spacing.sm}",
+          "$type": "dimension"
         }
       }
     }

@@ -15,12 +15,12 @@
     --details-icon: var(--icon-chevron);
     --details-icon-size: var(--icon-size);
     --details-margin: var(--spacing-sm);
-    --details-content-padding-x: var(--spacing-sm);
-    --details-content-padding-y: var(--spacing-sm);
+    --details-content-padding-inline: var(--spacing-sm);
+    --details-content-padding-block: var(--spacing-sm);
     --details-summary-font-family: var(--font-family-heading);
     --details-summary-font-size: var(--font-size-md);
     --details-summary-font-weight: var(--font-weight-heading);
-    --details-summary-padding-x: var(--spacing-sm);
-    --details-summary-padding-y: var(--spacing-sm);
+    --details-summary-padding-inline: var(--spacing-sm);
+    --details-summary-padding-block: var(--spacing-sm);
   }
 }

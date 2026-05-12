@@ -5,8 +5,8 @@
 /* component/table.css */
 @layer config {
   :root {
-    --table-cell-padding-x: var(--spacing-sm);
-    --table-cell-padding-y: var(--spacing-xs);
+    --table-cell-padding-inline: var(--spacing-sm);
+    --table-cell-padding-block: var(--spacing-xs);
     --table-color-background-header: var(--color-background-muted);
     --table-color-background-striped: var(--color-background-muted);
     --table-color-border: var(--color-border);

@@ -6,6 +6,6 @@
 @layer config {
   :root {
     --heading-gap: var(--spacing-xs);
-    --heading-margin-bottom: var(--spacing-fluid-md);
+    --heading-margin-block-end: var(--spacing-fluid-md);
   }
 }

@@ -6,7 +6,7 @@
 @layer config {
   :root {
     --map-color-background: var(--color-background-muted);
-    --map-margin-y: var(--spacing-md);
+    --map-margin-block: var(--spacing-md);
     --map-ratio: var(--ratio-cinema);
     --map-ratio-mobile: var(--ratio-landscape);
   }

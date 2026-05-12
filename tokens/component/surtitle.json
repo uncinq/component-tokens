@@ -41,7 +41,7 @@
       "$type": "number"
     },
     "margin": {
-      "y": {
+      "block": {
         "$value": "0 {spacing.2xs}",
         "$type": "string"
       }

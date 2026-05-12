@@ -14,7 +14,7 @@
     --breadcrumb-color-text-active: var(--color-text);
     --breadcrumb-font-size: var(--font-size-xs);
     --breadcrumb-gap: var(--spacing-xs);
-    --breadcrumb-padding-y: var(--spacing-xs);
+    --breadcrumb-padding-block: var(--spacing-xs);
     --breadcrumb-separator: "/";
   }
 }

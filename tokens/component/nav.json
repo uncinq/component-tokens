@@ -29,22 +29,22 @@
       "$type": "dimension"
     },
     "margin": {
-      "x": {
+      "inline": {
         "$value": "0",
         "$type": "dimension"
       },
-      "y": {
+      "block": {
         "$value": "0",
         "$type": "dimension"
       }
     },
     "padding": {
-      "x": { 
-        "$value": "{spacing.xs}", 
+      "inline": {
+        "$value": "{spacing.xs}",
         "$type": "dimension"
       },
-      "y": { 
-        "$value": "{spacing.xs}", 
+      "block": {
+        "$value": "{spacing.xs}",
         "$type": "dimension"
       }
     },

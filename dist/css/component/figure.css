@@ -8,6 +8,6 @@
     --figure-figcaption-font-size: var(--font-size-sm);
     --figure-figcaption-gap: var(--spacing-xs);
     --figure-gap: var(--spacing-xs);
-    --figure-margin-y: var(--spacing-md);
+    --figure-margin-block: var(--spacing-md);
   }
 }

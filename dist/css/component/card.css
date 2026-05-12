@@ -18,8 +18,8 @@
     --card-media-order: var(--item-media-order);
     --card-media-ratio: var(--item-media-ratio);
     --card-order: var(--item-order);
-    --card-padding-x: var(--item-padding-x);
-    --card-padding-y: var(--item-padding-y);
+    --card-padding-inline: var(--item-padding-inline);
+    --card-padding-block: var(--item-padding-block);
     --card-shadow: var(--item-shadow);
     --card-shadow-hover: var(--item-shadow-hover);
     --card-title-color: var(--item-title-color);

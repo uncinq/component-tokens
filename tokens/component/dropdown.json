@@ -62,11 +62,11 @@
         "$type": "dimension"
       },
       "padding": {
-        "x": {
+        "inline": {
           "$value": "{spacing.2xs}",
           "$type": "dimension"
         },
-        "y": {
+        "block": {
           "$value": "{spacing.2xs}",
           "$type": "dimension"
         }

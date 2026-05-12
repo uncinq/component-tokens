@@ -43,7 +43,7 @@
       "$type": "dimension" 
     },
     "padding": {
-      "y": {
+      "block": {
         "$value": "{spacing.xs}",
         "$type": "dimension"
       }

@@ -2,11 +2,11 @@
   "table": {
     "cell": {
       "padding": {
-        "x": {
+        "inline": {
           "$value": "{spacing.sm}",
           "$type": "dimension"
         },
-        "y": {
+        "block": {
           "$value": "{spacing.xs}",
           "$type": "dimension"
         }

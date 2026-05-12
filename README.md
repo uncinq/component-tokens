@@ -70,9 +70,9 @@ The property mirrors the CSS property name, so the token reads the same way as t
 --btn-color-text-decoration: transparent;
 
 /* Spacing */
---btn-gap:       var(--spacing-xs);
---btn-padding-x: var(--spacing-control);
---btn-padding-y: var(--spacing-control);
+--btn-gap:                   var(--spacing-xs);
+--btn-padding-inline:        var(--spacing-control);
+--btn-padding-block:         var(--spacing-control);
 ```
 
 ### Examples
@@ -82,8 +82,8 @@ The property mirrors the CSS property name, so the token reads the same way as t
 --btn-color-border:     var(--color-brand);
 --btn-color-text:       var(--color-text-on-brand);
 --btn-border-radius:    var(--radius-control);
---btn-padding-x:        var(--spacing-control);
---btn-padding-y:        var(--spacing-control);
+--btn-padding-inline:   var(--spacing-control);
+--btn-padding-block:    var(--spacing-control);
 
 --badge-border-radius:   var(--radius-sm);
 --badge-color-background: var(--color-background-muted);
