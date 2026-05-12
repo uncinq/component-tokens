@@ -6,11 +6,9 @@
         "$type": "dimension" 
       }
     },
-    "font": {
-      "size": {
-        "$value": "{fontSize.small}", 
-        "$type": "dimension" 
-      }
+    "fontSize": {
+      "$value": "{fontSize.small}",
+      "$type": "dimension"
     },
     "gap":     {
       "$value": "{spacing.sm}", 

@@ -57,11 +57,9 @@
           }
         }
       },
-      "font": {
-        "size": {
-          "$value": "{fontSize.xs}",
-          "$type": "dimension"
-        }
+      "fontSize": {
+        "$value": "{fontSize.xs}",
+        "$type": "dimension"
       },
       "padding": {
         "x": {

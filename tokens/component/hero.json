@@ -47,11 +47,9 @@
         "$value": "{color.text.default}",
         "$type": "color"
       },
-      "font": {
-        "size": {
-          "$value": "{fontSize.heading.01}",
-          "$type": "dimension"
-        }
+      "fontSize": {
+        "$value": "{fontSize.heading.01}",
+        "$type": "dimension"
       }
     }
   }

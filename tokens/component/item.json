@@ -35,16 +35,14 @@
         "$value": "0",
         "$type": "dimension"
       },
-      "text": {
-        "decoration": {
-          "default": {
-            "$value": "none",
-            "$type": "string"
-          },
-          "hover": {
-            "$value": "underline",
-            "$type": "string"
-          }
+      "textDecoration": {
+        "default": {
+          "$value": "none",
+          "$type": "string"
+        },
+        "hover": {
+          "$value": "underline",
+          "$type": "string"
         }
       }
     },
@@ -109,11 +107,9 @@
           "$type": "color"
         }
       },
-      "font": {
-        "size": {
-          "$value": "{fontSize.2xs}",
-          "$type": "dimension"
-        }
+      "fontSize": {
+        "$value": "{fontSize.2xs}",
+        "$type": "dimension"
       },
       "order": {
         "$value": -1,
@@ -159,21 +155,17 @@
         "$value": "{color.text.default}", 
         "$type": "color" 
       },
-      "font": {
-        "size":   { 
-          "$value": "{fontSize.md}", 
-          "$type": "dimension" 
-        },
-        "weight": { 
-          "$value": "{fontWeight.heading}", 
-          "$type": "fontWeight" 
-        }
+      "fontSize": {
+        "$value": "{fontSize.md}",
+        "$type": "dimension"
       },
-      "line": {
-        "height": { 
-          "$value": "{lineHeight.heading}", 
-          "$type": "number" 
-        }
+      "fontWeight": {
+        "$value": "{fontWeight.heading}",
+        "$type": "fontWeight"
+      },
+      "lineHeight": {
+        "$value": "{lineHeight.heading}",
+        "$type": "number"
       }
     },
     "transition": { 

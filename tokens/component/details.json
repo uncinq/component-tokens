@@ -63,19 +63,17 @@
       }
     },
     "summary": {
-      "font": {
-        "family": { 
-          "$value": "{fontFamily.heading}", 
-          "$type": "fontFamily" 
-        },
-        "size":   { 
-          "$value": "{fontSize.md}", 
-          "$type": "dimension" 
-        },
-        "weight": { 
-          "$value": "{fontWeight.heading}", 
-          "$type": "fontWeight" 
-        }
+      "fontFamily": {
+        "$value": "{fontFamily.heading}",
+        "$type": "fontFamily"
+      },
+      "fontSize": {
+        "$value": "{fontSize.md}",
+        "$type": "dimension"
+      },
+      "fontWeight": {
+        "$value": "{fontWeight.heading}",
+        "$type": "fontWeight"
       },
       "padding": {
         "x": {

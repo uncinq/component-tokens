@@ -1,7 +1,7 @@
 {
   "link": {
     "color": {
-      "text-decoration": {
+      "textDecoration": {
         "default": {
           "$value": "initial",
           "$type": "color"
@@ -12,11 +12,9 @@
         }
       }
     },
-    "text": {
-      "decorationLine": {
-        "$value": "underline",
-        "$type": "string"
-      }
+    "textDecorationLine": {
+      "$value": "underline",
+      "$type": "string"
     },
     "transition": {
       "$value": "{transition.color}",

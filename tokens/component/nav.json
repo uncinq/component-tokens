@@ -20,23 +20,9 @@
         }
       }
     },
-    "font": {
-      "size": {
-        "default": { 
-          "$value": "{fontSize.text}", 
-          "$type": "dimension"
-        },
-        "title": { 
-          "$value": "{fontSize.md}", 
-          "$type": "dimension"
-        }
-      },
-      "weight": {
-        "title": {
-          "$value": "{fontWeight.heading}", 
-          "$type": "fontWeight"
-        }
-      }
+    "fontSize": {
+      "$value": "{fontSize.text}", 
+      "$type": "dimension"
     },
     "gap": {
       "$value": "0",
@@ -60,6 +46,16 @@
       "y": { 
         "$value": "{spacing.xs}", 
         "$type": "dimension"
+      }
+    },
+    "title": {
+      "fontSize": {
+        "$value": "{fontSize.md}", 
+        "$type": "dimension"
+      },
+      "fontWeight": {
+        "$value": "{fontWeight.heading}", 
+        "$type": "fontWeight"
       }
     }
   }

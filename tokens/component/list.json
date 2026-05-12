@@ -1,30 +1,35 @@
 {
   "list": {
     "item": {
-      "font": {
-        "size": {
-          "$value": "{fontSize.sm}",
-          "$type": "dimension"
-        }
+      "fontSize": {
+        "$value": "{fontSize.sm}",
+        "$type": "dimension"
       },
       "gap": {
         "$value": "{spacing.2xs}",
         "$type": "dimension"
       },
       "marker": {
-        "default": { "$value": "'-'",          "$type": "string" },
-        "gap":     { "$value": "{spacing.2xs}", "$type": "dimension" }
+        "default": {
+          "$value": "'-'",
+          "$type": "string"
+        },
+        "gap": {
+          "$value": "{spacing.2xs}",
+          "$type": "dimension"
+        }
       }
     },
     "label": {
-      "font": {
-        "weight": {
-          "$value": "{fontWeight.bold}",
-          "$type": "fontWeight"
-        }
+      "fontWeight": {
+        "$value": "{fontWeight.bold}",
+        "$type": "fontWeight"
       },
       "margin": {
-        "y": { "$value": "{spacing.2xs}", "$type": "dimension" }
+        "y": {
+          "$value": "{spacing.2xs}",
+          "$type": "dimension"
+        }
       }
     }
   }

@@ -4,35 +4,31 @@
       "$value": "{color.text.default}",
       "$type": "color"
     },
-    "font": {
-      "family": {
-        "$value": "{fontFamily.heading}",
-        "$type": "fontFamily"
-      },
-      "size": {
-        "$value": "{fontSize.md}",
-        "$type": "dimension"
-      },
-      "weight": {
-        "$value": "{fontWeight.heading}",
-        "$type": "fontWeight"
-      }
+    "fontFamily": {
+      "$value": "{fontFamily.heading}",
+      "$type": "fontFamily"
+    },
+    "fontSize": {
+      "$value": "{fontSize.md}",
+      "$type": "dimension"
+    },
+    "fontWeight": {
+      "$value": "{fontWeight.heading}",
+      "$type": "fontWeight"
     },
     "height": {
       "default": {
-        "$value": "1.5rem",
+        "$value": "{size.24}",
         "$type": "dimension"
       },
       "tablet": {
-        "$value": "2rem",
+        "$value": "{size.32}",
         "$type": "dimension"
       }
     },
-    "letter": {
-      "spacing": {
-        "$value": "{letterSpacing.none}",
-        "$type": "dimension"
-      }
+    "letterSpacing": {
+      "$value": "0",
+      "$type": "dimension"
     }
   }
 }

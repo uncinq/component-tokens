@@ -60,11 +60,11 @@
       "color": {
         "background": {
           "default": { 
-            "$value": "{color.background.muted}", 
+            "$value": "{color.background.muted.default}", 
             "$type": "color" 
           },
           "hover":   { 
-            "$value": "{color.background.mutedHover}", 
+            "$value": "{color.background.muted.hover}", 
             "$type": "color" 
           }
         },
@@ -90,15 +90,13 @@
         }
       }
     },
-    "font": {
-      "size":   { 
-        "$value": "{fontSize.sm}", 
-        "$type": "dimension" 
-      },
-      "weight": { 
-        "$value": "{fontWeight.control}", 
-        "$type": "fontWeight" 
-      }
+    "fontSize": {
+      "$value": "{fontSize.sm}",
+      "$type": "dimension"
+    },
+    "fontWeight": {
+      "$value": "{fontWeight.control}",
+      "$type": "fontWeight"
     },
     "gap":     { 
       "$value": "{spacing.xs}", 
@@ -116,23 +114,21 @@
     },
     "shadow": {
       "default": { 
-        "$value": "{shadow.control}", 
+        "$value": "{shadow.control.default}", 
         "$type": "shadow"
       },
       "hover":   {
-        "$value": "{shadow.controlHover}",
+        "$value": "{shadow.control.hover}",
         "$type": "shadow"
       }
     },
-    "text": {
-      "decorationLine": { 
-        "$value": "underline", 
-        "$type": "string" 
-      },
-      "transform":      { 
-        "$value": "none", 
-        "$type": "string" 
-      }
+    "textDecorationLine": {
+      "$value": "underline",
+      "$type": "string"
+    },
+    "textTransform": {
+      "$value": "none",
+      "$type": "string"
     },
     "transition": { 
       "$value": "{transition.color}", 

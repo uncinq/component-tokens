@@ -11,40 +11,34 @@
       }
     },
     "color": {
-      "default": { 
-        "$value": "{color.text.muted}", 
-        "$type": "color" 
+      "default": {
+        "$value": "{color.text.muted}",
+        "$type": "color"
       },
-      "background": { 
-        "$value": "transparent", 
-        "$type": "color" 
+      "background": {
+        "$value": "transparent",
+        "$type": "color"
       },
-      "border":     { 
-        "$value": "transparent", 
-        "$type": "color" 
+      "border":     {
+        "$value": "transparent",
+        "$type": "color"
       }
     },
-    "font": {
-      "size": { 
-        "$value": "{fontSize.xs}", 
-        "$type": "dimension" 
-      },
-      "weight":  { 
-        "$value": "{fontWeight.bold}", 
-        "$type": "fontWeight" 
-      }
+    "fontSize": {
+      "$value": "{fontSize.xs}",
+      "$type": "dimension"
     },
-    "letter": {
-      "spacing": { 
-        "$value": "{letterSpacing.md}", 
-        "$type": "dimension" 
-      }
+    "fontWeight": {
+      "$value": "{fontWeight.bold}",
+      "$type": "fontWeight"
     },
-    "line": {
-      "height": { 
-        "$value": "{lineHeight.normal}", 
-        "$type": "number" 
-      }
+    "letterSpacing": {
+      "$value": "{letterSpacing.md}",
+      "$type": "dimension"
+    },
+    "lineHeight": {
+      "$value": "{lineHeight.normal}",
+      "$type": "number"
     },
     "margin": {
       "y": {
@@ -53,14 +47,12 @@
       }
     },
     "padding": {
-      "$value": "0", 
-      "$type": "dimension" 
+      "$value": "0",
+      "$type": "dimension"
     },
-    "text": {
-      "transform": {
-        "$value": "uppercase", 
-        "$type": "string" 
-      }
+    "textTransform": {
+      "$value": "uppercase",
+      "$type": "string"
     }
   }
 }

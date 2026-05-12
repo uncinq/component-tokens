@@ -1,11 +1,9 @@
 {
   "figure": {
     "figcaption": {
-      "font": {
-        "size": {
-          "$value": "{fontSize.sm}",
-          "$type": "dimension"
-        }
+      "fontSize": {
+        "$value": "{fontSize.sm}",
+        "$type": "dimension"
       },
       "gap": {
         "$value": "{spacing.xs}",

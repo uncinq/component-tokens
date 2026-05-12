@@ -87,21 +87,17 @@
         "$value": "{item.title.color}",
         "$type": "color"
       },
-      "font": {
-        "size": {
-          "$value": "{item.title.font.size}",
-          "$type": "dimension"
-        },
-        "weight": {
-          "$value": "{item.title.font.weight}",
-          "$type": "fontWeight"
-        }
+      "fontSize": {
+        "$value": "{item.title.fontSize}",
+        "$type": "dimension"
       },
-      "line": {
-        "height": {
-          "$value": "{item.title.line.height}",
-          "$type": "number"
-        }
+      "fontWeight": {
+        "$value": "{item.title.fontWeight}",
+        "$type": "fontWeight"
+      },
+      "lineHeight": {
+        "$value": "{item.title.lineHeight}",
+        "$type": "number"
       }
     },
     "transition": {

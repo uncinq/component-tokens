@@ -69,15 +69,13 @@
           }
         }
       },
-      "font": {
-        "size": {
-          "$value": "{fontSize.sm}",
-          "$type": "dimension"
-        },
-        "weight": {
-          "$value": "{fontWeight.normal}",
-          "$type": "fontWeight"
-        }
+      "fontSize": {
+        "$value": "{fontSize.sm}",
+        "$type": "dimension"
+      },
+      "fontWeight": {
+        "$value": "{fontWeight.normal}",
+        "$type": "fontWeight"
       },
       "size": {
         "$value": "2.25rem",
