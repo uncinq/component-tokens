@@ -100,7 +100,6 @@ CSS property names that are two words (kebab-case in CSS) are written as a singl
 | `"textTransform"` | `--btn-text-transform` |
 | `"maxHeight"` | `--btn-max-height` |
 | `"maxWidth"` | `--btn-max-width` |
-| `"marginTop"` | `--btn-margin-top` |
 
 ```json
 // ✅ correct
