@@ -9,8 +9,8 @@
     --logo-font-family: var(--font-family-heading);
     --logo-font-size: var(--font-size-md);
     --logo-font-weight: var(--font-weight-heading);
-    --logo-height: 1.5rem;
-    --logo-height-tablet: 2rem;
-    --logo-letter-spacing: var(--letter-spacing-none);
+    --logo-height: var(--size-24);
+    --logo-height-tablet: var(--size-32);
+    --logo-letter-spacing: 0;
   }
 }

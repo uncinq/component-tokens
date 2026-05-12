@@ -10,12 +10,12 @@
     --nav-color-text-hover: var(--color-link-hover);
     --nav-color-text-muted: var(--color-text-muted);
     --nav-font-size: var(--font-size-text);
-    --nav-font-size-title: var(--font-size-md);
-    --nav-font-weight-title: var(--font-weight-heading);
     --nav-gap: 0;
     --nav-margin-x: 0;
     --nav-margin-y: 0;
     --nav-padding-x: var(--spacing-xs);
     --nav-padding-y: var(--spacing-xs);
+    --nav-title-font-size: var(--font-size-md);
+    --nav-title-font-weight: var(--font-weight-heading);
   }
 }
