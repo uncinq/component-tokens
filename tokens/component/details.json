@@ -50,9 +50,17 @@
       "$value": "{spacing.sm}", 
       "$type": "dimension" 
     },
-    "padding": { 
-      "$value": "{spacing.sm}", 
-      "$type": "dimension" 
+    "content": {
+      "padding": {
+        "x": {
+          "$value": "{spacing.sm}", 
+          "$type": "dimension" 
+        },
+        "y": {
+          "$value": "{spacing.sm}", 
+          "$type": "dimension" 
+        }
+      }
     },
     "summary": {
       "font": {
@@ -67,6 +75,16 @@
         "weight": { 
           "$value": "{fontWeight.heading}", 
           "$type": "fontWeight" 
+        }
+      },
+      "padding": {
+        "x": {
+          "$value": "{spacing.sm}", 
+          "$type": "dimension" 
+        },
+        "y": {
+          "$value": "{spacing.sm}", 
+          "$type": "dimension" 
         }
       }
     }
