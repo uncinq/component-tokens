@@ -52,7 +52,7 @@
             "$type": "color"
           },
           "hover": {
-            "$value": "{color.background.muted}",
+            "$value": "{color.background.muted.default}",
             "$type": "color"
           }
         }

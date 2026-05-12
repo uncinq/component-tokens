@@ -15,11 +15,11 @@
     "color": {
       "background": {
         "header": {
-          "$value": "{color.background.muted}",
+          "$value": "{color.background.muted.default}",
           "$type": "color"
         },
         "striped": {
-          "$value": "{color.background.muted}",
+          "$value": "{color.background.muted.default}",
           "$type": "color"
         }
       },
