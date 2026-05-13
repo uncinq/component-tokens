@@ -78,10 +78,10 @@ StyleDictionary.registerFormat({
 
 const tokenFiles = getTokenFiles('./tokens');
 
-// Use published JSON tokens when available, fall back to local sibling repo
-const designTokensPath = fs.existsSync('./node_modules/@uncinq/design-tokens/tokens/primitive/color.json')
-  ? './node_modules/@uncinq/design-tokens/tokens'
-  : '../design-tokens/tokens';
+const designTokensPath = './node_modules/@uncinq/design-tokens/tokens';
+if (!fs.existsSync(designTokensPath)) {
+  throw new Error('Missing @uncinq/design-tokens — run npm install first.');
+}
 
 export default {
   usesDtcg: true,
