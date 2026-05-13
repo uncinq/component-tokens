@@ -28,7 +28,7 @@
   "exports": {
     ".": "./dist/css/index.css",
     "./css/index.css": "./dist/css/index.css",
-    "./css/component/*": "./dist/css/component/*",
+    "./css/components/*": "./dist/css/components/*",
     "./tokens/*": "./tokens/*"
   },
   "style": "./dist/css/index.css",
