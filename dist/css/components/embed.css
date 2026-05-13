@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-/* component/embed.css */
+/* components/embed.css */
 @layer config {
   :root {
     --embed-border: var(--embed-border-width) var(--embed-border-style) var(--embed-color-border);

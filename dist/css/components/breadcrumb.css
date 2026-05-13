@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-/* component/breadcrumb.css */
+/* components/breadcrumb.css */
 @layer config {
   :root {
     --breadcrumb-border: var(--breadcrumb-border-width) var(--breadcrumb-border-style) var(--breadcrumb-color-border);

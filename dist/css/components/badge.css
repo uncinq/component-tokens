@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-/* component/badge.css */
+/* components/badge.css */
 @layer config {
   :root {
     --badge-border-radius: var(--radius-pill);

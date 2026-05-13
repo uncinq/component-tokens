@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-/* component/card.css */
+/* components/card.css */
 @layer config {
   :root {
     --card-border: var(--card-border-width) var(--card-border-style) var(--card-color-border);

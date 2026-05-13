@@ -2,16 +2,16 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-/* component/container.css */
+/* components/container.css */
 @layer config {
   :root {
     --columns: 12;
-    --gap: var(--spacing-sm);
     --container-max-width-mobile: 100%;
     --container-max-width-tablet: 100%;
     --container-max-width-tablet-wide: 100%;
     --container-max-width-laptop: 100%;
     --container-max-width-desktop: var(--size-desktop);
+    --gap: var(--spacing-sm);
     --grid-column: var(--grid-column-mobile);
     --grid-column-desktop: var(--span-quarter);
     --grid-column-laptop: var(--span-quarter);
