@@ -1,10 +1,6 @@
 {
   "embed": {
     "border": {
-      "default": { 
-        "$value": "{embed.border.width} {embed.border.style} {embed.color.border}", 
-        "$type": "string" 
-      },
       "radius":  { 
         "$value": "{radius.none}", 
         "$type": "dimension" 

@@ -1,10 +1,6 @@
 {
   "breadcrumb": {
     "border": {
-      "default": { 
-        "$value": "{breadcrumb.border.width} {breadcrumb.border.style} {breadcrumb.color.border}", 
-        "$type": "string" 
-      },
       "style":   { 
         "$value": "{border.style.normal}", 
         "$type": "strokeStyle" 

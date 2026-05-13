@@ -5,7 +5,6 @@
 /* components/breadcrumb.css */
 @layer config {
   :root {
-    --breadcrumb-border: var(--breadcrumb-border-width) var(--breadcrumb-border-style) var(--breadcrumb-color-border);
     --breadcrumb-border-style: var(--border-style-normal);
     --breadcrumb-border-width: var(--border-width-sm);
     --breadcrumb-color-border: var(--color-border);

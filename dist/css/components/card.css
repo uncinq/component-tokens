@@ -5,7 +5,6 @@
 /* components/card.css */
 @layer config {
   :root {
-    --card-border: var(--card-border-width) var(--card-border-style) var(--card-color-border);
     --card-border-radius: var(--item-border-radius);
     --card-border-style: var(--item-border-style);
     --card-border-width: var(--item-border-width);
@@ -26,6 +25,6 @@
     --card-title-font-size: var(--item-title-font-size);
     --card-title-font-weight: var(--item-title-font-weight);
     --card-title-line-height: var(--item-title-line-height);
-    --card-transition: box-shadow var(--duration-normal) var(--easing-default);
+    --card-transition: var(--transition-box-shadow);
   }
 }

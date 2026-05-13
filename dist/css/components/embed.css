@@ -5,7 +5,6 @@
 /* components/embed.css */
 @layer config {
   :root {
-    --embed-border: var(--embed-border-width) var(--embed-border-style) var(--embed-color-border);
     --embed-border-radius: var(--radius-none);
     --embed-border-style: var(--border-style-normal);
     --embed-border-width: var(--border-width-sm);

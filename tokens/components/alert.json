@@ -4,6 +4,14 @@
       "radius": {
         "$value": "{radius.none}", 
         "$type": "dimension" 
+      },
+      "style":   { 
+        "$value": "{border.style.normal}", 
+        "$type": "strokeStyle" 
+      },
+      "width":   { 
+        "$value": "{border.width.sm}", 
+        "$type": "dimension" 
       }
     },
     "fontSize": {

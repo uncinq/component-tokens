@@ -88,10 +88,6 @@
     },
     "metas": {
       "border": {
-        "default": {
-          "$value": "{border.width.sm} {border.style.normal} {color.border.default}",
-          "$type": "string"
-        },
         "end": {
           "$value": "0",
           "$type": "dimension"
@@ -121,8 +117,14 @@
           "$type": "dimension"
         },
         "block": {
-          "$value": "{spacing.card} 0",
-          "$type": "string"
+          "start": {
+            "$value": "{spacing.card}",
+            "$type": "dimension"
+          },
+          "end": {
+            "$value": "0",
+            "$type": "dimension"
+          }
         }
       }
     },
@@ -169,7 +171,7 @@
       }
     },
     "transition": { 
-      "$value": "box-shadow var(--duration-normal) var(--easing-default)",
+      "$value": "{transition.boxShadow}",
       "$type": "string" 
     }
   }
