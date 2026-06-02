@@ -3,7 +3,7 @@
  */
 
 /* components/alert.css */
-@layer config {
+@layer tokens {
   :root {
     --alert-border-radius: var(--radius-none);
     --alert-border-style: var(--border-style-normal);

@@ -31,7 +31,7 @@
           "$type": "color" 
         },
         "hover":   { 
-          "$value": "{color.brand.default}", 
+          "$value": "{color.brand.hover}", 
           "$type": "color" 
         }
       },

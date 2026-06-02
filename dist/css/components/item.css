@@ -3,7 +3,7 @@
  */
 
 /* components/item.css */
-@layer config {
+@layer tokens {
   :root {
     --item-border-radius: var(--radius-surface);
     --item-border-style: var(--border-style-normal);

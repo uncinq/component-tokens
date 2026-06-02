@@ -3,7 +3,7 @@
  */
 
 /* components/details.css */
-@layer config {
+@layer tokens {
   :root {
     --details-border-radius: var(--radius-surface);
     --details-box-shadow: var(--shadow-sm);

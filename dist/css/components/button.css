@@ -3,7 +3,7 @@
  */
 
 /* components/button.css */
-@layer config {
+@layer tokens {
   :root {
     --btn-border-radius: var(--radius-control);
     --btn-border-style: var(--border-style-normal);

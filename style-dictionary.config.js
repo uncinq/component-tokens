@@ -50,7 +50,7 @@ StyleDictionary.registerTransformGroup({
 });
 
 // -------------------------------------------------------
-// Format — @layer config
+// Format — @layer tokens
 // -------------------------------------------------------
 
 StyleDictionary.registerFormat({
@@ -68,7 +68,7 @@ StyleDictionary.registerFormat({
 
     const header = '/**\n * Do not edit directly, this file was auto-generated.\n */';
 
-    return `${header}\n\n/* ${file.destination} */\n@layer config {\n  :root {\n${allVars}\n  }\n}\n`;
+    return `${header}\n\n/* ${file.destination} */\n@layer tokens {\n  :root {\n${allVars}\n  }\n}\n`;
   },
 });
 

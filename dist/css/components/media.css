@@ -3,7 +3,7 @@
  */
 
 /* components/media.css */
-@layer config {
+@layer tokens {
   :root {
     --media-color-background: var(--color-background-media);
     --media-ratio: var(--ratio-video);

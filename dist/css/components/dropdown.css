@@ -3,7 +3,7 @@
  */
 
 /* components/dropdown.css */
-@layer config {
+@layer tokens {
   :root {
     --dropdown-border-radius: var(--radius-surface);
     --dropdown-border-style: var(--border-style-normal);

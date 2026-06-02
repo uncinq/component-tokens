@@ -97,13 +97,13 @@ The property mirrors the CSS property name, so the token reads the same way as t
 
 ## CSS cascade layers
 
-All tokens are declared inside `@layer config`, the lowest-priority layer in the stack. This means any project can override any token simply by declaring its own `@layer config` block after this package:
+All tokens are declared inside `@layer tokens`, the lowest-priority layer in the stack. This means any project can override any token simply by declaring its own `@layer tokens` block after this package:
 
 ```css
 @import '@uncinq/component-tokens';
 
 /* your project overrides — same layer, wins by source order */
-@layer config {
+@layer tokens {
   :root {
     --btn-color-background: var(--color-secondary);
     --hero-min-height: 80svh;
@@ -160,12 +160,12 @@ yarn add @uncinq/component-tokens
 
 ### CSS override (recommended)
 
-Re-declare any token inside `@layer config` after the import. Same layer, later source order wins:
+Re-declare any token inside `@layer tokens` after the import. Same layer, later source order wins:
 
 ```css
 @import '@uncinq/component-tokens';
 
-@layer config {
+@layer tokens {
   :root {
     --btn-color-background: var(--color-secondary);
     --btn-border-radius: 0;

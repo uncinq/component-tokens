@@ -3,7 +3,7 @@
  */
 
 /* components/drawer.css */
-@layer config {
+@layer tokens {
   :root {
     --drawer-backdrop-blur: var(--blur-backdrop);
     --drawer-backdrop-color: var(--color-backdrop);

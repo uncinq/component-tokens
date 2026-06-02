@@ -3,7 +3,7 @@
  */
 
 /* components/items.css */
-@layer config {
+@layer tokens {
   :root {
     --items-cols: auto-fill;
     --items-gap: var(--gap);

@@ -3,7 +3,7 @@
  */
 
 /* components/embed.css */
-@layer config {
+@layer tokens {
   :root {
     --embed-border-radius: var(--radius-none);
     --embed-border-style: var(--border-style-normal);

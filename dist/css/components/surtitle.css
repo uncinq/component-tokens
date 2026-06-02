@@ -3,7 +3,7 @@
  */
 
 /* components/surtitle.css */
-@layer config {
+@layer tokens {
   :root {
     --surtitle-border-radius: 0;
     --surtitle-border-width: 0;

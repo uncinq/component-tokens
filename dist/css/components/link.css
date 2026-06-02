@@ -3,7 +3,7 @@
  */
 
 /* components/link.css */
-@layer config {
+@layer tokens {
   :root {
     --link-color-text-decoration: initial;
     --link-color-text-decoration-hover: transparent;

@@ -3,7 +3,7 @@
  */
 
 /* components/badge.css */
-@layer config {
+@layer tokens {
   :root {
     --badge-border-radius: var(--radius-pill);
     --badge-border-style: solid;

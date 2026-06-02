@@ -3,7 +3,7 @@
  */
 
 /* components/figure.css */
-@layer config {
+@layer tokens {
   :root {
     --figure-figcaption-font-size: var(--font-size-sm);
     --figure-figcaption-gap: var(--spacing-xs);

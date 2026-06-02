@@ -3,7 +3,7 @@
  */
 
 /* components/list.css */
-@layer config {
+@layer tokens {
   :root {
     --list-item-font-size: var(--font-size-sm);
     --list-item-gap: var(--spacing-2xs);

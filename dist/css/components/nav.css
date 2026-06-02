@@ -3,7 +3,7 @@
  */
 
 /* components/nav.css */
-@layer config {
+@layer tokens {
   :root {
     --nav-color-text: var(--color-link);
     --nav-color-text-active: var(--color-link-active);

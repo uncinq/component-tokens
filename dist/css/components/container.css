@@ -3,7 +3,7 @@
  */
 
 /* components/container.css */
-@layer config {
+@layer tokens {
   :root {
     --columns: 12;
     --container-max-width-mobile: 100%;

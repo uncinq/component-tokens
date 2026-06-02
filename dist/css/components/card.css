@@ -3,7 +3,7 @@
  */
 
 /* components/card.css */
-@layer config {
+@layer tokens {
   :root {
     --card-border-radius: var(--item-border-radius);
     --card-border-style: var(--item-border-style);

@@ -3,7 +3,7 @@
  */
 
 /* components/hero.css */
-@layer config {
+@layer tokens {
   :root {
     --hero-color-background: var(--color-background);
     --hero-color-link: var(--color-text);

@@ -3,7 +3,7 @@
  */
 
 /* components/logo.css */
-@layer config {
+@layer tokens {
   :root {
     --logo-color: var(--color-text);
     --logo-font-family: var(--font-family-heading);

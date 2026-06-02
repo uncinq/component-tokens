@@ -3,7 +3,7 @@
  */
 
 /* components/map.css */
-@layer config {
+@layer tokens {
   :root {
     --map-color-background: var(--color-background-muted);
     --map-margin-block: var(--spacing-md);

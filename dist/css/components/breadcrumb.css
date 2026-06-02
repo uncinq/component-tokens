@@ -3,7 +3,7 @@
  */
 
 /* components/breadcrumb.css */
-@layer config {
+@layer tokens {
   :root {
     --breadcrumb-border-style: var(--border-style-normal);
     --breadcrumb-border-width: var(--border-width-sm);

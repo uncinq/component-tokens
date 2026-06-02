@@ -3,7 +3,7 @@
  */
 
 /* components/heading.css */
-@layer config {
+@layer tokens {
   :root {
     --heading-gap: var(--spacing-xs);
     --heading-margin-block-end: var(--spacing-fluid-md);

@@ -3,7 +3,7 @@
  */
 
 /* components/pagination.css */
-@layer config {
+@layer tokens {
   :root {
     --pagination-disabled-opacity: var(--opacity-disabled);
     --pagination-gap: var(--spacing-2xs);

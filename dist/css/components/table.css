@@ -3,7 +3,7 @@
  */
 
 /* components/table.css */
-@layer config {
+@layer tokens {
   :root {
     --table-cell-padding-inline: var(--spacing-sm);
     --table-cell-padding-block: var(--spacing-xs);

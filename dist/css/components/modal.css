@@ -3,7 +3,7 @@
  */
 
 /* components/modal.css */
-@layer config {
+@layer tokens {
   :root {
     --modal-backdrop-blur: var(--blur-backdrop);
     --modal-backdrop-color: var(--color-backdrop);
