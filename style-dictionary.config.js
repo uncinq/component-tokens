@@ -7,12 +7,14 @@ import path from 'node:path';
 // -------------------------------------------------------
 
 function getTokenFiles(dir) {
-  return fs.readdirSync(dir, { withFileTypes: true }).flatMap(entry => {
-    const fullPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) return getTokenFiles(fullPath);
-    if (entry.name.endsWith('.json')) return [fullPath];
-    return [];
-  });
+  return fs.readdirSync(dir, { withFileTypes: true })
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .flatMap(entry => {
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) return getTokenFiles(fullPath);
+      if (entry.name.endsWith('.json')) return [fullPath];
+      return [];
+    });
 }
 
 function pathToKebab(parts) {
@@ -77,27 +79,40 @@ StyleDictionary.registerFormat({
 // -------------------------------------------------------
 
 const tokenFiles = getTokenFiles('./tokens');
+const rel = file => path.relative('./tokens', file).replace(/\.json$/, '');
 
 const designTokensPath = './node_modules/@uncinq/design-tokens/tokens';
 if (!fs.existsSync(designTokensPath)) {
   throw new Error('Missing @uncinq/design-tokens — run npm install first.');
 }
 
-export default {
+await new StyleDictionary({
   usesDtcg: true,
   log: { warnings: 'disabled', errors: { brokenReferences: 'console' } },
   include: getTokenFiles(designTokensPath),
   source: tokenFiles,
-
   platforms: {
     css: {
       transformGroup: 'custom/css',
       buildPath: 'dist/css/',
       files: tokenFiles.map(file => ({
-        destination: path.relative('./tokens', file).replace(/\.json$/, '.css'),
+        destination: `${rel(file)}.css`,
         format: 'css/layer-config',
         filter: t => t.filePath === file,
       })),
     },
   },
-};
+}).buildAllPlatforms();
+
+// -------------------------------------------------------
+// index.css — imports every generated token file directly. Files are discovered
+// from disk, so adding a JSON needs no manual edit. Each file declares its own
+// @layer tokens, so a plain @import is enough.
+// -------------------------------------------------------
+
+fs.mkdirSync('./dist/css', { recursive: true });
+fs.writeFileSync(
+  './dist/css/index.css',
+  '/* index.css — auto-generated, do not edit */\n' +
+    tokenFiles.map(file => `@import "./${rel(file)}.css";`).join('\n') + '\n',
+);
