@@ -26,21 +26,27 @@
     },
     "minHeight": {
       "default": {
-        "$value": "25rem",
+        "$value": "30vh",
         "$type": "dimension"
       },
       "tablet": {
-        "$value": "37.5rem",
+        "$value": "40vh",
         "$type": "dimension"
       },
       "desktop": {
-        "$value": "50rem",
+        "$value": "50vh",
         "$type": "dimension"
       }
     },
     "padding": {
-      "$value": "{spacing.md} 0",
-      "$type": "string"
+      "block": {
+        "$value": "{spacing.md}",
+        "$type": "dimension"
+      },
+      "inline": {
+        "$value": "0px",
+        "$type": "dimension"
+      }
     },
     "title": {
       "color": {
