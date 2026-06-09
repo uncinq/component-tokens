@@ -11,6 +11,7 @@
     --nav-color-text-muted: var(--color-text-muted);
     --nav-font-size: var(--font-size-text);
     --nav-gap: 0;
+    --nav-line-height: var(--line-height-snug);
     --nav-margin-inline: 0;
     --nav-margin-block: 0;
     --nav-padding-inline: var(--spacing-xs);

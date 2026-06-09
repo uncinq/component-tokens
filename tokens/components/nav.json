@@ -28,6 +28,10 @@
       "$value": "0",
       "$type": "dimension"
     },
+    "lineHeight": {
+      "$value": "{lineHeight.snug}", 
+      "$type": "dimension"
+    },
     "margin": {
       "inline": {
         "$value": "0",

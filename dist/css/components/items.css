@@ -7,7 +7,6 @@
   :root {
     --items-cols: auto-fill;
     --items-gap: var(--gap);
-    --items-max-width: 100%;
     --items-min-width: 30ch;
   }
 }

@@ -8,10 +8,6 @@
       "$value": "{gap}",
       "$type": "dimension"
     },
-    "maxWidth": {
-      "$value": "100%",
-      "$type": "dimension"
-    },
     "minWidth": {
       "$value": "30ch",
       "$type": "dimension"
