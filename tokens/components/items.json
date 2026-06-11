@@ -5,7 +5,7 @@
       "$type": "string"
     },
     "gap": {
-      "$value": "{gap}",
+      "$value": "{gap.default}",
       "$type": "dimension"
     },
     "minWidth": {
