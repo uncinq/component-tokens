@@ -5,8 +5,6 @@
 /* components/container.css */
 @layer tokens {
   :root {
-    --columns: 12;
-    --gap: var(--spacing-sm);
     --container-max-width-mobile: 100%;
     --container-max-width-tablet: 100%;
     --container-max-width-tablet-wide: 100%;
