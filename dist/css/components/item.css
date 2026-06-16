@@ -28,11 +28,14 @@
     --item-metas-font-size: var(--font-size-2xs);
     --item-metas-order: -1;
     --item-metas-padding-inline: var(--spacing-card);
+    --item-metas-padding-block: var(--spacing-card);
     --item-metas-padding-block-start: var(--spacing-card);
     --item-metas-padding-block-end: 0;
     --item-order: none;
     --item-padding-inline: var(--spacing-card);
     --item-padding-block: var(--spacing-card);
+    --item-padding-block-start: var(--spacing-card);
+    --item-padding-block-end: var(--spacing-card);
     --item-shadow: var(--shadow-sm);
     --item-shadow-hover: var(--shadow-md);
     --item-title-color: var(--color-text);

@@ -117,6 +117,10 @@
           "$type": "dimension"
         },
         "block": {
+          "default": {
+            "$value": "{spacing.card}",
+            "$type": "dimension"
+          },
           "start": {
             "$value": "{spacing.card}",
             "$type": "dimension"
@@ -138,8 +142,18 @@
         "$type": "dimension"
       },
       "block": {
-        "$value": "{spacing.card}",
-        "$type": "dimension"
+        "default": {
+          "$value": "{spacing.card}",
+          "$type": "dimension"
+        },
+        "start": {
+          "$value": "{spacing.card}",
+          "$type": "dimension"
+        },
+        "end": {
+          "$value": "{spacing.card}",
+          "$type": "dimension"
+        }
       }
     },
     "shadow": {
