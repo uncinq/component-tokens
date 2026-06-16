@@ -16,8 +16,7 @@
     --item-btn-text-decoration-hover: underline;
     --item-color-background: var(--color-background);
     --item-color-border: var(--color-border);
-    --item-color-text: var(--color-text);
-    --item-color-text-muted: var(--color-text-muted);
+    --item-color-text: var(--color-text-muted);
     --item-gap: var(--spacing-sm);
     --item-media-color-background: var(--media-color-background);
     --item-media-order: -2;
@@ -25,6 +24,7 @@
     --item-metas-border-end: 0;
     --item-metas-border-start: 0;
     --item-metas-color-background: var(--item-color-background);
+    --item-metas-color-text: var(--color-text-muted);
     --item-metas-font-size: var(--font-size-2xs);
     --item-metas-order: -1;
     --item-metas-padding-inline: var(--spacing-card);

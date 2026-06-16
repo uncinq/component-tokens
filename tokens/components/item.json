@@ -57,10 +57,6 @@
       },
       "text": {
         "default": {
-          "$value": "{color.text.default}",
-          "$type": "color"
-        },
-        "muted": {
           "$value": "{color.text.muted}",
           "$type": "color"
         }
@@ -100,6 +96,10 @@
       "color": {
         "background": {
           "$value": "{item.color.background}",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "{color.text.muted}",
           "$type": "color"
         }
       },
