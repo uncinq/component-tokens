@@ -67,10 +67,64 @@
       "$type": "dimension"
     },
     "media": {
+      "border": {
+        "radius": {
+          "$value": "{item.border.radius}",
+          "$type": "dimension"
+        },
+        "style": {
+          "$value": "{item.border.style}",
+          "$type": "strokeStyle"
+        },
+        "width": {
+          "$value": "{item.border.width}",
+          "$type": "dimension"
+        }
+      },
       "color": {
         "background": {
           "$value": "{media.color.background}",
           "$type": "color"
+        }
+      },
+      "icon": {
+        "border": {
+          "radius": {
+            "$value": "{item.media.border.radius}",
+            "$type": "dimension"
+          },
+          "style": {
+            "$value": "{item.media.border.style}",
+            "$type": "strokeStyle"
+          },
+          "width": {
+            "$value": "{item.media.border.width}",
+            "$type": "dimension"
+          }
+        },
+        "color": {
+          "default": {
+            "$value": "{item.title.color}",
+            "$type": "color"
+          },
+          "background": {
+            "$value": "{item.media.color.background}",
+            "$type": "color"
+          }
+        },
+        "margin": {
+          "inline": {
+            "$value": "{item.padding.inline}",
+            "$type": "dimension"
+          },
+          "block": {
+            "$value": "{item.padding.block}",
+            "$type": "dimension"
+          }
+        },
+        "size": {
+          "$value": "{fontSize.fluid.md}",
+          "$type": "dimension"
         }
       },
       "order": {
