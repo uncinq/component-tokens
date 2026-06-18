@@ -114,6 +114,10 @@
           "background": {
             "$value": "transparent",
             "$type": "color"
+          },
+          "border": {
+            "$value": "transparent",
+            "$type": "color"
           }
         },
         "margin": {
@@ -135,7 +139,7 @@
           "$type": "dimension"
         },
         "width": {
-          "$value": "{size.40}",
+          "$value": "auto",
           "$type": "dimension"
         }
       },
