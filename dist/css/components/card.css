@@ -13,9 +13,9 @@
     --card-color-text: var(--item-color-text);
     --card-color-text-muted: var(--item-color-text-muted);
     --card-gap: var(--item-gap);
-    --card-media-border-radius: var(--radius-none);
-    --card-media-border-style: var(--item-border-style);
-    --card-media-border-width: var(--item-border-width);
+    --card-media-border-radius: var(--item-media-border-radius);
+    --card-media-border-style: var(--item-media-border-style);
+    --card-media-border-width: var(--item-media-border-width);
     --card-media-color-background: var(--item-media-color-background);
     --card-media-icon-align: var(--item-media-icon-align);
     --card-media-icon-border-radius: var(--item-media-icon-border-radius);

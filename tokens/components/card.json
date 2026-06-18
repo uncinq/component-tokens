@@ -41,15 +41,15 @@
     "media": {
       "border": {
         "radius": {
-          "$value": "{radius.none}",
+          "$value": "{item.media.border.radius}",
           "$type": "dimension"
         },
         "style": {
-          "$value": "{item.border.style}",
+          "$value": "{item.media.border.style}",
           "$type": "strokeStyle"
         },
         "width": {
-          "$value": "{item.border.width}",
+          "$value": "{item.media.border.width}",
           "$type": "dimension"
         }
       },

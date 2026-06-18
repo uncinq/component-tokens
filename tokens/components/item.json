@@ -69,7 +69,7 @@
     "media": {
       "border": {
         "radius": {
-          "$value": "{item.border.radius}",
+          "$value": "{radius.none}",
           "$type": "dimension"
         },
         "style": {
@@ -112,7 +112,7 @@
             "$type": "color"
           },
           "background": {
-            "$value": "{item.media.color.background}",
+            "$value": "transparent",
             "$type": "color"
           }
         },
@@ -135,7 +135,7 @@
           "$type": "dimension"
         },
         "width": {
-          "$value": "{size.30}",
+          "$value": "{size.40}",
           "$type": "dimension"
         }
       },
