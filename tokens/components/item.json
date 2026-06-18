@@ -88,6 +88,10 @@
         }
       },
       "icon": {
+        "align": {
+          "$value": "start",
+          "$type": "string"
+        },
         "border": {
           "radius": {
             "$value": "{item.media.border.radius}",
@@ -122,8 +126,16 @@
             "$type": "dimension"
           }
         },
+        "ratio": {
+          "$value": "{ratio.square}",
+          "$type": "string"
+        },
         "size": {
           "$value": "{fontSize.fluid.md}",
+          "$type": "dimension"
+        },
+        "width": {
+          "$value": "{size.30}",
           "$type": "dimension"
         }
       },

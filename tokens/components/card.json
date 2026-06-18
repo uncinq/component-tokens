@@ -41,7 +41,7 @@
     "media": {
       "border": {
         "radius": {
-          "$value": "{item.border.radius}",
+          "$value": "{radius.none}",
           "$type": "dimension"
         },
         "style": {
@@ -60,42 +60,54 @@
         }
       },
       "icon": {
+        "align": {
+          "$value": "{item.media.icon.align}",
+          "$type": "string"
+        },
         "border": {
           "radius": {
-            "$value": "{item.media.border.radius}",
+            "$value": "{item.media.icon.border.radius}",
             "$type": "dimension"
           },
           "style": {
-            "$value": "{item.media.border.style}",
+            "$value": "{item.media.icon.border.style}",
             "$type": "strokeStyle"
           },
           "width": {
-            "$value": "{item.media.border.width}",
+            "$value": "{item.media.icon.border.width}",
             "$type": "dimension"
           }
         },
         "color": {
           "default": {
-            "$value": "{item.title.color}",
+            "$value": "{item.media.icon.color.default}",
             "$type": "color"
           },
           "background": {
-            "$value": "{item.media.color.background}",
+            "$value": "{item.media.icon.color.background}",
             "$type": "color"
           }
         },
         "margin": {
           "inline": {
-            "$value": "{item.padding.inline}",
+            "$value": "{item.media.icon.margin.inline}",
             "$type": "dimension"
           },
           "block": {
-            "$value": "{item.padding.block}",
+            "$value": "{item.media.icon.margin.block}",
             "$type": "dimension"
           }
         },
+        "ratio": {
+          "$value": "{item.media.icon.ratio}",
+          "$type": "string"
+        },
         "size": {
-          "$value": "{fontSize.fluid.md}",
+          "$value": "{item.media.icon.size}",
+          "$type": "dimension"
+        },
+        "width": {
+          "$value": "{item.media.icon.width}",
           "$type": "dimension"
         }
       },
