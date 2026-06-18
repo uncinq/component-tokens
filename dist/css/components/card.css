@@ -13,7 +13,18 @@
     --card-color-text: var(--item-color-text);
     --card-color-text-muted: var(--item-color-text-muted);
     --card-gap: var(--item-gap);
+    --card-media-border-radius: var(--item-border-radius);
+    --card-media-border-style: var(--item-border-style);
+    --card-media-border-width: var(--item-border-width);
     --card-media-color-background: var(--item-media-color-background);
+    --card-media-icon-border-radius: var(--item-media-border-radius);
+    --card-media-icon-border-style: var(--item-media-border-style);
+    --card-media-icon-border-width: var(--item-media-border-width);
+    --card-media-icon-color: var(--item-title-color);
+    --card-media-icon-color-background: var(--item-media-color-background);
+    --card-media-icon-margin-inline: var(--item-padding-inline);
+    --card-media-icon-margin-block: var(--item-padding-block);
+    --card-media-icon-size: var(--font-size-fluid-md);
     --card-media-order: var(--item-media-order);
     --card-media-ratio: var(--item-media-ratio);
     --card-order: var(--item-order);
