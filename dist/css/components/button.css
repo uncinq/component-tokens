@@ -25,6 +25,7 @@
     --btn-font-size: var(--font-size-sm);
     --btn-font-weight: var(--font-weight-control);
     --btn-gap: var(--spacing-xs);
+    --btn-line-height: var(--line-height-snug);
     --btn-padding-inline: var(--spacing-control);
     --btn-padding-block: var(--spacing-control);
     --btn-shadow: var(--shadow-control);
