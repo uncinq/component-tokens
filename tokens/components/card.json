@@ -24,14 +24,8 @@
         "$type": "color"
       },
       "text": {
-        "default": {
-          "$value": "{item.color.text.default}",
-          "$type": "color"
-        },
-        "muted": {
-          "$value": "{item.color.text.muted}",
-          "$type": "color"
-        }
+        "$value": "{item.color.text}",
+        "$type": "color"
       }
     },
     "gap": {
