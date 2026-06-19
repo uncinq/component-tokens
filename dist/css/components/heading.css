@@ -7,5 +7,6 @@
   :root {
     --heading-gap: var(--spacing-xs);
     --heading-margin-block-end: var(--spacing-fluid-md);
+    --heading-surtitle-margin-block-end: calc(var(--heading-gap) * -1);
   }
 }

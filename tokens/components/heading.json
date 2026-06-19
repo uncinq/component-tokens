@@ -9,6 +9,12 @@
         "$value": "{spacing.fluid.md}",
         "$type": "dimension"
       }
+    },
+    "surtitle": {
+      "marginBlockEnd": {
+        "$value": "calc(var(--heading-gap) * -1)",
+        "$type": "dimension"
+      }
     }
   }
 }
