@@ -35,7 +35,9 @@
     --card-padding-block: var(--item-padding-block);
     --card-shadow: var(--item-shadow);
     --card-shadow-hover: var(--item-shadow-hover);
+    --card-surtitle-margin-block-end: calc(var(--card-gap) * -1);
     --card-title-color: var(--item-title-color);
+    --card-title-font-family: var(--item-title-font-family);
     --card-title-font-size: var(--item-title-font-size);
     --card-title-font-weight: var(--item-title-font-weight);
     --card-title-line-height: var(--item-title-line-height);

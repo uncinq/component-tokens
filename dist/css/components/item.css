@@ -53,8 +53,10 @@
     --item-padding-block-end: var(--spacing-card);
     --item-shadow: var(--shadow-sm);
     --item-shadow-hover: var(--shadow-md);
+    --item-surtitle-margin-block-end: calc(var(--item-gap) * -1);
     --item-title-color: var(--color-text);
-    --item-title-font-size: var(--font-size-md);
+    --item-title-font-family: var(--font-family-heading);
+    --item-title-font-size: var(--font-size-fluid-md);
     --item-title-font-weight: var(--font-weight-heading);
     --item-title-line-height: var(--line-height-heading);
     --item-transition: var(--transition-box-shadow);

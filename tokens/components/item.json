@@ -236,13 +236,23 @@
         "$type": "shadow" 
       }
     },
+    "surtitle": {
+      "marginBlockEnd": {
+        "$value": "calc(var(--item-gap) * -1)",
+        "$type": "dimension"
+      }
+    },
     "title": {
       "color":  { 
         "$value": "{color.text.default}", 
         "$type": "color" 
       },
+      "fontFamily": {
+        "$value": "{fontFamily.heading}",
+        "$type": "fontFamily"
+      },
       "fontSize": {
-        "$value": "{fontSize.md}",
+        "$value": "{fontSize.fluid.md}",
         "$type": "dimension"
       },
       "fontWeight": {

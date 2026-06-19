@@ -144,10 +144,20 @@
         "$type": "string"
       }
     },
+    "surtitle": {
+      "marginBlockEnd": {
+        "$value": "calc(var(--card-gap) * -1)",
+        "$type": "dimension"
+      }
+    },
     "title": {
       "color": {
         "$value": "{item.title.color}",
         "$type": "color"
+      },
+      "fontFamily": {
+        "$value": "{item.title.fontFamily}",
+        "$type": "fontFamily"
       },
       "fontSize": {
         "$value": "{item.title.fontSize}",
