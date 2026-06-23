@@ -8,6 +8,6 @@
     --map-color-background: var(--color-background-muted);
     --map-margin-block: var(--spacing-md);
     --map-ratio: var(--ratio-cinema);
-    --map-ratio-mobile: var(--ratio-landscape);
+    --map-ratio-mobile: var(--ratio-square);
   }
 }
