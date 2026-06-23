@@ -1,5 +1,11 @@
 {
   "map": {
+    "border": {
+      "radius": {
+        "$value": "{radius.none}",
+        "$type": "dimensions"
+      }
+    },
     "color": {
       "background": {
         "$value": "{color.background.muted.default}",
@@ -18,7 +24,7 @@
         "$type": "string"
       },
       "mobile": {
-        "$value": "{ratio.landscape}",
+        "$value": "{ratio.square}",
         "$type": "string"
       }
     }
