@@ -8,8 +8,8 @@
     --hero-color-background: var(--color-background);
     --hero-color-link: var(--color-text);
     --hero-color-text: var(--color-text);
-    --hero-cover-brightness: 0.3;
     --hero-gap: var(--spacing-sm);
+    --hero-media-brightness: 0.3;
     --hero-min-height: 30vh;
     --hero-min-height-tablet: 40vh;
     --hero-min-height-desktop: 50vh;
