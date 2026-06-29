@@ -6,6 +6,8 @@
 @layer tokens {
   :root {
     --media-color-background: var(--color-background-media);
+    --media-icon-max-height: 70%;
+    --media-icon-max-width: 60%;
     --media-ratio: var(--ratio-video);
   }
 }

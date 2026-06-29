@@ -6,6 +6,16 @@
         "$type": "color" 
       }
     },
+    "icon": {
+      "maxHeight": { 
+        "$value": "70%", 
+        "$type": "dimension" 
+      },
+      "maxWidth": { 
+        "$value": "60%", 
+        "$type": "dimension" 
+      }
+    },
     "ratio": { 
       "$value": "{ratio.video}", 
       "$type": "string" 
