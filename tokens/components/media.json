@@ -6,7 +6,7 @@
         "$type": "color" 
       }
     },
-    "icon": {
+    "logo": {
       "maxHeight": { 
         "$value": "70%", 
         "$type": "dimension" 
