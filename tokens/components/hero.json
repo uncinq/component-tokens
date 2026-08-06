@@ -18,25 +18,25 @@
       "$value": "{spacing.sm}",
       "$type": "dimension"
     },
+    "height": {
+      "$value": "clamp(25rem, 23.2394rem + 7.5117vw, 30rem)",
+      "$type": "dimension"
+    },
+    "home": {
+      "height": {
+        "$value": "clamp(30rem, 26.4789rem + 15.0235vw, 40rem)",
+        "$type": "dimension"
+      }
+    },
     "media": {
       "brightness": {
         "$value": 0.3,
         "$type": "number"
       }
     },
-    "minHeight": {
-      "default": {
-        "$value": "30vh",
-        "$type": "dimension"
-      },
-      "tablet": {
-        "$value": "40vh",
-        "$type": "dimension"
-      },
-      "desktop": {
-        "$value": "50vh",
-        "$type": "dimension"
-      }
+    "maxHeight": {
+      "$value": "calc(100vh - {header.height})",
+      "$type": "dimension"
     },
     "padding": {
       "block": {
