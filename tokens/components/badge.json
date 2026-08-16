@@ -28,6 +28,10 @@
       "$value": "{fontWeight.control}",
       "$type": "fontWeight"
     },
+    "lineHeight": {
+      "$value": "{lineHeight.snug}",
+      "$type": "dimension"
+    },
     "padding": {
       "inline": {
         "$value": "{spacing.xs}",
@@ -37,6 +41,10 @@
         "$value": "{spacing.2xs}",
         "$type": "dimension"
       }
+    },
+    "textTransform": {
+      "$value": "none",
+      "$type": "string"
     }
   }
 }
