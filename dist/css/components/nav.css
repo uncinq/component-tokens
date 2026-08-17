@@ -14,9 +14,11 @@
     --nav-line-height: var(--line-height-snug);
     --nav-margin-inline: 0;
     --nav-margin-block: 0;
-    --nav-padding-inline: var(--spacing-xs);
-    --nav-padding-block: var(--spacing-xs);
+    --nav-link-padding-inline: var(--spacing-xs);
+    --nav-link-padding-block: var(--spacing-xs);
     --nav-title-font-size: var(--font-size-md);
     --nav-title-font-weight: var(--font-weight-heading);
+    --nav-title-padding-inline: var(--nav-link-padding-inline);
+    --nav-title-padding-block: var(--nav-link-padding-block);
   }
 }

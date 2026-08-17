@@ -42,14 +42,16 @@
         "$type": "dimension"
       }
     },
-    "padding": {
-      "inline": {
-        "$value": "{spacing.xs}",
-        "$type": "dimension"
-      },
-      "block": {
-        "$value": "{spacing.xs}",
-        "$type": "dimension"
+    "link": {
+      "padding": {
+        "inline": {
+          "$value": "{spacing.xs}",
+          "$type": "dimension"
+        },
+        "block": {
+          "$value": "{spacing.xs}",
+          "$type": "dimension"
+        }
       }
     },
     "title": {
@@ -60,6 +62,16 @@
       "fontWeight": {
         "$value": "{fontWeight.heading}", 
         "$type": "fontWeight"
+      },
+      "padding": {
+        "inline": {
+          "$value": "{nav.link.padding.inline}",
+          "$type": "dimension"
+        },
+        "block": {
+          "$value": "{nav.link.padding.block}",
+          "$type": "dimension"
+        }
       }
     }
   }
