@@ -105,7 +105,7 @@ All tokens are declared inside `@layer tokens`, the lowest-priority layer in the
 /* your project overrides — same layer, wins by source order */
 @layer tokens {
   :root {
-    --btn-color-background: var(--color-secondary);
+    --btn-color-background: var(--color-light);
     --hero-min-height: 80svh;
   }
 }
@@ -167,7 +167,7 @@ Re-declare any token inside `@layer tokens` after the import. Same layer, later 
 
 @layer tokens {
   :root {
-    --btn-color-background: var(--color-secondary);
+    --btn-color-background: var(--color-light);
     --btn-border-radius: 0;
   }
 }

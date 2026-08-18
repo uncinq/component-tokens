@@ -8,6 +8,8 @@
     --badge-border-radius: var(--radius-pill);
     --badge-border-style: solid;
     --badge-border-width: 0;
+    --badge-color-background: var(--color-background-muted);
+    --badge-color-background-hover: var(--color-background-muted-hover);
     --badge-color-border: transparent;
     --badge-font-size: var(--font-size-2xs);
     --badge-font-weight: var(--font-weight-control);

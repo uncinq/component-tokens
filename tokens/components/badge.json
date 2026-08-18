@@ -15,6 +15,16 @@
       }
     },
     "color": {
+      "background": { 
+        "default": {
+          "$value": "{color.background.muted}", 
+          "$type": "color" 
+        },
+        "hover": {
+          "$value": "{color.background.muted.hover}", 
+          "$type": "color" 
+        }
+      },
       "border": { 
         "$value": "transparent", 
         "$type": "color" 
