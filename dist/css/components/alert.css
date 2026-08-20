@@ -5,12 +5,14 @@
 /* components/alert.css */
 @layer tokens {
   :root {
+    --alert-align: start;
     --alert-border-radius: var(--radius-none);
     --alert-border-style: var(--border-style-normal);
     --alert-border-width: var(--border-width-sm);
     --alert-font-size: var(--font-size-small);
     --alert-gap: var(--spacing-sm);
     --alert-margin: 0;
-    --alert-padding: var(--spacing-sm);
+    --alert-padding-block: var(--spacing-sm);
+    --alert-padding-inline: 0;
   }
 }

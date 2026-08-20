@@ -1,5 +1,9 @@
 {
   "alert": {
+    "align": {
+      "$value": "start",
+      "$type": "string"
+    },
     "border": {
       "radius": {
         "$value": "{radius.none}", 
@@ -27,8 +31,14 @@
       "$type": "dimension" 
     },
     "padding": {
-      "$value": "{spacing.sm}", 
-      "$type": "dimension" 
+      "block": {
+        "$value": "{spacing.sm}", 
+        "$type": "dimension" 
+      },
+      "inline": {
+        "$value": "0", 
+        "$type": "dimension" 
+      }
     }
   }
 }
