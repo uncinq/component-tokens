@@ -10,6 +10,16 @@
         "$type": "color"
       }
     },
+    "border": {
+      "style":   { 
+        "$value": "{border.style.normal}", 
+        "$type": "strokeStyle" 
+      },
+      "width":   { 
+        "$value": "{border.width.sm}", 
+        "$type": "dimension" 
+      }
+    },
     "bottom": {
       "$value": "0",
       "$type": "dimension"
@@ -37,8 +47,14 @@
       "$type": "dimension"
     },
     "padding": {
-      "$value": "{spacing.surface}", 
-      "$type": "dimension" 
+      "block": {
+        "$value": "{spacing.surface}",
+        "$type": "dimension"
+      },
+      "inline": {
+        "$value": "{spacing.surface}",
+        "$type": "dimension"
+      }
     },
     "shadow": {
       "$value": "{shadow.surface}",

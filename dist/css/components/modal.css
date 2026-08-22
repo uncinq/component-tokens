@@ -7,16 +7,21 @@
   :root {
     --modal-backdrop-blur: var(--blur-backdrop);
     --modal-backdrop-color: var(--color-backdrop);
+    --modal-border-style: var(--border-style-normal);
+    --modal-border-width: var(--border-width-sm);
     --modal-color-background: var(--color-background-surface);
     --modal-color-border: var(--color-border);
     --modal-color-text: var(--color-text-on-surface);
-    --modal-max-height: none;
+    --modal-margin: var(--spacing-sm);
+    --modal-max-height: 100dvh;
     --modal-max-width: 30rem;
-    --modal-padding: var(--spacing-surface);
+    --modal-padding-block: var(--spacing-surface);
+    --modal-padding-inline: var(--spacing-surface);
     --modal-radius: var(--radius-surface);
     --modal-shadow: var(--shadow-surface);
     --modal-transition-duration: var(--duration-slow);
     --modal-transition-easing: var(--easing-out-expo);
+    --modal-translate: translateY(1rem);
     --modal-z-index: var(--z-index-modal);
   }
 }

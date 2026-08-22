@@ -7,13 +7,16 @@
   :root {
     --drawer-backdrop-blur: var(--blur-backdrop);
     --drawer-backdrop-color: var(--color-backdrop);
+    --drawer-border-style: var(--border-style-normal);
+    --drawer-border-width: var(--border-width-sm);
     --drawer-bottom: 0;
     --drawer-color-background: var(--color-background-surface);
     --drawer-color-border: var(--color-border);
     --drawer-color-text: var(--color-text-on-surface);
     --drawer-end: 0;
     --drawer-height: 50vh;
-    --drawer-padding: var(--spacing-surface);
+    --drawer-padding-block: var(--spacing-surface);
+    --drawer-padding-inline: var(--spacing-surface);
     --drawer-shadow: var(--shadow-surface);
     --drawer-start: auto;
     --drawer-top: 0;

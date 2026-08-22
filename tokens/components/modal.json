@@ -10,6 +10,16 @@
         "$type": "color"
       }
     },
+    "border": {
+      "style":   { 
+        "$value": "{border.style.normal}", 
+        "$type": "strokeStyle" 
+      },
+      "width":   { 
+        "$value": "{border.width.sm}", 
+        "$type": "dimension" 
+      }
+    },
     "color": {
       "background": {
         "$value": "{color.background.surface}",
@@ -24,39 +34,53 @@
         "$type": "color"
       }
     },
-    "maxHeight": { 
-      "$value": "none", 
-      "$type": "string" 
+    "margin": {
+      "$value": "{spacing.sm}",
+      "$type": "dimension"
     },
-    "maxWidth": { 
-      "$value": "30rem", 
-      "$type": "dimension" 
+    "maxHeight": {
+      "$value": "100dvh",
+      "$type": "dimension"
     },
-    "padding": { 
-      "$value": "{spacing.surface}", 
-      "$type": "dimension" 
+    "maxWidth": {
+      "$value": "30rem",
+      "$type": "dimension"
     },
-    "radius": { 
-      "$value": "{radius.surface}", 
-      "$type": "dimension" 
-    },
-    "shadow": { 
-      "$value": "{shadow.surface}", 
-      "$type": "shadow" 
-    },
-    "transition": {
-      "duration": { 
-        "$value": "{duration.slow}", 
-        "$type": "duration" 
+    "padding": {
+      "block": {
+        "$value": "{spacing.surface}",
+        "$type": "dimension"
       },
-      "easing": {
-        "$value": "{easing.out-expo}", 
-        "$type": "string" 
+      "inline": {
+        "$value": "{spacing.surface}",
+        "$type": "dimension"
       }
     },
+    "radius": {
+      "$value": "{radius.surface}",
+      "$type": "dimension"
+    },
+    "shadow": {
+      "$value": "{shadow.surface}",
+      "$type": "shadow"
+    },
+    "transition": {
+      "duration": {
+        "$value": "{duration.slow}",
+        "$type": "duration"
+      },
+      "easing": {
+        "$value": "{easing.out-expo}",
+        "$type": "string"
+      }
+    },
+    "translate": {
+      "$value": "translateY(1rem)",
+      "$type": "string"
+    },
     "zIndex": {
-      "$value": "{zIndex.modal}", 
-      "$type": "number" 
+      "$value": "{zIndex.modal}",
+      "$type": "number"
     }
   }
 }
