@@ -22,7 +22,7 @@
     --btn-control-color-border-hover: transparent;
     --btn-control-color-text: var(--color-text);
     --btn-control-color-text-hover: var(--color-text);
-    --btn-font-size: var(--font-size-sm);
+    --btn-font-size: var(--font-size-fluid-sm);
     --btn-font-weight: var(--font-weight-control);
     --btn-gap: var(--spacing-xs);
     --btn-line-height: var(--line-height-snug);

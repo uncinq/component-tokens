@@ -63,11 +63,11 @@
       },
       "padding": {
         "inline": {
-          "$value": "{spacing.2xs}",
+          "$value": "{spacing.xs}",
           "$type": "dimension"
         },
         "block": {
-          "$value": "{spacing.2xs}",
+          "$value": "{spacing.xs}",
           "$type": "dimension"
         }
       }

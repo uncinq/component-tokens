@@ -91,7 +91,7 @@
       }
     },
     "fontSize": {
-      "$value": "{fontSize.sm}",
+      "$value": "{fontSize.fluid.sm}",
       "$type": "dimension"
     },
     "fontWeight": {

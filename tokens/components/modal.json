@@ -11,13 +11,13 @@
       }
     },
     "border": {
-      "style":   { 
-        "$value": "{border.style.normal}", 
-        "$type": "strokeStyle" 
+      "style": {
+        "$value": "{border.style.normal}",
+        "$type": "strokeStyle"
       },
-      "width":   { 
-        "$value": "{border.width.sm}", 
-        "$type": "dimension" 
+      "width": {
+        "$value": "{border.width.sm}",
+        "$type": "dimension"
       }
     },
     "color": {
@@ -45,6 +45,11 @@
     "maxWidth": {
       "$value": "30rem",
       "$type": "dimension"
+    },
+    "minHeight": {
+      "$value": "0",
+      "$type": "dimension",
+      "$description": "Floor for the panel height; it otherwise shrinks to its content."
     },
     "padding": {
       "block": {

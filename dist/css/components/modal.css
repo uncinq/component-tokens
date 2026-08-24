@@ -15,6 +15,7 @@
     --modal-margin: var(--spacing-sm);
     --modal-max-height: 100dvh;
     --modal-max-width: 30rem;
+    --modal-min-height: 0;
     --modal-padding-block: var(--spacing-surface);
     --modal-padding-inline: var(--spacing-surface);
     --modal-radius: var(--radius-surface);
