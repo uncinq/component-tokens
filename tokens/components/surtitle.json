@@ -1,26 +1,8 @@
 {
   "surtitle": {
-    "border": {
-      "radius": {
-        "$value": "0",
-        "$type": "dimension"
-      },
-      "width": {
-        "$value": "0",
-        "$type": "dimension"
-      }
-    },
     "color": {
-      "default": {
+      "text": {
         "$value": "{color.text.muted}",
-        "$type": "color"
-      },
-      "background": {
-        "$value": "transparent",
-        "$type": "color"
-      },
-      "border":     {
-        "$value": "transparent",
         "$type": "color"
       }
     },
@@ -42,13 +24,15 @@
     },
     "margin": {
       "block": {
-        "$value": "0 {spacing.2xs}",
-        "$type": "string"
+        "end": {
+          "$value": "{spacing.2xs}",
+          "$type": "dimension"
+        },
+        "start": {
+          "$value": "0",
+          "$type": "dimension"
+        }
       }
-    },
-    "padding": {
-      "$value": "0",
-      "$type": "dimension"
     },
     "textTransform": {
       "$value": "uppercase",
