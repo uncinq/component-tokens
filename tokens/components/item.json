@@ -146,7 +146,7 @@
         "$type": "number"
       },
       "ratio": {
-        "$value": "{media.ratio}",
+        "$value": "{ratio.video}",
         "$type": "string"
       }
     },

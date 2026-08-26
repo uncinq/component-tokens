@@ -35,7 +35,7 @@
     --item-media-icon-size: var(--font-size-fluid-md);
     --item-media-icon-width: auto;
     --item-media-order: -2;
-    --item-media-ratio: var(--media-ratio);
+    --item-media-ratio: var(--ratio-video);
     --item-metas-border-end: 0;
     --item-metas-border-start: 0;
     --item-metas-color-background: var(--item-color-background);
