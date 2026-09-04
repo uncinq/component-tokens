@@ -1,5 +1,27 @@
 {
   "container": {
+    "bleed": {
+      "mobile": { 
+        "$value": "{gutter}", 
+        "$type": "dimension" 
+      },
+      "tablet": { 
+        "$value": "{gutter}", 
+        "$type": "dimension" 
+      },
+      "tabletWide": { 
+        "$value": "{gutter}", 
+        "$type": "dimension" 
+      },
+      "laptop": { 
+        "$value": "{gutter}", 
+        "$type": "dimension" 
+      },
+      "desktop": { 
+        "$value": "0px", 
+        "$type": "dimension" 
+      }
+    },
     "maxWidth": {
       "mobile": { 
         "$value": "100%", 

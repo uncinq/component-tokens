@@ -5,6 +5,11 @@
 /* components/container.css */
 @layer tokens {
   :root {
+    --container-bleed-mobile: var(--gutter);
+    --container-bleed-tablet: var(--gutter);
+    --container-bleed-tablet-wide: var(--gutter);
+    --container-bleed-laptop: var(--gutter);
+    --container-bleed-desktop: 0px;
     --container-max-width-mobile: 100%;
     --container-max-width-tablet: 100%;
     --container-max-width-tablet-wide: 100%;
