@@ -1,0 +1,37 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* components/carousel.css */
+@layer tokens {
+  :root {
+    --carousel-arrow-border-width: var(--border-width-sm);
+    --carousel-arrow-border-radius: var(--radius-pill);
+    --carousel-arrow-color: var(--color-link);
+    --carousel-arrow-color-background: transparent;
+    --carousel-arrow-color-background-hover: transparent;
+    --carousel-arrow-color-border: var(--color-link);
+    --carousel-arrow-color-border-hover: var(--color-link-hover);
+    --carousel-arrow-color-hover: var(--color-link-hover);
+    --carousel-arrow-gap: var(--spacing-xs);
+    --carousel-arrow-icon: var(--icon-arrow);
+    --carousel-arrow-icon-size: var(--icon-size);
+    --carousel-arrow-margin-block: var(--spacing-sm);
+    --carousel-arrow-margin-inline: var(--spacing-xs);
+    --carousel-arrow-opacity-disabled: var(--opacity-disabled);
+    --carousel-arrow-size: var(--spacing-lg);
+    --carousel-pagination-border-style: var(--border-style-normal);
+    --carousel-pagination-border-width: var(--border-width-sm);
+    --carousel-pagination-border-radius: var(--radius-pill);
+    --carousel-pagination-color: var(--color-neutral);
+    --carousel-pagination-color-active: var(--color-active);
+    --carousel-pagination-color-border: transparent;
+    --carousel-pagination-color-border-active: transparent;
+    --carousel-pagination-color-border-hover: transparent;
+    --carousel-pagination-color-hover: var(--color-neutral-hover);
+    --carousel-pagination-gap: var(--spacing-2xs);
+    --carousel-pagination-height: var(--spacing-xs);
+    --carousel-pagination-margin-block: var(--spacing-sm);
+    --carousel-pagination-width: var(--spacing-xs);
+  }
+}
