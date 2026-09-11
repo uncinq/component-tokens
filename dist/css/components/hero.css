@@ -11,7 +11,7 @@
     --hero-gap: var(--spacing-sm);
     --hero-height: clamp(25rem, 23.2394rem + 7.5117vw, 30rem);
     --hero-home-height: clamp(30rem, 26.4789rem + 15.0235vw, 40rem);
-    --hero-media-brightness: 0.3;
+    --hero-media-brightness: 0.5;
     --hero-max-height: calc(100vh - var(--header-height));
     --hero-padding-block: var(--spacing-md);
     --hero-padding-inline: 0px;

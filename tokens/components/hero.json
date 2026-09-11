@@ -30,7 +30,7 @@
     },
     "media": {
       "brightness": {
-        "$value": 0.3,
+        "$value": 0.5,
         "$type": "number"
       }
     },
