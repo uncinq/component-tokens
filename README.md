@@ -20,7 +20,7 @@ Where primitive and semantic tokens are provided by [@uncinq/design-tokens](http
 --color-brand: var(--color-indigo-600);
 
 /* component token from @uncinq/component-tokens */
---btn-background-color: var(--color-brand);
+--btn-color-background: var(--color-brand);
 ```
 
 A component token answers: **"which semantic value does this part of this component use?"**
@@ -31,13 +31,13 @@ A component token answers: **"which semantic value does this part of this compon
 
 All component tokens follow the pattern: `--{component}-{property}-{sub-property?}-{state?}`
 
-The property mirrors the CSS property name, so the token reads the same way as the CSS declaration it controls.
+The property mirrors the CSS property name, so the token reads the same way as the CSS declaration it controls — colors excepted, where `color` leads and the role follows (see the rules below).
 
 ```text
 --{component}                    --btn
-  -{property}                    --btn-background-color
-    -{sub-property}              --btn-text-decoration-color
-      -{state}                   --btn-background-color-hover
+  -{property}                    --btn-padding-inline
+    -{sub-property}              --btn-color-text-decoration
+      -{state}                   --btn-color-background-hover
 ```
 
 ### Rules
@@ -61,7 +61,7 @@ The property mirrors the CSS property name, so the token reads the same way as t
 ```css
 /* Border */
 --btn-border-radius: var(--radius-control);
---btn-border-width:  var(--border-width-normal);
+--btn-border-width:  var(--border-width-sm);
 
 /* Color */
 --btn-color-background:      var(--color-brand);
@@ -90,7 +90,7 @@ The property mirrors the CSS property name, so the token reads the same way as t
 
 --hero-color-background: var(--color-background);
 --hero-color-text:       var(--color-text);
---hero-min-height:       50svh;
+--hero-media-brightness: 0.5;
 ```
 
 ---
@@ -106,7 +106,7 @@ All tokens are declared inside `@layer tokens`, the lowest-priority layer in the
 @layer tokens {
   :root {
     --btn-color-background: var(--color-light);
-    --hero-min-height: 80svh;
+    --hero-height: 80svh;
   }
 }
 ```
@@ -143,8 +143,8 @@ yarn add @uncinq/component-tokens
 
 ```css
 @import '@uncinq/design-tokens';
-@import '@uncinq/component-tokens/css/component/button.css';
-@import '@uncinq/component-tokens/css/component/badge.css';
+@import '@uncinq/component-tokens/css/components/button.css';
+@import '@uncinq/component-tokens/css/components/badge.css';
 ```
 
 ### Usage — CDN (no build step)
@@ -179,7 +179,7 @@ For deeper changes (adding new tokens, renaming), fork the JSON source files and
 
 ```bash
 npm install
-npm run build   # generates dist/css/component/*.css
+npm run build   # generates dist/css/components/*.css
 ```
 
 See [docs/STYLE-DICTIONARY.md](docs/STYLE-DICTIONARY.md) for build pipeline details and token naming conventions.
@@ -190,7 +190,7 @@ See [docs/STYLE-DICTIONARY.md](docs/STYLE-DICTIONARY.md) for build pipeline deta
 
 ```text
 tokens/                     ← DTCG JSON source files (edit these)
-  component/
+  components/
     alert.json
     badge.json
     button.json
@@ -198,12 +198,13 @@ tokens/                     ← DTCG JSON source files (edit these)
 
 dist/css/                   ← generated CSS (do not edit)
   index.css                 ← imports all component token files
-  component/
+  components/
     alert.css               ← alert / notification banner
     badge.css               ← badge / pill / tag
     breadcrumb.css          ← breadcrumb navigation
     button.css              ← button (all variants)
     card.css                ← card (alias → item tokens)
+    carousel.css            ← carousel / slider
     container.css           ← layout container + grid columns
     details.css             ← <details> / accordion
     drawer.css              ← off-canvas panel / drawer
@@ -219,6 +220,7 @@ dist/css/                   ← generated CSS (do not edit)
     logo.css                ← logotype
     map.css                 ← embedded map
     media.css               ← media object (image + text)
+    modal.css               ← centered dialog / modal
     nav.css                 ← navigation bar
     pagination.css          ← pagination control
     surtitle.css            ← small label above a heading
