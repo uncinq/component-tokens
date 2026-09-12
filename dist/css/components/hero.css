@@ -9,6 +9,11 @@
     --hero-color-link: var(--color-text);
     --hero-color-text: var(--color-text);
     --hero-gap: var(--spacing-sm);
+    --hero-gradient-color-from: var(--gradient-darken-color-from);
+    --hero-gradient-color-to: var(--gradient-darken-color-to);
+    --hero-gradient-stop: var(--gradient-darken-stop);
+    --hero-gradient-stop-tablet: var(--gradient-darken-stop-tablet);
+    --hero-gradient-stop-desktop: var(--gradient-darken-stop-desktop);
     --hero-height: clamp(25rem, 23.2394rem + 7.5117vw, 30rem);
     --hero-home-height: clamp(30rem, 26.4789rem + 15.0235vw, 40rem);
     --hero-media-brightness: 0.5;

@@ -18,6 +18,32 @@
       "$value": "{spacing.sm}",
       "$type": "dimension"
     },
+    "gradient": {
+      "color": {
+        "from": {
+          "$value": "{gradient.darken.color.from}",
+          "$type": "color"
+        },
+        "to": {
+          "$value": "{gradient.darken.color.to}",
+          "$type": "color"
+        }
+      },
+      "stop": {
+        "default": {
+          "$value": "{gradient.darken.stop.default}",
+          "$type": "dimension"
+        },
+        "tablet": {
+          "$value": "{gradient.darken.stop.tablet}",
+          "$type": "dimension"
+        },
+        "desktop": {
+          "$value": "{gradient.darken.stop.desktop}",
+          "$type": "dimension"
+        }
+      }
+    },
     "height": {
       "$value": "clamp(25rem, 23.2394rem + 7.5117vw, 30rem)",
       "$type": "dimension"
