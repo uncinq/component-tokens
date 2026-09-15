@@ -13,6 +13,6 @@
     --alert-gap: var(--spacing-sm);
     --alert-margin: 0;
     --alert-padding-block: var(--spacing-sm);
-    --alert-padding-inline: 0;
+    --alert-padding-inline: var(--spacing-sm);
   }
 }

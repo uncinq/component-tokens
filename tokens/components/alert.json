@@ -36,7 +36,7 @@
         "$type": "dimension" 
       },
       "inline": {
-        "$value": "0", 
+        "$value": "{spacing.sm}", 
         "$type": "dimension" 
       }
     }
