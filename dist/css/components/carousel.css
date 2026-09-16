@@ -9,10 +9,10 @@
     --carousel-arrow-border-radius: var(--radius-pill);
     --carousel-arrow-color: var(--color-link);
     --carousel-arrow-color-background: transparent;
-    --carousel-arrow-color-background-hover: transparent;
+    --carousel-arrow-color-background-hover: var(--color-link);
     --carousel-arrow-color-border: var(--color-link);
     --carousel-arrow-color-border-hover: var(--color-link-hover);
-    --carousel-arrow-color-hover: var(--color-link-hover);
+    --carousel-arrow-color-hover: var(--color-background);
     --carousel-arrow-gap: var(--spacing-xs);
     --carousel-arrow-icon: var(--icon-arrow);
     --carousel-arrow-icon-size: var(--icon-size);

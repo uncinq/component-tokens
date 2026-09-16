@@ -41,7 +41,7 @@
           "$type": "color" 
         },
         "hover":   { 
-          "$value": "{color.text.onBrand}", 
+          "$value": "{btn.color.text.default}", 
           "$type": "color" 
         }
       },
