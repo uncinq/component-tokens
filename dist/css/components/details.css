@@ -6,6 +6,8 @@
 @layer tokens {
   :root {
     --details-border-radius: var(--radius-surface);
+    --details-border-style: var(--border-style-normal);
+    --details-border-width: var(--border-width-sm);
     --details-box-shadow: var(--shadow-sm);
     --details-box-shadow-hover: var(--shadow-md);
     --details-color-background: var(--color-background);
@@ -13,8 +15,13 @@
     --details-color-border-open: var(--color-border-hover);
     --details-color-text: var(--color-text);
     --details-icon: var(--icon-chevron);
+    --details-icon-open: var(--details-icon);
+    --details-icon-rotate-open: 180deg;
     --details-icon-size: var(--icon-size);
+    --details-icon-transition: rotate var(--duration-normal) var(--easing);
     --details-margin: var(--spacing-sm);
+    --details-content-align: start;
+    --details-content-font-size: var(--font-size-text);
     --details-content-padding-inline: var(--spacing-sm);
     --details-content-padding-block: var(--spacing-sm);
     --details-summary-font-family: var(--font-family-heading);
@@ -22,5 +29,6 @@
     --details-summary-font-weight: var(--font-weight-heading);
     --details-summary-padding-inline: var(--spacing-sm);
     --details-summary-padding-block: var(--spacing-sm);
+    --details-transition: var(--transition-normal);
   }
 }

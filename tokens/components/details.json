@@ -2,8 +2,16 @@
   "details": {
     "border": {
       "radius":  {
-        "$value": "{radius.surface}", 
-        "$type": "dimension" 
+        "$value": "{radius.surface}",
+        "$type": "dimension"
+      },
+      "style":   {
+        "$value": "{border.style.normal}",
+        "$type": "strokeStyle"
+      },
+      "width":   {
+        "$value": "{border.width.sm}",
+        "$type": "dimension"
       }
     },
     "boxShadow": {
@@ -37,13 +45,27 @@
       }
     },
     "icon": {
-      "default": { 
-        "$value": "{icon.chevron}", 
-        "$type": "string" 
+      "default": {
+        "$value": "{icon.chevron}",
+        "$type": "string"
       },
-      "size":    { 
-        "$value": "{icon.size}", 
-        "$type": "dimension" 
+      "open":    {
+        "$value": "{details.icon.default}",
+        "$type": "string"
+      },
+      "rotate": {
+        "open": {
+          "$value": "180deg",
+          "$type": "string"
+        }
+      },
+      "size":    {
+        "$value": "{icon.size}",
+        "$type": "dimension"
+      },
+      "transition": {
+        "$value": "rotate {duration.normal} {easing.default}",
+        "$type": "string"
       }
     },
     "margin":  { 
@@ -51,6 +73,14 @@
       "$type": "dimension" 
     },
     "content": {
+      "align": {
+        "$value": "start",
+        "$type": "string"
+      },
+      "fontSize": {
+        "$value": "{fontSize.text}",
+        "$type": "dimension"
+      },
       "padding": {
         "inline": {
           "$value": "{spacing.sm}",
@@ -85,6 +115,10 @@
           "$type": "dimension"
         }
       }
+    },
+    "transition": {
+      "$value": "{transition.normal}",
+      "$type": "string"
     }
   }
 }
