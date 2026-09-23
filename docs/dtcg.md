@@ -3,6 +3,7 @@ isIndex: false
 title: DTCG format
 description: The Design Tokens Community Group JSON format as used for component tokens, including group-level types.
 weight: 4
+icon: braces
 ---
 
 

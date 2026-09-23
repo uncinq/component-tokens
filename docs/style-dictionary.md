@@ -3,6 +3,7 @@ isIndex: false
 title: Style Dictionary
 description: How component token JSON is compiled to CSS, and how cross-package references to design-tokens are resolved.
 weight: 5
+icon: gear
 ---
 
 

@@ -3,6 +3,7 @@ isIndex: false
 title: Customizing
 description: How to override a component token, which layer to reach for, and when a new token is warranted.
 weight: 2
+icon: sliders
 ---
 
 ## CSS override
