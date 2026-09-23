@@ -12,6 +12,8 @@
     --modal-color-background: var(--color-background-surface);
     --modal-color-border: var(--color-border);
     --modal-color-text: var(--color-text-on-surface);
+    --modal-color-text-active: var(--color-text-on-surface);
+    --modal-color-text-hover: var(--color-text-on-surface);
     --modal-margin: var(--spacing-sm);
     --modal-max-height: 100dvh;
     --modal-max-width: 30rem;

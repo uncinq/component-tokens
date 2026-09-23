@@ -13,6 +13,8 @@
     --drawer-color-background: var(--color-background-surface);
     --drawer-color-border: var(--color-border);
     --drawer-color-text: var(--color-text-on-surface);
+    --drawer-color-text-active: var(--color-text-on-surface);
+    --drawer-color-text-hover: var(--color-text-on-surface);
     --drawer-end: 0;
     --drawer-height: 50vh;
     --drawer-padding-block: var(--spacing-surface);

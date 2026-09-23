@@ -30,8 +30,20 @@
         "$type": "color"
       },
       "text": {
-        "$value": "{color.text.onSurface}",
-        "$type": "color"
+        "default": {
+          "$value": "{color.text.onSurface}",
+          "$type": "color"
+        },
+        "active": {
+          "$value": "{color.text.onSurface}",
+          "$type": "color",
+          "$description": "Links inside the panel keep the panel text colour unless this is overridden."
+        },
+        "hover": {
+          "$value": "{color.text.onSurface}",
+          "$type": "color",
+          "$description": "Links inside the panel keep the panel text colour unless this is overridden."
+        }
       }
     },
     "margin": {

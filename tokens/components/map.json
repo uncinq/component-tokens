@@ -3,7 +3,7 @@
     "border": {
       "radius": {
         "$value": "{radius.none}",
-        "$type": "dimensions"
+        "$type": "dimension"
       }
     },
     "color": {
