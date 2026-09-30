@@ -79,6 +79,7 @@ Full documentation: **[socle.uncinq.dev/docs/component-tokens/](https://socle.un
 
 It is also versioned with the code in [`docs/`](docs/), and ships inside the npm package, so it is readable offline and from `node_modules`:
 
+- [Overview](docs/overview.md) — what a component token is, the indirection, installation
 - [Naming](docs/naming.md) — the grammar, and why colors invert the property order
 - [Customizing](docs/customizing.md) — which layer to override, and when to add a token
 - [Reference](docs/reference.md) — every token for all 26 components, generated from the sources

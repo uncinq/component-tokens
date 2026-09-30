@@ -2,7 +2,7 @@
 isIndex: false
 title: Reference
 description: Every token for all 26 components, generated from the JSON sources so it can never drift from the shipped CSS.
-weight: 3
+weight: 4
 icon: table
 ---
 

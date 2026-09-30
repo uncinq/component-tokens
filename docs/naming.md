@@ -2,7 +2,7 @@
 isIndex: false
 title: Naming
 description: The component token naming grammar, the rules behind it, and why colors invert the usual property order.
-weight: 1
+weight: 2
 icon: tag
 ---
 
