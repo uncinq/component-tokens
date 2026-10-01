@@ -20,7 +20,7 @@
     --dropdown-item-padding-inline: var(--spacing-xs);
     --dropdown-item-padding-block: var(--spacing-xs);
     --dropdown-min-width: 12rem;
-    --dropdown-padding: var(--size-4);
+    --dropdown-padding: var(--spacing-2xs);
     --dropdown-shadow: var(--shadow-sm);
     --dropdown-transition-duration: var(--duration-fast);
     --dropdown-transition-easing: var(--easing-out);

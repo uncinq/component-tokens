@@ -77,7 +77,7 @@
       "$type": "dimension"
     },
     "padding": {
-      "$value": "{size.4}",
+      "$value": "{spacing.2xs}",
       "$type": "dimension"
     },
     "shadow": {
