@@ -73,4 +73,4 @@ Nothing else needs updating. Both the per-component CSS and `dist/css/index.css`
 
 **Do not override a token to a raw value when a semantic one exists.** `--btn-color-background: #3f51b5` works, but it leaves dark mode, theming and contrast pairing behind. `var(--color-indigo-600)` keeps the value inside the system.
 
-**Do not fork the package to change values.** The CSS override above exists so that you do not have to. A fork means inheriting the maintenance of 26 components for what is usually a handful of lines.
+**Do not fork the package to change values.** The CSS override above exists so that you do not have to. A fork means inheriting the maintenance of 27 components for what is usually a handful of lines.

@@ -1,0 +1,86 @@
+{
+  "push": {
+    "border": {
+      "radius": {
+        "$value": "{radius.surface}",
+        "$type": "dimension"
+      }
+    },
+    "color": {
+      "default": {
+        "$value": "{color.white}",
+        "$type": "color"
+      },
+      "background": {
+        "$value": "{color.dark}",
+        "$type": "color"
+      }
+    },
+    "content": {
+      "gap": {
+        "$value": "{spacing.sm}",
+        "$type": "dimension"
+      },
+      "maxInlineSize": {
+        "default": {
+          "$value": "100%",
+          "$type": "dimension"
+        },
+        "tablet": {
+          "$value": "50%",
+          "$type": "dimension"
+        },
+        "laptop": {
+          "$value": "33.33%",
+          "$type": "dimension"
+        }
+      },
+      "padding": {
+        "block": {
+          "$value": "{spacing.fluid.md}",
+          "$type": "dimension"
+        },
+        "inline": {
+          "$value": "{spacing.fluid.md}",
+          "$type": "dimension"
+        }
+      }
+    },
+    "gradient": {
+      "color": {
+        "from": {
+          "$value": "{gradient.darken.color.from}",
+          "$type": "color"
+        },
+        "to": {
+          "$value": "{gradient.darken.color.to}",
+          "$type": "color"
+        }
+      },
+      "stop": {
+        "$value": "{gradient.darken.stop.default}",
+        "$type": "dimension"
+      }
+    },
+    "media": {
+      "brightness": {
+        "$value": "{hero.media.brightness}",
+        "$type": "number"
+      }
+    },
+    "ratio": {
+      "default": {
+        "$value": "{ratio.cinema}",
+        "$type": "string"
+      },
+      "double": {
+        "$value": "{ratio.photography}",
+        "$type": "string"
+      },
+      "mobile": {
+        "$value": "{ratio.landscape}",
+        "$type": "string"
+      }
+    }
+  }
+}

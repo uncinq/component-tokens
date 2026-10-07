@@ -1,7 +1,7 @@
 ---
 isIndex: false
 title: Reference
-description: Every token for all 26 components, generated from the JSON sources so it can never drift from the shipped CSS.
+description: Every token for all 27 components, generated from the JSON sources so it can never drift from the shipped CSS.
 weight: 4
 icon: table
 ---
@@ -157,6 +157,12 @@ Navigation bar. 15 tokens.
 Pagination control. 17 tokens.
 
 {{< tokens pkg="component" file="components/pagination" >}}
+
+### push
+
+Media block with overlaid content and call to action. 16 tokens.
+
+{{< tokens pkg="component" file="components/push" >}}
 
 ### surtitle
 
