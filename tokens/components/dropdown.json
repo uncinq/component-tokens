@@ -48,7 +48,7 @@
       "color": {
         "background": {
           "default": {
-            "$value": "{color.background.default}",
+            "$value": "transparent",
             "$type": "color"
           },
           "hover": {
@@ -83,6 +83,18 @@
     "shadow": {
       "$value": "{shadow.sm}",
       "$type": "shadow"
+    },
+    "toggle": {
+      "padding": {
+        "block": {
+          "$value": "{spacing.2xs}",
+          "$type": "dimension"
+        },
+        "inline": {
+          "$value": "{spacing.xs}",
+          "$type": "dimension"
+        }
+      }
     },
     "transition": {
       "duration": {

@@ -14,7 +14,7 @@
     --dropdown-icon: var(--icon-chevron);
     --dropdown-icon-size: var(--icon-size);
     --dropdown-item-border-radius: var(--radius-xs);
-    --dropdown-item-color-background: var(--color-background);
+    --dropdown-item-color-background: transparent;
     --dropdown-item-color-background-hover: var(--color-background-muted);
     --dropdown-item-font-size: var(--font-size-xs);
     --dropdown-item-padding-inline: var(--spacing-xs);
@@ -22,6 +22,8 @@
     --dropdown-min-width: 12rem;
     --dropdown-padding: var(--spacing-2xs);
     --dropdown-shadow: var(--shadow-sm);
+    --dropdown-toggle-padding-block: var(--spacing-2xs);
+    --dropdown-toggle-padding-inline: var(--spacing-xs);
     --dropdown-transition-duration: var(--duration-fast);
     --dropdown-transition-easing: var(--easing-out);
     --dropdown-translate-y: -4px;
