@@ -10,7 +10,7 @@
     --dropdown-border-width: var(--border-width-sm);
     --dropdown-color-background: var(--color-background-surface);
     --dropdown-color-border: var(--color-border);
-    --dropdown-color-text: var(--color-text-on-surface);
+    --dropdown-color-text: var(--color-on-surface);
     --dropdown-icon: var(--icon-chevron);
     --dropdown-icon-size: var(--icon-size);
     --dropdown-item-border-radius: var(--radius-xs);

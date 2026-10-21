@@ -42,7 +42,7 @@ Because these are custom properties, they inherit. Setting one on a container ra
 ```css
 .promo-section {
   --btn-color-background: var(--color-light);
-  --btn-color-text: var(--color-text-on-light);
+  --btn-color-text: var(--color-on-light);
 }
 ```
 

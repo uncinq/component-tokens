@@ -17,7 +17,7 @@
     --pagination-item-color-background-active: var(--color-brand);
     --pagination-item-color-background-hover: var(--color-background-muted);
     --pagination-item-color-text: var(--color-text);
-    --pagination-item-color-text-active: var(--color-text-on-brand);
+    --pagination-item-color-text-active: var(--color-on-brand);
     --pagination-item-color-text-hover: var(--color-text);
     --pagination-item-font-size: var(--font-size-sm);
     --pagination-item-font-weight: var(--font-weight-normal);

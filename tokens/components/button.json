@@ -37,7 +37,7 @@
       },
       "text": {
         "default": { 
-          "$value": "{color.text.onBrand}", 
+          "$value": "{color.on.brand}", 
           "$type": "color" 
         },
         "hover":   { 

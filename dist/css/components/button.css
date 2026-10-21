@@ -12,7 +12,7 @@
     --btn-color-background-hover: var(--color-brand-hover);
     --btn-color-border: var(--color-brand);
     --btn-color-border-hover: var(--color-brand-hover);
-    --btn-color-text: var(--color-text-on-brand);
+    --btn-color-text: var(--color-on-brand);
     --btn-color-text-hover: var(--btn-color-text);
     --btn-color-text-decoration: transparent;
     --btn-color-text-decoration-hover: transparent;

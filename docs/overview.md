@@ -31,7 +31,7 @@ A component could read `--color-brand` directly. The extra hop buys two things.
 
 **A seam to override.** A project can restyle buttons alone by setting `--btn-color-background`, without touching the brand color and therefore without moving every other branded element.
 
-**A place to record intent.** `--btn-color-text: var(--color-text-on-brand)` documents that button text has to contrast against the brand color, which is an accessibility decision. Read directly, that decision would be invisible.
+**A place to record intent.** `--btn-color-text: var(--color-on-brand)` documents that button text has to contrast against the brand color, which is an accessibility decision. Read directly, that decision would be invisible.
 
 The rule that keeps the indirection honest: a component token **always references a semantic token**, never a raw value and never a primitive. When you find yourself wanting a raw value, the semantic layer is usually missing a token.
 

@@ -46,7 +46,7 @@ primitive   →   semantic   →   component
 --btn-color-background: var(--color-brand);   /* component */
 ```
 
-A component token answers **"which semantic value does this part of this component use?"**. The extra hop is what lets a project restyle buttons alone without moving the brand color, and what records accessibility decisions such as `--btn-color-text: var(--color-text-on-brand)`.
+A component token answers **"which semantic value does this part of this component use?"**. The extra hop is what lets a project restyle buttons alone without moving the brand color, and what records accessibility decisions such as `--btn-color-text: var(--color-on-brand)`.
 
 ## Overriding
 

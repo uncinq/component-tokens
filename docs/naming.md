@@ -52,7 +52,7 @@ The test to apply is whether another component would ever want the same value fo
 /* Color */
 --btn-color-background:      var(--color-brand);
 --btn-color-border:          var(--color-brand);
---btn-color-text:            var(--color-text-on-brand);
+--btn-color-text:            var(--color-on-brand);
 --btn-color-text-decoration: transparent;
 
 /* Spacing */

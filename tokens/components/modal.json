@@ -31,16 +31,16 @@
       },
       "text": {
         "default": {
-          "$value": "{color.text.onSurface}",
+          "$value": "{color.on.surface}",
           "$type": "color"
         },
         "active": {
-          "$value": "{color.text.onSurface}",
+          "$value": "{color.on.surface}",
           "$type": "color",
           "$description": "Links inside the panel keep the panel text colour unless this is overridden."
         },
         "hover": {
-          "$value": "{color.text.onSurface}",
+          "$value": "{color.on.surface}",
           "$type": "color",
           "$description": "Links inside the panel keep the panel text colour unless this is overridden."
         }
