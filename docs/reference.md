@@ -118,7 +118,7 @@ Inline link. 4 tokens.
 
 ### list
 
-Styled list. 6 tokens.
+Prose lists and the labelled list. 10 tokens.
 
 {{< tokens pkg="component" file="components/list" >}}
 

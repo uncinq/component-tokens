@@ -31,6 +31,32 @@
           "$type": "dimension"
         }
       }
+    },
+    "nested": {
+      "margin": {
+        "blockEnd": {
+          "$value": "{spacing.typography}",
+          "$type": "dimension"
+        },
+        "blockStart": {
+          "$value": "{spacing.typography}",
+          "$type": "dimension"
+        }
+      }
+    },
+    "ordered": {
+      "padding": {
+        "inlineStart": {
+          "$value": "2em",
+          "$type": "dimension"
+        }
+      }
+    },
+    "padding": {
+      "inlineStart": {
+        "$value": "1.5em",
+        "$type": "dimension"
+      }
     }
   }
 }

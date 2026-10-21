@@ -11,5 +11,9 @@
     --list-item-marker-gap: var(--spacing-2xs);
     --list-label-font-weight: var(--font-weight-bold);
     --list-label-margin-block: var(--spacing-2xs);
+    --list-nested-margin-block-end: var(--spacing-typography);
+    --list-nested-margin-block-start: var(--spacing-typography);
+    --list-ordered-padding-inline-start: 2em;
+    --list-padding-inline-start: 1.5em;
   }
 }

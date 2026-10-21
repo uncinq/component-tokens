@@ -4,7 +4,7 @@
 
 <img width="1280" height="640" alt="share-component-tokens" src="https://github.com/user-attachments/assets/ef2387ee-2c45-4706-9e28-0f0341a100ed" />
 
-Component tokens map semantic values onto the parts of a UI component. 27 components, 406 tokens, authored in [DTCG](https://tr.designtokens.org/format/) JSON and compiled to CSS custom properties.
+Component tokens map semantic values onto the parts of a UI component. 27 components, 412 tokens, authored in [DTCG](https://tr.designtokens.org/format/) JSON and compiled to CSS custom properties.
 
 ## Installation
 
