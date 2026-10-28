@@ -6,6 +6,10 @@
         "$type": "color"
       }
     },
+    "fontFamily": {
+      "$value": "{fontFamily.text}",
+      "$type": "fontFamily"
+    },
     "fontSize": {
       "$value": "{fontSize.xs}",
       "$type": "dimension"

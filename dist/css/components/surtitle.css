@@ -6,6 +6,7 @@
 @layer tokens {
   :root {
     --surtitle-color-text: var(--color-text-muted);
+    --surtitle-font-family: var(--font-family-text);
     --surtitle-font-size: var(--font-size-xs);
     --surtitle-font-weight: var(--font-weight-bold);
     --surtitle-letter-spacing: var(--letter-spacing-md);
