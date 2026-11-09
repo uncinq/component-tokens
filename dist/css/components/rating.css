@@ -1,0 +1,14 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+/* components/rating.css */
+@layer tokens {
+  :root {
+    --rating-color-active: var(--color-accent);
+    --rating-color-empty: var(--color-text-muted);
+    --rating-gap: 0;
+    --rating-justify-content: flex-start;
+    --rating-size: var(--size-20);
+  }
+}

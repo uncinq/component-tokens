@@ -1,0 +1,26 @@
+{
+  "rating": {
+    "color": {
+      "active": {
+        "$value": "{color.accent.default}",
+        "$type": "color"
+      },
+      "empty": {
+        "$value": "{color.text.muted}",
+        "$type": "color"
+      }
+    },
+    "gap": {
+      "$value": "0",
+      "$type": "dimension"
+    },
+    "justifyContent": {
+      "$value": "flex-start",
+      "$type": "string"
+    },
+    "size": {
+      "$value": "{size.20}",
+      "$type": "dimension"
+    }
+  }
+}

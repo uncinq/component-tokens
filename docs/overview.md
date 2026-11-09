@@ -1,7 +1,7 @@
 ---
 isIndex: false
 title: Overview
-description: What a component token is, why the extra indirection is worth it, the 27 components covered, and how to install the package.
+description: What a component token is, why the extra indirection is worth it, the 28 components covered, and how to install the package.
 weight: 1
 icon: book
 ---
@@ -37,7 +37,7 @@ The rule that keeps the indirection honest: a component token **always reference
 
 ## What is covered
 
-27 components, one JSON source and one generated CSS file each, 406 tokens in total.
+28 components, one JSON source and one generated CSS file each, 418 tokens in total.
 
 | | | |
 | --- | --- | --- |
@@ -47,9 +47,9 @@ The rule that keeps the indirection honest: a component token **always reference
 | `button` | `item` | `nav` |
 | `card` | `items` | `pagination` |
 | `carousel` | `link` | `push` |
-| `container` | `list` | `surtitle` |
-| `details` | `logo` | `table` |
-| `drawer` | | |
+| `container` | `list` | `rating` |
+| `details` | `logo` | `surtitle` |
+| `drawer` | | `table` |
 | `dropdown` | | |
 | `embed` | | |
 
@@ -91,7 +91,7 @@ Import order matters here in a way it does not for most packages. These tokens a
 | --- | --- |
 | [Naming](../naming/) | The naming grammar and the rules that keep it consistent |
 | [Customizing](../customizing/) | Overriding a component token, and when to add one |
-| [Reference](../reference/) | Every token for all 27 components, generated from the sources |
+| [Reference](../reference/) | Every token for all 28 components, generated from the sources |
 | [DTCG format](../dtcg/) | The authoring format, including group-level types |
 | [Style Dictionary](../style-dictionary/) | The build, and how cross-package references resolve |
 
