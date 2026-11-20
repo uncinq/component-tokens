@@ -29,7 +29,7 @@
     --carousel-pagination-color-border-active: transparent;
     --carousel-pagination-color-border-hover: transparent;
     --carousel-pagination-color-hover: var(--color-neutral-hover);
-    --carousel-pagination-gap: var(--spacing-2xs);
+    --carousel-pagination-gap: max(var(--spacing-2xs), calc(1.5rem - var(--carousel-pagination-width)));
     --carousel-pagination-height: var(--spacing-xs);
     --carousel-pagination-margin-block: var(--spacing-sm);
     --carousel-pagination-width: var(--spacing-xs);

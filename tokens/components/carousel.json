@@ -119,7 +119,8 @@
       },
       "gap": {
         "$type": "dimension",
-        "$value": "{spacing.2xs}"
+        "$value": "max(var(--spacing-2xs), calc(1.5rem - var(--carousel-pagination-width)))",
+        "$description": "Never less than 24px between dot centers (WCAG 2.5.8 target spacing)"
       },
       "height": {
         "$type": "dimension",
